@@ -218,6 +218,9 @@ def region_note(label, regions):
 
 
 # ───────────────────────── 점수 매기기 ─────────────────────────
+ADMIN_RE = re.compile(r"고도화|구축|조성|참여기구|위원회|위원 모집|협의체|포럼|컨퍼런스|축제|페스티벌|간담회|토론회|"
+                      r"정책제안|모니터링|홍보|개최|네트워크|플랫폼|강좌개설|프로그램 개발|기본계획|실태조사|연구역량|행사 추진")
+BENEFIT_RE = re.compile(r"지원금|수당|장학|바우처|할인|무료|대여|응시료|이자|월세|보증금|대출|상품권|쿠폰|지급|지원(사업)?\s*$")
 def score_item(item: dict, profile: dict, ja_row: dict | None = None):
     title = item["title"]
     body = " ".join([item.get("summary", ""), item.get("target", ""), item.get("criteria", "")])
@@ -236,6 +239,11 @@ def score_item(item: dict, profile: dict, ja_row: dict | None = None):
     if pen_t or pen_b:
         score -= min(3 * len(pen_t) + 3 * len(pen_b), 6)
         reasons.append("다른 대상 위주: " + ", ".join((pen_t + pen_b)[:4]))
+
+    # 신청해서 받는 혜택이 아닌 행정·행사성 사업은 추천에서 내림
+    if ADMIN_RE.search(title) and not BENEFIT_RE.search(title):
+        score -= 4
+        reasons.append("행정·행사성 사업")
 
     regions = profile["_regions"]
     if item["region"] in {r["name"] for r in regions}:  # 시·군 단위 = 우리 동네
@@ -286,6 +294,29 @@ OTHER_REGION_TOKENS = ["서울", "부산", "대구", "인천", "광주", "대전
                        "전북", "전남", "전라", "경북", "경남", "경상", "제주", "강원", "경기"]
 
 
+# 전국 시·군 이름 (기초자치단체 장학회·재단 걸러내기용)
+CITY_NAMES = """수원 성남 의정부 안양 부천 광명 평택 동두천 안산 고양 과천 구리 남양주 오산 시흥 군포 의왕 하남 용인 파주 이천 안성 김포 화성 광주 양주 포천 여주 연천 가평 양평
+춘천 원주 강릉 동해 태백 속초 삼척 홍천 횡성 영월 평창 정선 철원 화천 양구 인제 고성 양양
+청주 충주 제천 보은 옥천 영동 증평 진천 괴산 음성 단양
+천안 공주 보령 아산 서산 논산 계룡 당진 금산 부여 서천 청양 홍성 예산 태안
+전주 군산 익산 정읍 남원 김제 완주 진안 무주 장수 임실 순창 고창 부안
+목포 여수 순천 나주 광양 담양 곡성 구례 고흥 보성 화순 장흥 강진 해남 영암 무안 함평 영광 장성 완도 진도 신안
+포항 경주 김천 안동 구미 영주 영천 상주 문경 경산 의성 청송 영양 영덕 청도 고령 성주 칠곡 예천 봉화 울진 울릉 군위
+창원 진주 통영 사천 김해 밀양 거제 양산 의령 함안 창녕 남해 하동 산청 함양 거창 합천 제주 서귀포 달성 기장 강화 옹진""".split()
+CITY_RE = re.compile(r"(" + "|".join(sorted(set(CITY_NAMES), key=len, reverse=True)) + r")(시|군)")
+GU_RE = re.compile(r"([가-힣]{1,3}구)(장학|교육|인재|복지|청년|미래)")
+
+
+def is_other_city(text, regions):
+    """다른 시·군(구) 이름이 들어 있으면 True. 우리 시·군 이름이 같이 있으면 False."""
+    mine = {r["short"] for r in regions if r["short"]}
+    if any(m and (m + "시" in text or m + "군" in text) for m in mine):
+        return False
+    found = {m.group(1) for m in CITY_RE.finditer(text)} - mine
+    gu = [m.group(1) for m in GU_RE.finditer(text) if not m.group(1).endswith(("연구", "지구", "가구", "요구", "추구"))]
+    return bool(found) or bool(gu)
+
+
 def is_other_region(text, regions):
     mine = {r["sido_short"] for r in regions} | {r["short"] for r in regions if r["short"]}
     if any(m in text for m in mine):
@@ -303,7 +334,7 @@ def gov24_region(row, regions):
         # 공공기관·재단·장학회 등(유형 이름이 제각각): 이름으로 지역 판단
         # 지역 재단·장학회(예: (재)인천인재평생교육진흥원)는 이름으로 지역을 판단
         text = re.sub(r"재단법인|\(재\)|사단법인", "", name) + " " + clean(row.get("서비스명"))
-        if is_other_region(text, regions):
+        if is_other_region(text, regions) or is_other_city(text, regions):
             return None
         for r in regions:
             if r["short"] and r["short"] in text:
@@ -455,7 +486,8 @@ def youth_items(profile, rows):
                 continue
         central = bool(re.search(r"(부|처|청|위원회|공단|공사|진흥원|재단|센터)(\s|$)", agency)) and not any(
             agency.startswith(t) for t in OTHER_REGION_TOKENS)
-        if is_other_region(agency, regions) or (not central and is_other_region(title, regions)):
+        if (is_other_region(agency, regions) or is_other_city(agency, regions)
+                or (not central and (is_other_region(title, regions) or is_other_city(title, regions)))):
             dropped["region"] += 1
             dbg("온통청년", "dropped_region", {"title": title, "zips": len(zips), "agency": agency, "why": "기관/제목이 다른 지역"}, 40)
             continue
@@ -687,6 +719,16 @@ def main():
     if not any(v == "ok" for v in status.values()):
         log("모든 소스가 실패했어요. 키 설정을 확인해 주세요. (기존 데이터는 그대로 둡니다)")
         sys.exit(1)
+
+    # 같은 사업 중복 제거 (제목+지역이 같으면 점수 높은 것 하나만)
+    best = {}
+    for it in items:
+        k = (norm_title(it["title"]), it["region"])
+        if k not in best or it["score"] > best[k]["score"]:
+            best[k] = it
+    if len(best) < len(items):
+        log(f"  중복 {len(items) - len(best)}건 합침")
+    items = list(best.values())
 
     state, first_run = apply_state(items, profile)
     items.sort(key=lambda i: (-i["recommended"], -i["score"], i["deadline"] or "9999"))

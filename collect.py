@@ -304,7 +304,7 @@ CITY_NAMES = """수원 성남 의정부 안양 부천 광명 평택 동두천 �
 포항 경주 김천 안동 구미 영주 영천 상주 문경 경산 의성 청송 영양 영덕 청도 고령 성주 칠곡 예천 봉화 울진 울릉 군위
 창원 진주 통영 사천 김해 밀양 거제 양산 의령 함안 창녕 남해 하동 산청 함양 거창 합천 제주 서귀포 달성 기장 강화 옹진""".split()
 CITY_RE = re.compile(r"(" + "|".join(sorted(set(CITY_NAMES), key=len, reverse=True)) + r")(시|군)")
-GU_RE = re.compile(r"([가-힣]{1,3}구)(장학|교육|인재|복지|청년|미래)")
+GU_RE = re.compile(r"([가-힣]{1,3}구)(민장학|민|장학|교육|인재|복지|청년|미래)")
 
 
 def is_other_city(text, regions):

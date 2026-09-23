@@ -67,6 +67,22 @@ PERSONAL_JA = [c for c in JA_LABELS if c.startswith("JA03")]
 
 
 # ───────────────────────── 공통 유틸 ─────────────────────────
+# 점검용 기록 (data/debug.json 으로 저장 — 인증키는 절대 안 들어감)
+DEBUG: dict = {"sources": {}}
+
+
+def dbg(source, key, value, limit=15):
+    box = DEBUG["sources"].setdefault(source, {})
+    if isinstance(value, dict) and key.startswith("dropped"):
+        lst = box.setdefault(key, [])
+        if len(lst) < limit:
+            lst.append(value)
+    else:
+        box[key] = value
+
+
+def raw_example(row):
+    return {k: (str(v)[:200] if v is not None else None) for k, v in row.items()}
 def log(*a):
     print(*a, file=sys.stderr, flush=True)
 
@@ -321,6 +337,7 @@ def gov24_items(profile, services, conditions):
         region = gov24_region(s, profile["_regions"])
         if region is None:
             dropped["region"] += 1
+            dbg("보조금24", "dropped_region", {"title": clean(s.get("서비스명")), "agency": clean(s.get("소관기관명")), "type": clean(s.get("소관기관유형"))}, 40)
             continue
         ja = cond_map.get(sid)
         a_from = to_int(ja.get("JA0110")) if ja else None
@@ -330,6 +347,7 @@ def gov24_items(profile, services, conditions):
             age_range = [a_from, a_to]
             if age is not None and not (a_from <= age <= a_to):
                 dropped["age"] += 1
+                dbg("보조금24", "dropped_age", {"title": clean(s.get("서비스명")), "age": [a_from, a_to]})
                 continue
         deadline_text = clean(s.get("신청기한"))
         item = {
@@ -354,6 +372,11 @@ def gov24_items(profile, services, conditions):
         }
         item["score"], item["reasons"] = score_item(item, profile, ja)
         items.append(item)
+    dbg("보조금24", "counts", {"raw": len(services), "conditions": len(conditions), "used": len(items), **dropped})
+    if services:
+        dbg("보조금24", "fields", list(services[0].keys()))
+    if conditions:
+        dbg("보조금24", "condition_fields", list(conditions[0].keys()))
     log(f"  보조금24: {len(items)}건 사용 (다른 지역 {dropped['region']}, 나이 불일치 {dropped['age']} 제외)")
     return items
 
@@ -415,6 +438,7 @@ def youth_items(profile, rows):
         zips = [z.strip() for z in pick(p, "zipCd").split(",") if z.strip()]
         if zips and my_zips and not (my_zips & set(zips)):
             dropped["region"] += 1
+            dbg("온통청년", "dropped_region", {"title": pick(p, "plcyNm"), "zips": len(zips), "zip_sample": zips[:5], "agency": pick(p, "sprvsnInstCdNm")}, 40)
             continue
         region = "전국"
         if zips and len(zips) <= 150:
@@ -432,6 +456,7 @@ def youth_items(profile, rows):
             age_range = [lo, hi]
             if age is not None and not (lo <= age <= hi):
                 dropped["age"] += 1
+                dbg("온통청년", "dropped_age", {"title": pick(p, "plcyNm"), "age": [lo, hi]})
                 continue
         deadline_text = pick(p, "aplyYmd") or pick(p, "bizPrdEndYmd")
         item = {
@@ -460,6 +485,13 @@ def youth_items(profile, rows):
         item["score"], item["reasons"] = score_item(item, profile)
         item["score"] += 1  # 청년 전용 소스 가산
         items.append(item)
+    dbg("온통청년", "counts", {"raw": len(rows), "used": len(items), **dropped})
+    if rows:
+        dbg("온통청년", "fields", list(rows[0].keys()))
+        dbg("온통청년", "raw_examples", [raw_example(r) for r in rows[:2]])
+        no_id = sum(1 for r in rows if not pick(r, "plcyNo", "bizId"))
+        no_zip = sum(1 for r in rows if not pick(r, "zipCd"))
+        dbg("온통청년", "missing", {"no_id": no_id, "no_zipCd": no_zip})
     log(f"  온통청년: {len(items)}건 사용 (다른 지역 {dropped['region']}, 나이 불일치 {dropped['age']} 제외)")
     return items
 
@@ -650,6 +682,11 @@ def main():
     }
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     OUT_PATH.write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    DEBUG["updated_at"] = out["meta"]["updated_at"]
+    DEBUG["status"] = status
+    DEBUG["schedule"] = {"always": sum(i["always"] for i in items), "deadline": sum(bool(i["deadline"]) for i in items),
+                         "yearly_window": sum(i.get("open_now") is not None for i in items)}
+    (DATA_DIR / "debug.json").write_text(json.dumps(DEBUG, ensure_ascii=False, indent=1), encoding="utf-8")
     if not args.sample:  # 예시 실행은 신규/변경 기록을 남기지 않음
         STATE_PATH.write_text(json.dumps(state, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     log(f"완료: {out['meta']['counts']}")

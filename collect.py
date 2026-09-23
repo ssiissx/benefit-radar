@@ -234,7 +234,7 @@ def score_item(item: dict, profile: dict, ja_row: dict | None = None):
     pen_t = [k for k in profile.get("penalty_keywords", []) if k in title]
     pen_b = [k for k in profile.get("penalty_keywords", []) if k in item.get("target", "") and k not in pen_t]
     if pen_t or pen_b:
-        score -= min(3 * len(pen_t) + 2 * len(pen_b), 6)
+        score -= min(3 * len(pen_t) + 3 * len(pen_b), 6)
         reasons.append("다른 대상 위주: " + ", ".join((pen_t + pen_b)[:4]))
 
     regions = profile["_regions"]
@@ -299,7 +299,8 @@ def gov24_region(row, regions):
     name = clean(row.get("소관기관명"))
     if typ == "중앙행정기관":
         return "전국"
-    if typ == "공공기관":
+    if typ != "지방자치단체" and not name.startswith(tuple(SIDO)):
+        # 공공기관·재단·장학회 등(유형 이름이 제각각): 이름으로 지역 판단
         # 지역 재단·장학회(예: (재)인천인재평생교육진흥원)는 이름으로 지역을 판단
         text = re.sub(r"재단법인|\(재\)|사단법인", "", name) + " " + clean(row.get("서비스명"))
         if is_other_region(text, regions):
@@ -443,6 +444,15 @@ def youth_items(profile, rows):
         # 지역코드는 전국으로 걸려 있어도 실제로는 다른 지역 사업인 경우 걸러내기
         agency = pick(p, "sprvsnInstCdNm", "rgtrInstCdNm")
         title = pick(p, "plcyNm")
+        # 같은 도 안의 다른 시·군 기관 (예: 경기도 용인시)
+        m_same = next((r for r in regions if agency.startswith(r["sido_short"])), None)
+        if m_same:
+            rest = re.sub(r"^" + m_same["sido_short"] + r"(특별자치도|도)?", "", agency).strip()
+            first = rest.split(" ")[0] if rest else ""
+            if first and re.search(r"(시|군)$", first) and not any(r["short"] and r["short"] in first for r in regions):
+                dropped["region"] += 1
+                dbg("온통청년", "dropped_region", {"title": title, "agency": agency, "why": "같은 도 다른 시·군"}, 40)
+                continue
         central = bool(re.search(r"(부|처|청|위원회|공단|공사|진흥원|재단|센터)(\s|$)", agency)) and not any(
             agency.startswith(t) for t in OTHER_REGION_TOKENS)
         if is_other_region(agency, regions) or (not central and is_other_region(title, regions)):

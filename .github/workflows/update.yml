@@ -1,0 +1,38 @@
+name: 혜택 수집
+
+on:
+  schedule:
+    - cron: "0 21 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - "**profile.json"
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: 수집
+        env:
+          GOV24_API_KEY: ${{ secrets.GOV24_API_KEY }}
+          YOUTH_API_KEY: ${{ secrets.YOUTH_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+        run: python $( [ -f scripts/collect.py ] && echo scripts/collect.py || echo collect.py )
+      - name: 결과 저장
+        run: |
+          git config user.name "benefit-bot"
+          git config user.email "benefit-bot@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "혜택 데이터 갱신 $(TZ=Asia/Seoul date +%F)"
+          git push

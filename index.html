@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>혜택 레이더</title>
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<style>
+:root{
+  --bg:#f6f7f9;--card:#fff;--ink:#16181d;--sub:#5b6270;--line:#e4e7ec;
+  --accent:#2f6fed;--accent-soft:#e8f0fe;--good:#0f8a5f;--good-soft:#e3f5ee;
+  --warn:#c2410c;--warn-soft:#fdeee4;--new:#7c3aed;--new-soft:#f1eafe;--muted:#9aa1ad;
+}
+@media (prefers-color-scheme:dark){:root{
+  --bg:#0f1115;--card:#181b21;--ink:#eceef2;--sub:#a3aab6;--line:#2a2f38;
+  --accent:#6d9bff;--accent-soft:#1d2a45;--good:#4fd1a0;--good-soft:#16302a;
+  --warn:#ff9b63;--warn-soft:#3a2418;--new:#b79bff;--new-soft:#2a2140;--muted:#6d7480;
+}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 "Pretendard Variable",Pretendard,-apple-system,system-ui,"Apple SD Gothic Neo","Noto Sans KR",sans-serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:760px;margin:0 auto;padding:20px 16px 60px}
+header h1{font-size:22px;margin:0;letter-spacing:-.02em}
+header .meta{color:var(--sub);font-size:13px;margin-top:4px}
+.banner{margin-top:12px;padding:10px 12px;border-radius:10px;background:var(--warn-soft);color:var(--warn);font-size:13px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:16px 0}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px;cursor:pointer;text-align:left;color:inherit;font:inherit}
+.stat b{display:block;font-size:22px;font-variant-numeric:tabular-nums}
+.stat span{font-size:12px;color:var(--sub)}
+.tabs{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;margin-bottom:10px}
+.tabs::-webkit-scrollbar{display:none}
+.tab{flex:none;border:1px solid var(--line);background:var(--card);color:var(--sub);border-radius:999px;padding:7px 13px;font:inherit;font-size:14px;cursor:pointer}
+.tab[aria-selected=true]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.controls{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}
+.controls input[type=search]{flex:1 1 100%;padding:11px 12px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink);font:inherit}
+.controls select{padding:8px 10px;border:1px solid var(--line);border-radius:10px;background:var(--card);color:var(--ink);font:inherit;font-size:14px}
+.controls label{display:flex;align-items:center;gap:6px;font-size:13px;color:var(--sub)}
+.count{font-size:13px;color:var(--sub);margin:4px 2px 10px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 14px 12px;margin-bottom:10px}
+.card.done{opacity:.5}
+.badges{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:6px}
+.b{font-size:11.5px;padding:2px 7px;border-radius:6px;background:var(--bg);color:var(--sub);border:1px solid var(--line)}
+.b.new{background:var(--new-soft);color:var(--new);border-color:transparent;font-weight:600}
+.b.upd{background:var(--accent-soft);color:var(--accent);border-color:transparent}
+.b.dday{background:var(--warn-soft);color:var(--warn);border-color:transparent;font-weight:600}
+.b.rec{background:var(--good-soft);color:var(--good);border-color:transparent;font-weight:600}
+.b.local{background:var(--accent-soft);color:var(--accent);border-color:transparent}
+.card h3{font-size:16px;margin:0 0 4px;letter-spacing:-.01em}
+.card p{margin:0;color:var(--sub);font-size:14px}
+.support{margin-top:6px;font-size:14px;color:var(--ink);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.why{margin-top:6px;font-size:12px;color:var(--muted)}
+details{margin-top:8px}
+details summary{cursor:pointer;font-size:13px;color:var(--accent);list-style:none}
+details summary::-webkit-details-marker{display:none}
+dl{margin:8px 0 0;font-size:13.5px}
+dt{color:var(--sub);font-weight:600;margin-top:8px}
+dd{margin:2px 0 0;white-space:pre-wrap;word-break:keep-all;overflow-wrap:anywhere}
+.actions{display:flex;gap:6px;margin-top:10px}
+.actions a,.actions button{flex:1;text-align:center;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:9px;padding:8px 6px;font:inherit;font-size:13.5px;text-decoration:none;cursor:pointer}
+.actions a.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+.actions button.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.empty{text-align:center;color:var(--sub);padding:40px 0}
+footer{margin-top:28px;font-size:12.5px;color:var(--sub)}
+footer a{color:var(--accent)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>혜택 레이더</h1>
+    <div class="meta" id="meta">불러오는 중…</div>
+    <div class="banner" id="banner" hidden></div>
+  </header>
+
+  <div class="stats">
+    <button class="stat" data-go="rec"><b id="c-rec">-</b><span>나에게 추천</span></button>
+    <button class="stat" data-go="new"><b id="c-new">-</b><span>새로 올라옴</span></button>
+    <button class="stat" data-go="soon"><b id="c-soon">-</b><span>마감 임박</span></button>
+  </div>
+
+  <div class="tabs" role="tablist" id="tabs">
+    <button class="tab" data-tab="rec" aria-selected="true">추천</button>
+    <button class="tab" data-tab="new">신규·변경</button>
+    <button class="tab" data-tab="soon">마감 임박</button>
+    <button class="tab" data-tab="fav">관심 ☆</button>
+    <button class="tab" data-tab="all">전체</button>
+  </div>
+
+  <div class="controls">
+    <input type="search" id="q" placeholder="검색: 월세, 자격증, 장학금, 교통비…">
+    <select id="region"><option value="">모든 지역</option></select>
+    <select id="source"><option value="">모든 출처</option><option>보조금24</option><option>온통청년</option></select>
+    <select id="sort"><option value="score">추천순</option><option value="deadline">마감 빠른순</option><option value="recent">최근 등록순</option></select>
+    <label><input type="checkbox" id="showDone"> 확인한 것도 보기</label>
+    <label><input type="checkbox" id="showExpired"> 마감된 것도 보기</label>
+  </div>
+
+  <div class="count" id="count"></div>
+  <div id="list"></div>
+
+  <footer id="footer"></footer>
+</div>
+
+<script>
+const $ = s => document.querySelector(s);
+const store = {
+  get(k, d){ try{ return JSON.parse(localStorage.getItem(k)) ?? d }catch{ return d } },
+  set(k, v){ try{ localStorage.setItem(k, JSON.stringify(v)) }catch{} }
+};
+let DATA = null;
+let tab = store.get('br.tab', 'rec');
+const fav = new Set(store.get('br.fav', []));
+const done = new Set(store.get('br.done', []));
+
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+function ddayBadge(it){
+  if (it.expired) return '<span class="b">마감</span>';
+  if (it.dday != null && it.dday >= 0 && it.dday <= 30) return `<span class="b dday">${it.dday === 0 ? 'D-DAY' : 'D-' + it.dday}</span>`;
+  if (it.always) return '<span class="b">상시</span>';
+  if (it.deadline) return `<span class="b">~${it.deadline.slice(5).replace('-', '/')}</span>`;
+  return '';
+}
+
+function card(it){
+  const local = it.region !== '전국';
+  const detailUrl = it.detail_url && it.detail_url !== it.url ? `<a href="${esc(it.detail_url)}" target="_blank" rel="noopener">상세</a>` : '';
+  const rows = [
+    ['지원 대상', it.target], ['선정 기준', it.criteria], ['지원 내용', it.support],
+    ['신청 방법', it.how], ['신청 기한', it.deadline_text], ['담당', [it.agency, it.phone].filter(Boolean).join(' · ')],
+    ['나이 조건', it.age_range ? `만 ${it.age_range[0]}~${it.age_range[1]}세` : '']
+  ].filter(r => r[1]);
+  return `<article class="card ${done.has(it.id) ? 'done' : ''}" data-id="${esc(it.id)}">
+    <div class="badges">
+      ${it.is_new ? '<span class="b new">NEW</span>' : ''}
+      ${it.is_updated && !it.is_new ? '<span class="b upd">내용 변경</span>' : ''}
+      ${it.recommended ? '<span class="b rec">추천</span>' : ''}
+      ${ddayBadge(it)}
+      <span class="b ${local ? 'local' : ''}">${esc(it.region)}</span>
+      <span class="b">${esc(it.source)}</span>
+      ${it.category ? `<span class="b">${esc(it.category)}</span>` : ''}
+      ${it.region_note ? `<span class="b upd">${esc(it.region_note)}</span>` : ''}
+    </div>
+    <h3>${esc(it.title)}</h3>
+    ${it.summary ? `<p>${esc(it.summary)}</p>` : ''}
+    ${it.support ? `<div class="support">${esc(it.support)}</div>` : ''}
+    ${it.reasons?.length ? `<div class="why">왜 추천? ${esc(it.reasons.join(' · '))}</div>` : ''}
+    <details><summary>자세히 보기 ▾</summary><dl>${rows.map(([k, v]) => `<dt>${k}</dt><dd>${esc(v)}</dd>`).join('')}</dl></details>
+    <div class="actions">
+      <a class="primary" href="${esc(it.url)}" target="_blank" rel="noopener">신청·원문</a>
+      ${detailUrl}
+      <button data-act="fav" class="${fav.has(it.id) ? 'on' : ''}">${fav.has(it.id) ? '★ 관심' : '☆ 관심'}</button>
+      <button data-act="done" class="${done.has(it.id) ? 'on' : ''}">${done.has(it.id) ? '✓ 확인함' : '확인함'}</button>
+    </div>
+  </article>`;
+}
+
+function render(){
+  if (!DATA) return;
+  document.querySelectorAll('.tab').forEach(t => t.setAttribute('aria-selected', t.dataset.tab === tab));
+  const q = $('#q').value.trim().toLowerCase();
+  const region = $('#region').value, source = $('#source').value, sort = $('#sort').value;
+  const showDone = $('#showDone').checked, showExpired = $('#showExpired').checked;
+
+  let items = DATA.items.filter(it => {
+    if (tab === 'rec' && !it.recommended) return false;
+    if (tab === 'new' && !(it.is_new || it.is_updated)) return false;
+    if (tab === 'soon' && !(it.closing_soon && it.recommended)) return false;
+    if (tab === 'fav' && !fav.has(it.id)) return false;
+    if (tab !== 'fav' && !showDone && done.has(it.id)) return false;
+    if (!showExpired && it.expired) return false;
+    if (region && it.region !== region) return false;
+    if (source && it.source !== source) return false;
+    if (q){
+      const hay = [it.title, it.summary, it.support, it.target, it.agency, it.category].join(' ').toLowerCase();
+      if (!q.split(/\s+/).every(w => hay.includes(w))) return false;
+    }
+    return true;
+  });
+  const dl = it => it.expired ? '9998' : (it.deadline && !it.always ? it.deadline : '9999');
+  if (sort === 'deadline') items.sort((a, b) => dl(a).localeCompare(dl(b)) || b.score - a.score);
+  else if (sort === 'recent') items.sort((a, b) => (b.first_seen || '').localeCompare(a.first_seen || '') || b.score - a.score);
+  else items.sort((a, b) => b.recommended - a.recommended || b.score - a.score);
+
+  const shown = items.slice(0, 300);
+  $('#count').textContent = `${items.length}건${items.length > 300 ? ' (상위 300건 표시 — 검색으로 좁혀보세요)' : ''}`;
+  $('#list').innerHTML = shown.length ? shown.map(card).join('') :
+    `<div class="empty">${tab === 'fav' ? '관심 표시한 혜택이 없어요. 카드의 ☆를 눌러 모아두세요.' : '해당하는 혜택이 없어요.'}</div>`;
+  store.set('br.tab', tab);
+}
+
+$('#tabs').addEventListener('click', e => { const t = e.target.closest('.tab'); if (t){ tab = t.dataset.tab; render(); } });
+document.querySelectorAll('.stat').forEach(s => s.addEventListener('click', () => { tab = s.dataset.go; render(); $('#tabs').scrollIntoView({behavior:'smooth'}); }));
+['#q', '#region', '#source', '#sort', '#showDone', '#showExpired'].forEach(s => $(s).addEventListener('input', render));
+$('#list').addEventListener('click', e => {
+  const b = e.target.closest('button[data-act]'); if (!b) return;
+  const id = b.closest('.card').dataset.id;
+  const set = b.dataset.act === 'fav' ? fav : done;
+  set.has(id) ? set.delete(id) : set.add(id);
+  store.set('br.fav', [...fav]); store.set('br.done', [...done]);
+  render();
+});
+
+fetch('data/benefits.json?t=' + Date.now()).then(r => r.json()).then(d => {
+  DATA = d;
+  const m = d.meta;
+  const when = new Date(m.updated_at);
+  $('#meta').textContent = `마지막 갱신 ${when.toLocaleString('ko-KR', {month:'long', day:'numeric', hour:'2-digit', minute:'2-digit'})} · 매일 아침 자동 수집`;
+  const warn = [];
+  if (m.sample) warn.push('지금 보이는 건 <b>동작 확인용 예시 데이터</b>예요. 인증키를 넣고 첫 수집이 돌면 실제 혜택으로 바뀝니다.');
+  Object.entries(m.sources || {}).forEach(([k, v]) => { if (v !== 'ok' && v !== 'off') warn.push(`${esc(k)} 수집 문제: ${esc(v)} (이전 데이터 표시 중)`); });
+  if (warn.length){ $('#banner').innerHTML = warn.join('<br>'); $('#banner').hidden = false; }
+  const order = r => r === '전국' ? 0 : r.endsWith('도') || r.endsWith('시') && r.length > 3 ? 1 : 2;
+  [...new Set(d.items.map(i => i.region))].sort((a, b) => order(a) - order(b)).forEach(r => $('#region').insertAdjacentHTML('beforeend', `<option>${esc(r)}</option>`));
+  $('#c-rec').textContent = m.counts.recommended;
+  $('#c-new').textContent = m.counts.new;
+  $('#c-soon').textContent = m.counts.closing_soon;
+  const p = m.profile || {};
+  $('#footer').innerHTML = `내 조건: ${esc((p.regions || []).map(r => r.name + (r.until ? ` (~${r.until.slice(0,7)})` : '') + (r.from ? ` (${r.from.slice(0,7)}~)` : '')).join(' → '))} · ${esc((p.status || []).join(', '))}${p.birth_year ? ' · ' + esc(p.birth_year) + '년생' : ' · <b>출생연도 미입력</b>'}<br>
+    조건은 저장소의 <code>config/profile.json</code>에서 바꿀 수 있어요. 여기 정보는 참고용이고, 신청 전엔 꼭 원문에서 자격을 확인하세요.<br>
+    출처: 행정안전부 공공서비스(혜택) 정보(보조금24), 온통청년 청년정책 API`;
+  render();
+}).catch(() => { $('#meta').textContent = '데이터를 불러오지 못했어요. 첫 수집이 아직 안 돌았을 수 있어요.'; });
+</script>
+</body>
+</html>

@@ -440,6 +440,15 @@ def youth_items(profile, rows):
             dropped["region"] += 1
             dbg("온통청년", "dropped_region", {"title": pick(p, "plcyNm"), "zips": len(zips), "zip_sample": zips[:5], "agency": pick(p, "sprvsnInstCdNm")}, 40)
             continue
+        # 지역코드는 전국으로 걸려 있어도 실제로는 다른 지역 사업인 경우 걸러내기
+        agency = pick(p, "sprvsnInstCdNm", "rgtrInstCdNm")
+        title = pick(p, "plcyNm")
+        central = bool(re.search(r"(부|처|청|위원회|공단|공사|진흥원|재단|센터)(\s|$)", agency)) and not any(
+            agency.startswith(t) for t in OTHER_REGION_TOKENS)
+        if is_other_region(agency, regions) or (not central and is_other_region(title, regions)):
+            dropped["region"] += 1
+            dbg("온통청년", "dropped_region", {"title": title, "zips": len(zips), "agency": agency, "why": "기관/제목이 다른 지역"}, 40)
+            continue
         region = "전국"
         if zips and len(zips) <= 150:
             for r in regions:
@@ -450,6 +459,14 @@ def youth_items(profile, rows):
                 elif all(z[:2] in {c[:2] for c in r["zip_codes"]} for z in zips):
                     region = r["sido"]
                 break
+        if region == "전국":  # 지역코드가 넓게 걸려 있어도 담당 기관이 우리 지역이면 그 지역으로 표시
+            for r in regions:
+                if r["short"] and r["short"] in agency:
+                    region = r["name"]
+                    break
+                if agency.startswith(r["sido_short"]):
+                    region = r["sido"]
+                    break
         lo, hi = to_int(p.get("sprtTrgtMinAge")), to_int(p.get("sprtTrgtMaxAge"))
         age_range = None
         if pick(p, "sprtTrgtAgeLmtYn") != "Y" and lo and hi and not (lo <= 0 and hi >= 100):

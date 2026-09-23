@@ -116,8 +116,10 @@ const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt
 
 function ddayBadge(it){
   if (it.expired) return '<span class="b">마감</span>';
+  if (it.open_now && it.dday != null) return `<span class="b dday">접수 중 · D-${it.dday}</span>`;
   if (it.dday != null && it.dday >= 0 && it.dday <= 30) return `<span class="b dday">${it.dday === 0 ? 'D-DAY' : 'D-' + it.dday}</span>`;
   if (it.always) return '<span class="b">상시</span>';
+  if (it.open_now === false && it.opens_month) return `<span class="b upd">매년 ${it.opens_month}월 접수</span>`;
   if (it.deadline) return `<span class="b">~${it.deadline.slice(5).replace('-', '/')}</span>`;
   return '';
 }

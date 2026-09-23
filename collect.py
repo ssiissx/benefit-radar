@@ -110,10 +110,47 @@ def parse_deadline(text: str):
             dates.append(dt.date(int(y), int(m), int(d)))
         except ValueError:
             pass
-    always = bool(re.search(r"상시|연중|수시|예산\s*소진", t))
+    always = bool(re.search(r"상시|연중|수시", t))
     if dates:
-        return max(dates), always and len(dates) == 0
+        return max(dates), False
     return None, always
+
+
+MONTH_RANGE_RE = re.compile(r"(\d{1,2})\s*월?\s*[~\-–]\s*(\d{1,2})\s*월")
+MONTH_ONE_RE = re.compile(r"(?<![\d~\-–.])(\d{1,2})\s*월(?!\s*[~\-–])")
+
+
+def month_windows(text: str):
+    """'6~7월, 10~12월' / '1학기:4~5월' 같은 매년 반복 접수 기간 → [(시작월, 끝월), …]"""
+    t = clean(text)
+    wins = [(int(a), int(b)) for a, b in MONTH_RANGE_RE.findall(t)]
+    rest = MONTH_RANGE_RE.sub(" ", t)
+    wins += [(int(a), int(a)) for a in MONTH_ONE_RE.findall(rest)]
+    return [(a, b) for a, b in wins if 1 <= a <= 12 and 1 <= b <= 12]
+
+
+def schedule_fields(text: str):
+    """마감일/상시/매년 접수월을 한꺼번에 계산"""
+    deadline, always = parse_deadline(text)
+    out = {"deadline": deadline.isoformat() if deadline else None, "always": always,
+           "open_now": None, "opens_month": None}
+    if deadline or always:
+        return out
+    wins = month_windows(text)
+    if not wins:
+        return out
+    m = TODAY.month
+    for a, b in wins:
+        inside = a <= m <= b if a <= b else (m >= a or m <= b)
+        if inside:
+            end_year = TODAY.year if (a <= b or m >= a) and b >= m else TODAY.year + 1
+            last = (dt.date(end_year + (b == 12), (b % 12) + 1, 1) - dt.timedelta(days=1))
+            out.update(open_now=True, deadline=last.isoformat())
+            return out
+    starts = sorted(a for a, _ in wins)
+    nxt = next((a for a in starts if a > m), starts[0])
+    out.update(open_now=False, opens_month=nxt)
+    return out
 
 
 def age_of(profile) -> int | None:
@@ -229,11 +266,34 @@ def gov24_fetch_all(endpoint: str, key: str, per_page=1000, max_pages=60):
     return rows
 
 
+OTHER_REGION_TOKENS = ["서울", "부산", "대구", "인천", "광주", "대전", "울산", "세종", "충북", "충남", "충청",
+                       "전북", "전남", "전라", "경북", "경남", "경상", "제주", "강원", "경기"]
+
+
+def is_other_region(text, regions):
+    mine = {r["sido_short"] for r in regions} | {r["short"] for r in regions if r["short"]}
+    if any(m in text for m in mine):
+        return False
+    return any(tok in text for tok in OTHER_REGION_TOKENS if tok not in mine)
+
+
 def gov24_region(row, regions):
     """전국 / 시·도 이름 / 우리 시·군 이름 / None(관계없는 지역)"""
     typ = clean(row.get("소관기관유형"))
     name = clean(row.get("소관기관명"))
-    if typ in ("중앙행정기관", "공공기관"):
+    if typ == "중앙행정기관":
+        return "전국"
+    if typ == "공공기관":
+        # 지역 재단·장학회(예: (재)인천인재평생교육진흥원)는 이름으로 지역을 판단
+        text = re.sub(r"재단법인|\(재\)|사단법인", "", name) + " " + clean(row.get("서비스명"))
+        if is_other_region(text, regions):
+            return None
+        for r in regions:
+            if r["short"] and r["short"] in text:
+                return r["name"]
+        for r in regions:
+            if r["sido_short"] in text:
+                return r["sido"]
         return "전국"
     for r in regions:
         if r["short"] and r["short"] in name and name.startswith(r["sido_short"]):
@@ -272,7 +332,6 @@ def gov24_items(profile, services, conditions):
                 dropped["age"] += 1
                 continue
         deadline_text = clean(s.get("신청기한"))
-        deadline, always = parse_deadline(deadline_text)
         item = {
             "id": "g24-" + sid,
             "source": "보조금24",
@@ -284,8 +343,7 @@ def gov24_items(profile, services, conditions):
             "support_type": clean(s.get("지원유형")),
             "how": clean(s.get("신청방법")),
             "deadline_text": deadline_text,
-            "deadline": deadline.isoformat() if deadline else None,
-            "always": always or not deadline,
+            **schedule_fields(deadline_text),
             "agency": " ".join(x for x in [clean(s.get("소관기관명")), clean(s.get("부서명"))] if x),
             "phone": clean(s.get("전화문의")),
             "region": region,
@@ -376,9 +434,6 @@ def youth_items(profile, rows):
                 dropped["age"] += 1
                 continue
         deadline_text = pick(p, "aplyYmd") or pick(p, "bizPrdEndYmd")
-        deadline, always = parse_deadline(deadline_text)
-        if not deadline_text:
-            always = True
         item = {
             "id": "yc-" + pid,
             "source": "온통청년",
@@ -392,8 +447,7 @@ def youth_items(profile, rows):
             "support_type": pick(p, "mclsfNm"),
             "how": pick(p, "plcyAplyMthdCn"),
             "deadline_text": deadline_text or "상시",
-            "deadline": deadline.isoformat() if deadline else None,
-            "always": always or not deadline,
+            **schedule_fields(deadline_text or "상시"),
             "agency": pick(p, "sprvsnInstCdNm", "operInstCdNm", "rgtrInstCdNm"),
             "phone": "",
             "region": region,

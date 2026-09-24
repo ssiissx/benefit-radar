@@ -311,10 +311,10 @@
     }
    ],
    "counts": {
-    "raw": 10937,
-    "conditions": 10937,
+    "raw": 10940,
+    "conditions": 10940,
     "used": 2066,
-    "region": 8610,
+    "region": 8613,
     "age": 261
    },
    "fields": [
@@ -925,7 +925,7 @@
      "plcyPvsnMthdCd": "0042006",
      "plcyAprvSttsCd": "0044002",
      "plcyNm": "지역성장 인재양성체계(앵커)",
-     "plcyKywdNm": "교육지원,벤처,중소기업,인턴",
+     "plcyKywdNm": "교육지원,중소기업,인턴,벤처",
      "plcyExplnCn": "지자체·대학·산업계 등이 협력하여 대학을 지역성장의 허브로 육성하고, 지역인재육성-취·창업-정주의 선순환 생태계 구축",
      "lclsfNm": "일자리",
      "mclsfNm": "취업",
@@ -961,7 +961,7 @@
      "earnEtcCn": "",
      "addAplyQlfcCndCn": "",
      "ptcpPrpTrgtCn": "",
-     "inqCnt": "17",
+     "inqCnt": "33",
      "rgtrInstCd": "1342000",
      "rgtrInstCdNm": "교육부",
      "rgtrUpInstCd": "0000000",
@@ -1023,7 +1023,7 @@
      "earnEtcCn": "",
      "addAplyQlfcCndCn": "",
      "ptcpPrpTrgtCn": "대학원별 기준에 따름",
-     "inqCnt": "8",
+     "inqCnt": "15",
      "rgtrInstCd": "B552644",
      "rgtrInstCdNm": "한국콘텐츠진흥원",
      "rgtrUpInstCd": "B000000",
@@ -1046,7 +1046,7 @@
    }
   }
  },
- "updated_at": "2026-09-24T08:24+09:00",
+ "updated_at": "2026-09-25T08:44+09:00",
  "status": {
   "보조금24": "ok",
   "온통청년": "ok"

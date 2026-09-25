@@ -311,10 +311,10 @@
     }
    ],
    "counts": {
-    "raw": 10940,
-    "conditions": 10940,
+    "raw": 10941,
+    "conditions": 10941,
     "used": 2066,
-    "region": 8613,
+    "region": 8614,
     "age": 261
    },
    "fields": [
@@ -961,7 +961,7 @@
      "earnEtcCn": "",
      "addAplyQlfcCndCn": "",
      "ptcpPrpTrgtCn": "",
-     "inqCnt": "33",
+     "inqCnt": "52",
      "rgtrInstCd": "1342000",
      "rgtrInstCdNm": "교육부",
      "rgtrUpInstCd": "0000000",
@@ -1023,7 +1023,7 @@
      "earnEtcCn": "",
      "addAplyQlfcCndCn": "",
      "ptcpPrpTrgtCn": "대학원별 기준에 따름",
-     "inqCnt": "15",
+     "inqCnt": "29",
      "rgtrInstCd": "B552644",
      "rgtrInstCdNm": "한국콘텐츠진흥원",
      "rgtrUpInstCd": "B000000",
@@ -1046,7 +1046,7 @@
    }
   }
  },
- "updated_at": "2026-09-25T08:44+09:00",
+ "updated_at": "2026-09-26T08:46+09:00",
  "status": {
   "보조금24": "ok",
   "온통청년": "ok"

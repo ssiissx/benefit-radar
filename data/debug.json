@@ -311,10 +311,10 @@
     }
    ],
    "counts": {
-    "raw": 10947,
-    "conditions": 10947,
-    "used": 2069,
-    "region": 8617,
+    "raw": 10949,
+    "conditions": 10949,
+    "used": 2070,
+    "region": 8618,
     "age": 261
    },
    "fields": [
@@ -395,6 +395,66 @@
   },
   "온통청년": {
    "dropped_region": [
+    {
+     "title": "청년 창업지원 인프라 운영 및 역량강화 지원",
+     "zips": 1,
+     "zip_sample": [
+      "36110"
+     ],
+     "agency": "세종특별자치시"
+    },
+    {
+     "title": "청년근로자 정착 지원",
+     "zips": 1,
+     "zip_sample": [
+      "36110"
+     ],
+     "agency": "세종특별자치시"
+    },
+    {
+     "title": "청년 취창업 재기 지원",
+     "zips": 1,
+     "zip_sample": [
+      "36110"
+     ],
+     "agency": "세종특별자치시"
+    },
+    {
+     "title": "청년취업박람회 개최",
+     "zips": 1,
+     "zip_sample": [
+      "36110"
+     ],
+     "agency": "세종특별자치시"
+    },
+    {
+     "title": "미혼남녀 인연만들기 세종연결",
+     "zips": 1,
+     "zip_sample": [
+      "36110"
+     ],
+     "agency": "세종특별자치시"
+    },
+    {
+     "title": "[남구] 2026년 남구 일자리박람회",
+     "zips": 1,
+     "zip_sample": [
+      "12270"
+     ],
+     "agency": "전남광주통합특별시"
+    },
+    {
+     "title": "2026년 구직청년 자격증 취득지원 사업 (10월 6일 10시 오픈 예정)",
+     "zips": 5,
+     "zip_sample": [
+      "12210",
+      "12240",
+      "12270",
+      "12300",
+      "12330"
+     ],
+     "agency": "전남광주통합특별시"
+    },
     {
      "title": "청년어촌 정착지원 사업",
      "zips": 14,
@@ -786,84 +846,6 @@
       "43130"
      ],
      "agency": "재단법인충북인재평생교육진흥원"
-    },
-    {
-     "title": "청년 창업지원자금 융자지원",
-     "zips": 14,
-     "zip_sample": [
-      "43111",
-      "43112",
-      "43113",
-      "43114",
-      "43130"
-     ],
-     "agency": "충청북도 경제통상국 경제기업과"
-    },
-    {
-     "title": "청년 소상공인 창업응원금 지원",
-     "zips": 14,
-     "zip_sample": [
-      "43111",
-      "43112",
-      "43113",
-      "43114",
-      "43130"
-     ],
-     "agency": "충청북도 기획조정실 인구청년정책담당관"
-    },
-    {
-     "title": "청년 창업 맞춤형 지원",
-     "zips": 14,
-     "zip_sample": [
-      "43111",
-      "43112",
-      "43113",
-      "43114",
-      "43130"
-     ],
-     "agency": "충청북도 기획조정실 인구청년정책담당관"
-    },
-    {
-     "title": "청년도전 지원사업",
-     "zips": 14,
-     "zip_sample": [
-      "43111",
-      "43112",
-      "43113",
-      "43114",
-      "43130"
-     ],
-     "agency": "고용노동부"
-    },
-    {
-     "title": "청년카페 운영",
-     "zips": 14,
-     "zip_sample": [
-      "43111",
-      "43112",
-      "43113",
-      "43114",
-      "43130"
-     ],
-     "agency": "고용노동부"
-    },
-    {
-     "title": "대학-공공기관 연계 취업지원 프로그램",
-     "zips": 240,
-     "agency": "충청북도 AI과학인재국 미래인재육성과",
-     "why": "기관/제목이 다른 지역"
-    },
-    {
-     "title": "대학별 맞춤형 취업역량강화 프로그램 지원",
-     "zips": 14,
-     "zip_sample": [
-      "43111",
-      "43112",
-      "43113",
-      "43114",
-      "43130"
-     ],
-     "agency": "충청북도 AI과학인재국 미래인재육성과"
     }
    ],
    "dropped_age": [
@@ -975,8 +957,8 @@
    ],
    "counts": {
     "raw": 3105,
-    "used": 635,
-    "region": 2449,
+    "used": 637,
+    "region": 2447,
     "age": 21
    },
    "fields": [
@@ -1043,23 +1025,85 @@
    ],
    "raw_examples": [
     {
-     "plcyNo": "20261001005400113754",
+     "plcyNo": "20261001005400113794",
+     "bscPlanCycl": "2",
+     "bscPlanPlcyWayNo": "001",
+     "bscPlanFcsAsmtNo": "001",
+     "bscPlanAsmtNo": "003",
+     "pvsnInstGroupCd": "0054001",
+     "plcyPvsnMthdCd": "0042006",
+     "plcyAprvSttsCd": "0044002",
+     "plcyNm": "게임사 프로젝트 현장교육 프로그램",
+     "plcyKywdNm": "인턴,보조금",
+     "plcyExplnCn": "ㅇ 게임기업 신규채용 및 현장교육 연계 지원\n- 게임기업이 신규 인력을 직접 채용하여 실제 게임 프로젝트에 배치하고 현장 중심의 교육을 실시할 수 있도록 지원\n  → 기업의 신규채용 부담 완화 + 초기경력 인력의 게임산업 진입기회 확대\nㅇ 프로젝트 기반 실무형 인재양성\n- 기업·프로젝트별 개발도구, 제작방식 및 업무 프로세스가 상이한 게임산업의 특성을 반영",
+     "lclsfNm": "일자리",
+     "mclsfNm": "취업",
+     "plcySprtCn": "ㅇ 게임기업 신규채용 인건비 지원\n\n게임기업이 신규 인력을 채용하여 실제 게임 프로젝트 기반의 현장교육을 실시하는 경우 교육생 인건비의 50% 지원\n→ 기업의 신규채용 및 인력양성에 따른 비용 부담 완화\n\nㅇ 최대 6개월간 프로젝트 현장교육 지원\n\n신규 채용된 교육생을 대상으로 3개월 이상~최대 6개월 현장교육 운영 및 인건비 지원\n→ 단기 인력 활용이 아",
+     "sprvsnInstCd": "1371000",
+     "sprvsnInstCdNm": "문화체육관광부",
+     "sprvsnInstPicNm": "김윤구",
+     "operInstCd": "B552644",
+     "operInstCdNm": "한국콘텐츠진흥원",
+     "operInstPicNm": "강원훈",
+     "sprtSclLmtYn": "N",
+     "aplyPrdSeCd": "0057001",
+     "bizPrdSeCd": "0056001",
+     "bizPrdBgngYmd": "20260101",
+     "bizPrdEndYmd": "20270131",
+     "bizPrdEtcCn": "",
+     "plcyAplyMthdCn": "ㅇ 신청절차\n사업공고 및 참여기업 모집\n→ 참여기업 신청서 제출\n→ 플랫폼기관의 신청요건 검토 및 참여기업 선정\n→ 신규 교육생 채용 및 근로계약 체결\n→ 현장교육 계획 확정 및 사업 참여\n→ 게임 프로젝트 기반 현장교육 실시\n→ 인건비 지급 및 지원금 신청·지급\n→ 중간점검 및 교육실적 확인\n→ 현장교육 종료 및 결과보고·정산\n※ 참여기업은 플랫폼기관을 ",
+     "srngMthdCn": "ㅇ 심사 및 발표\n→ 플랫폼기관별 참여기업 모집 완료 후 신청자격 및 제출서류 등 기본요건 검토\n→ 사업계획, 현장교육 운영계획, 신규채용 계획 및 프로젝트 적정성 등을 종합적으로 검토하여 참여기업 선정심사 실시\n→ 필요 시 신청기업을 대상으로 발표평가 또는 추가자료 제출 등을 통해 현장교육 수행역량 확인\n→ 심사결과에 따라 최종 참여기업 및 지원인원 확정",
+     "aplyUrlAddr": "",
+     "sbmsnDcmntCn": "",
+     "etcMttrCn": "",
+     "refUrlAddr1": "https://www.kocca.kr/shortUrl/40Cq",
+     "refUrlAddr2": "",
+     "sprtSclCnt": "40",
+     "sprtArvlSeqYn": "Y",
+     "sprtTrgtMinAge": "19",
+     "sprtTrgtMaxAge": "35",
+     "sprtTrgtAgeLmtYn": "N",
+     "mrgSttsCd": "0055003",
+     "earnCndSeCd": "0043001",
+     "earnMinAmt": "0",
+     "earnMaxAmt": "0",
+     "earnEtcCn": "",
+     "addAplyQlfcCndCn": "게임산업 분야 취업 및 실무경력 형성을 희망하는 청년·초기경력 인력\n참여기업에 신규 채용되어 게임 프로젝트 기반 현장교육에 참여하는 자\n게임개발·기획·그래픽 등 게임산업 관련 직무에서 현장교육 수행이 가능한 자\n채용일 기준 게임산업 관련 경력요건을 충족하는 초기경력자\n참여기업과 근로계약을 체결하고 4대보험에 가입하여 근무가 가능한 자\n3개월 이상~최대 6개",
+     "ptcpPrpTrgtCn": " ㅇ 참여제한 요건\n참여기업에 사업 참여 이전부터 재직 중인 기존 근로자\n참여기업의 대표자 본인 또는 대표자와 친인척 관계에 있는 자\n근로계약을 체결하지 않은 프리랜서·개인사업자 등\n게임 프로젝트와 직접적인 관련성이 낮은 단순 행정·보조업무 등에 종사하는 자\n동일한 인건비에 대해 정부·지자체 등 다른 재정지원사업의 지원을 받고 있는 자\n국민취업지원제도 등 ",
+     "inqCnt": "31",
+     "rgtrInstCd": "B552644",
+     "rgtrInstCdNm": "한국콘텐츠진흥원",
+     "rgtrUpInstCd": "B000000",
+     "rgtrUpInstCdNm": "정부산하기관및위원회",
+     "rgtrHghrkInstCd": "B000000",
+     "rgtrHghrkInstCdNm": "정부산하기관및위원회",
+     "zipCd": "11110,11140,11170,11200,11215,11230,11260,11290,11305,11320,11350,11380,11410,11440,11470,11500,11530,11545,11560,11590,11620,11650,11680,11710,11740,12110,12130,12150,12170,12190,12210,12240,12270,12",
+     "plcyMajorCd": "0011009",
+     "jobCd": "0013003",
+     "schoolCd": "0049010",
+     "aplyYmd": "20260701 ~ 20261231",
+     "frstRegDt": "2026-10-01 17:59:37",
+     "lastMdfcnDt": "2026-10-01 18:09:07",
+     "sbizCd": "0014010"
+    },
+    {
+     "plcyNo": "20261001005400213793",
      "bscPlanCycl": "2",
      "bscPlanPlcyWayNo": "001",
      "bscPlanFcsAsmtNo": "004",
-     "bscPlanAsmtNo": "015",
-     "pvsnInstGroupCd": "0054001",
+     "bscPlanAsmtNo": "012",
+     "pvsnInstGroupCd": "0054002",
      "plcyPvsnMthdCd": "0042002",
      "plcyAprvSttsCd": "0044002",
-     "plcyNm": "청년 창업자 세무정보 제공 및 상담",
-     "plcyKywdNm": "중소기업,교육지원,맞춤형상담서비스",
-     "plcyExplnCn": "예비 청년 창업자 대상 맞춤형 세무정보 제공 및 세무상담 지원",
+     "plcyNm": "청년 창업지원 인프라 운영 및 역량강화 지원",
+     "plcyKywdNm": "맞춤형상담서비스,교육지원",
+     "plcyExplnCn": "혁신적인 기술창업 아이디어를 보유한 예비창업자를 위한 창업공간 운영 및 창업프로그램을 통한 역량강화 및 사업고도화 지원\n",
      "lclsfNm": "일자리",
      "mclsfNm": "창업",
-     "plcySprtCn": "ㅇ청년 창업자들이 사업에 전념할 수 있도록 창업지원기관과의 협업을 통해 청년 맞춤형 세무정보 제공 \n  - (세무상담) 부가가치세·원천세 신고 방법, 창업 관련 세제 혜택, 영세납세자 지원단 제도 등 맞춤형 세무정보 안내\n  - (세금교육) 창업사관학교·창업지원센터 등 지역 창업지원기관 프로그램과 연계하여 청년 창업자 필수 세금교육 실시\n  - (현장소통)",
-     "sprvsnInstCd": "1213889",
-     "sprvsnInstCdNm": "국세청 납세자보호관",
-     "sprvsnInstPicNm": "이종영 사무관",
+     "plcySprtCn": " ㅇ (사업 내용) 초기창업기업을 위한 창업공간(세종창업키움센터 등) 지원 및 창업 프로그램(창업교육·사업화·멘토링 등) 운영 \n   - (창업공간) IT·BT·CT 분야 등 (예비)창업자 및 초기창업기업을 위한 창업공간 운영\n   - (프로그램) 창업교육 및 사업화지원(인증지원, 시제품 제작 등)을 통한 사업고도화 지원\n   - (네트워킹) 입주기업 간 ",
+     "sprvsnInstCd": "5690000",
+     "sprvsnInstCdNm": "세종특별자치시",
+     "sprvsnInstPicNm": "",
      "operInstCd": "       ",
      "operInstCdNm": "",
      "operInstPicNm": "",
@@ -1068,18 +1112,18 @@
      "bizPrdSeCd": "0056002",
      "bizPrdBgngYmd": "        ",
      "bizPrdEndYmd": "        ",
-     "bizPrdEtcCn": "연중 상시 운영",
+     "bizPrdEtcCn": "연중 계속",
      "plcyAplyMthdCn": "",
      "srngMthdCn": "",
      "aplyUrlAddr": "",
      "sbmsnDcmntCn": "",
      "etcMttrCn": "",
-     "refUrlAddr1": "https://www.nts.go.kr/taxpayer_advocate/cm/cntnts/cntntsView.do?mi=11497&cntntsId=8303",
+     "refUrlAddr1": "https://ccei.creativekorea.or.kr/sejong/",
      "refUrlAddr2": "",
      "sprtSclCnt": "0",
      "sprtArvlSeqYn": "N",
      "sprtTrgtMinAge": "19",
-     "sprtTrgtMaxAge": "34",
+     "sprtTrgtMaxAge": "39",
      "sprtTrgtAgeLmtYn": "N",
      "mrgSttsCd": "0055003",
      "earnCndSeCd": "0043001",
@@ -1088,82 +1132,20 @@
      "earnEtcCn": "",
      "addAplyQlfcCndCn": "",
      "ptcpPrpTrgtCn": "",
-     "inqCnt": "0",
-     "rgtrInstCd": "1213739",
-     "rgtrInstCdNm": "국세청 기획조정관",
-     "rgtrUpInstCd": "1210000",
-     "rgtrUpInstCdNm": "국세청",
-     "rgtrHghrkInstCd": "1210000",
-     "rgtrHghrkInstCdNm": "국세청",
-     "zipCd": "11110,11140,11170,11200,11215,11230,11260,11290,11305,11320,11350,11380,11410,11440,11470,11500,11530,11545,11560,11590,11620,11650,11680,11710,11740,12110,12130,12150,12170,12190,12210,12240,12270,12",
+     "inqCnt": "9",
+     "rgtrInstCd": "5690000",
+     "rgtrInstCdNm": "세종특별자치시",
+     "rgtrUpInstCd": "0000000",
+     "rgtrUpInstCdNm": "세종특별자치시",
+     "rgtrHghrkInstCd": "5690000",
+     "rgtrHghrkInstCdNm": "세종특별자치시",
+     "zipCd": "36110",
      "plcyMajorCd": "0011009",
      "jobCd": "0013006",
      "schoolCd": "0049010",
      "aplyYmd": "",
-     "frstRegDt": "2026-10-01 08:15:32",
-     "lastMdfcnDt": "2026-10-01 09:17:39",
-     "sbizCd": "0014010"
-    },
-    {
-     "plcyNo": "20261001005400113753",
-     "bscPlanCycl": "2",
-     "bscPlanPlcyWayNo": "001",
-     "bscPlanFcsAsmtNo": "004",
-     "bscPlanAsmtNo": "015",
-     "pvsnInstGroupCd": "0054001",
-     "plcyPvsnMthdCd": "0042002",
-     "plcyAprvSttsCd": "0044002",
-     "plcyNm": "청년 창업기업 정기 세무조사 유예 우대",
-     "plcyKywdNm": "중소기업",
-     "plcyExplnCn": "ㅇ｢일자리 창출기업 정기 세무조사 유예｣ 적용 시 청년 창업기업이 신규 고용을 우대하여 최대 2년(지방 소재 기업 3년)간 정기 세무조사 유예\n- 청년(창업 당시 만 34세 이하) 창업기업으로서 조사착수 예정일 이전 10년 이내 개업한 중소기업 대상지원",
-     "lclsfNm": "일자리",
-     "mclsfNm": "창업",
-     "plcySprtCn": "ㅇ자금･인력이 부족한 청년 창업기업의 세무조사 부담을 완화하고 안정적인 성장을 지원하기 위해, ｢일자리 창출기업 정기 세무조사 유예｣ 적용 시 청년 창업기업이 신규 고용하는 경우 채용인원 1명당 2명의 근로자를 고용한 것으로 인정하여 최대 2년(지방 소재 기업 3년)간 정기 세무조사 유예\n  ※(일자리 창출기업 정기 세무조사 유예)조사착수연도 상시근로자 수",
-     "sprvsnInstCd": "1210077",
-     "sprvsnInstCdNm": "국세청 조사국",
-     "sprvsnInstPicNm": "정성한 사무관",
-     "operInstCd": "       ",
-     "operInstCdNm": "",
-     "operInstPicNm": "",
-     "sprtSclLmtYn": "N",
-     "aplyPrdSeCd": "0057002",
-     "bizPrdSeCd": "0056002",
-     "bizPrdBgngYmd": "        ",
-     "bizPrdEndYmd": "        ",
-     "bizPrdEtcCn": "정기 세무조사 사전 통지서를 받고 조사착수 예정일 5일 전까지",
-     "plcyAplyMthdCn": "정기 세무조사 사전통지 및 유예 안내 → 조사유예 신청 → 요건 검토 → 결과 통지",
-     "srngMthdCn": "",
-     "aplyUrlAddr": "",
-     "sbmsnDcmntCn": "정기 세무조사 유예 신청서 등",
-     "etcMttrCn": "",
-     "refUrlAddr1": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=41126&cntntsId=239081",
-     "refUrlAddr2": "",
-     "sprtSclCnt": "0",
-     "sprtArvlSeqYn": "N",
-     "sprtTrgtMinAge": "18",
-     "sprtTrgtMaxAge": "34",
-     "sprtTrgtAgeLmtYn": "N",
-     "mrgSttsCd": "0055003",
-     "earnCndSeCd": "0043001",
-     "earnMinAmt": "0",
-     "earnMaxAmt": "0",
-     "earnEtcCn": "",
-     "addAplyQlfcCndCn": "｢조세특례제한법 시행령｣ 제2조제1항에 따른 중소기업 요건 충족",
-     "ptcpPrpTrgtCn": "",
-     "inqCnt": "0",
-     "rgtrInstCd": "1213739",
-     "rgtrInstCdNm": "국세청 기획조정관",
-     "rgtrUpInstCd": "1210000",
-     "rgtrUpInstCdNm": "국세청",
-     "rgtrHghrkInstCd": "1210000",
-     "rgtrHghrkInstCdNm": "국세청",
-     "zipCd": "11110,11140,11170,11200,11215,11230,11260,11290,11305,11320,11350,11380,11410,11440,11470,11500,11530,11545,11560,11590,11620,11650,11680,11710,11740,12110,12130,12150,12170,12190,12210,12240,12270,12",
-     "plcyMajorCd": "0011009",
-     "jobCd": "0013006",
-     "schoolCd": "0049010",
-     "aplyYmd": "",
-     "frstRegDt": "2026-10-01 08:10:56",
-     "lastMdfcnDt": "2026-10-01 09:16:57",
+     "frstRegDt": "2026-10-01 17:49:42",
+     "lastMdfcnDt": "2026-10-01 18:09:47",
      "sbizCd": "0014010"
     }
    ],
@@ -1173,14 +1155,14 @@
    }
   }
  },
- "updated_at": "2026-10-01T09:19+09:00",
+ "updated_at": "2026-10-02T09:25+09:00",
  "status": {
   "보조금24": "ok",
   "온통청년": "ok"
  },
  "schedule": {
-  "always": 1208,
-  "deadline": 456,
+  "always": 1211,
+  "deadline": 457,
   "yearly_window": 138
  }
 }

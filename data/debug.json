@@ -828,9 +828,9 @@
     }
    ],
    "counts": {
-    "raw": 3150,
+    "raw": 3146,
     "used": 639,
-    "region": 2490,
+    "region": 2486,
     "age": 21
    },
    "fields": [
@@ -942,7 +942,7 @@
      "earnEtcCn": "",
      "addAplyQlfcCndCn": "사업 시행 연도 농림축산식품부 지원 '대학생 천원의 아침밥' 선정 대학 중 관내 시비 지원 희망 대학",
      "ptcpPrpTrgtCn": "",
-     "inqCnt": "20",
+     "inqCnt": "32",
      "rgtrInstCd": "6300000",
      "rgtrInstCdNm": "대전광역시",
      "rgtrUpInstCd": "0000000",
@@ -1004,7 +1004,7 @@
      "earnEtcCn": "",
      "addAplyQlfcCndCn": "",
      "ptcpPrpTrgtCn": "",
-     "inqCnt": "12",
+     "inqCnt": "18",
      "rgtrInstCd": "5690000",
      "rgtrInstCdNm": "세종특별자치시",
      "rgtrUpInstCd": "0000000",
@@ -1027,7 +1027,7 @@
    }
   }
  },
- "updated_at": "2026-10-05T08:47+09:00",
+ "updated_at": "2026-10-06T10:38+09:00",
  "status": {
   "보조금24": "ok",
   "온통청년": "ok"

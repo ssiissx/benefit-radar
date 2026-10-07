@@ -311,10 +311,10 @@
     }
    ],
    "counts": {
-    "raw": 10950,
-    "conditions": 10950,
+    "raw": 10951,
+    "conditions": 10951,
     "used": 2068,
-    "region": 8621,
+    "region": 8622,
     "age": 261
    },
    "fields": [
@@ -395,6 +395,126 @@
   },
   "온통청년": {
    "dropped_region": [
+    {
+     "title": "소프트웨어(SW) 미래채움사업",
+     "zips": 14,
+     "zip_sample": [
+      "43111",
+      "43112",
+      "43113",
+      "43114",
+      "43130"
+     ],
+     "agency": "과학기술정보통신부"
+    },
+    {
+     "title": "ICT이노베이션스퀘어 확산 사업",
+     "zips": 14,
+     "zip_sample": [
+      "43111",
+      "43112",
+      "43113",
+      "43114",
+      "43130"
+     ],
+     "agency": "과학기술정보통신부"
+    },
+    {
+     "title": "청년 문화예술패스",
+     "zips": 1,
+     "zip_sample": [
+      "36110"
+     ],
+     "agency": "세종특별자치시"
+    },
+    {
+     "title": "이스포츠 활성화 지원",
+     "zips": 1,
+     "zip_sample": [
+      "36110"
+     ],
+     "agency": "세종특별자치시"
+    },
+    {
+     "title": "지역과학문화 역량강화 사업",
+     "zips": 1,
+     "zip_sample": [
+      "36110"
+     ],
+     "agency": "세종특별자치시"
+    },
+    {
+     "title": "청춘 건강상담소 사업 운영 (모바일헬스케어)",
+     "zips": 1,
+     "zip_sample": [
+      "36110"
+     ],
+     "agency": "세종특별자치시"
+    },
+    {
+     "title": "청년사회서비스사업단 운영",
+     "zips": 1,
+     "zip_sample": [
+      "36110"
+     ],
+     "agency": "세종특별자치시"
+    },
+    {
+     "title": "청년마음건강센터 운영",
+     "zips": 1,
+     "zip_sample": [
+      "36110"
+     ],
+     "agency": "세종특별자치시"
+    },
+    {
+     "title": "청소년 한부모 아동양육 및 자립지원",
+     "zips": 1,
+     "zip_sample": [
+      "36110"
+     ],
+     "agency": "세종특별자치시"
+    },
+    {
+     "title": "자립지원전담기관 운영",
+     "zips": 1,
+     "zip_sample": [
+      "36110"
+     ],
+     "agency": "세종특별자치시"
+    },
+    {
+     "title": "보호종료아동 자립수당 및 자립정착금 지원",
+     "zips": 1,
+     "zip_sample": [
+      "36110"
+     ],
+     "agency": "세종특별자치시"
+    },
+    {
+     "title": "일상돌봄서비스 사업",
+     "zips": 1,
+     "zip_sample": [
+      "36110"
+     ],
+     "agency": "세종특별자치시"
+    },
+    {
+     "title": "청년내일저축계좌",
+     "zips": 1,
+     "zip_sample": [
+      "36110"
+     ],
+     "agency": "세종특별자치시"
+    },
+    {
+     "title": "공공시설 나만의 결혼식",
+     "zips": 1,
+     "zip_sample": [
+      "36110"
+     ],
+     "agency": "세종특별자치시"
+    },
     {
      "title": "대학생 천원의 아침밥 지원 사업",
      "zips": 5,
@@ -598,126 +718,6 @@
      "zips": 256,
      "agency": "세종특별자치시",
      "why": "기관/제목이 다른 지역"
-    },
-    {
-     "title": "행복일터 인증제",
-     "zips": 256,
-     "agency": "세종특별자치시",
-     "why": "기관/제목이 다른 지역"
-    },
-    {
-     "title": "청년 취업역량강화 지원사업 (대학일자리플러스센터)",
-     "zips": 256,
-     "agency": "세종특별자치시",
-     "why": "기관/제목이 다른 지역"
-    },
-    {
-     "title": "청년도전지원사업 운영",
-     "zips": 256,
-     "agency": "세종특별자치시",
-     "why": "기관/제목이 다른 지역"
-    },
-    {
-     "title": "청년 부실채무자 신용회복 지원",
-     "zips": 14,
-     "zip_sample": [
-      "43111",
-      "43112",
-      "43113",
-      "43114",
-      "43130"
-     ],
-     "agency": "충청북도 AI과학인재국 미래인재육성과"
-    },
-    {
-     "title": "지역산업맞춤형 자치단체 지원사업",
-     "zips": 256,
-     "agency": "세종특별자치시",
-     "why": "기관/제목이 다른 지역"
-    },
-    {
-     "title": "청년기업 디자인 지원사업",
-     "zips": 1,
-     "zip_sample": [
-      "36110"
-     ],
-     "agency": "세종특별자치시"
-    },
-    {
-     "title": "대학생 학자금 이자 지원",
-     "zips": 14,
-     "zip_sample": [
-      "43111",
-      "43112",
-      "43113",
-      "43114",
-      "43130"
-     ],
-     "agency": "충청북도 AI과학인재국 미래인재육성과"
-    },
-    {
-     "title": "창업기업 맞춤형 성장지원",
-     "zips": 1,
-     "zip_sample": [
-      "36110"
-     ],
-     "agency": "세종특별자치시"
-    },
-    {
-     "title": "대학생 장학금 지원",
-     "zips": 14,
-     "zip_sample": [
-      "43111",
-      "43112",
-      "43113",
-      "43114",
-      "43130"
-     ],
-     "agency": "충청북도 AI과학인재국 미래인재육성과"
-    },
-    {
-     "title": "2026년 청년농업인 스마트농업 시범",
-     "zips": 5,
-     "zip_sample": [
-      "30110",
-      "30140",
-      "30170",
-      "30200",
-      "30230"
-     ],
-     "agency": "대전광역시 농업기술센터 지도개발과"
-    },
-    {
-     "title": "청년 창업지원 인프라 운영 및 역량강화 지원",
-     "zips": 1,
-     "zip_sample": [
-      "36110"
-     ],
-     "agency": "세종특별자치시"
-    },
-    {
-     "title": "고용환경개선사업",
-     "zips": 1,
-     "zip_sample": [
-      "36110"
-     ],
-     "agency": "세종특별자치시"
-    },
-    {
-     "title": "외국인근로자 고용안정 지원",
-     "zips": 1,
-     "zip_sample": [
-      "36110"
-     ],
-     "agency": "세종특별자치시"
-    },
-    {
-     "title": "청년근로자 정착 지원",
-     "zips": 1,
-     "zip_sample": [
-      "36110"
-     ],
-     "agency": "세종특별자치시"
     }
    ],
    "dropped_age": [
@@ -828,9 +828,9 @@
     }
    ],
    "counts": {
-    "raw": 3146,
+    "raw": 3164,
     "used": 639,
-    "region": 2486,
+    "region": 2504,
     "age": 21
    },
    "fields": [
@@ -897,38 +897,100 @@
    ],
    "raw_examples": [
     {
-     "plcyNo": "20261002005400113836",
+     "plcyNo": "20261004005400113858",
      "bscPlanCycl": "2",
-     "bscPlanPlcyWayNo": "004",
-     "bscPlanFcsAsmtNo": "014",
-     "bscPlanAsmtNo": "055",
-     "pvsnInstGroupCd": "0054001",
-     "plcyPvsnMthdCd": "0042006",
+     "bscPlanPlcyWayNo": "002",
+     "bscPlanFcsAsmtNo": "005",
+     "bscPlanAsmtNo": "017",
+     "pvsnInstGroupCd": "0054002",
+     "plcyPvsnMthdCd": "0042002",
      "plcyAprvSttsCd": "0044002",
-     "plcyNm": "대학생 천원의 아침밥 지원 사업",
-     "plcyKywdNm": "보조금",
-     "plcyExplnCn": "관내 신청 대학에서 조식 메뉴를 1천원에 제공할 수 있게 해 아침밥 먹는 문화 및 쌀 소비 촉진",
-     "lclsfNm": "금융･복지･문화",
-     "mclsfNm": "문화활동 및 생활지원",
-     "plcySprtCn": "해당연도 농식품부 천원의 아침밤 사업 선정 대학 중 시비 지원 신청 대학에 식수인원 1식당 1천원의 시비를 지원하여 대학생들에게 아침메뉴를 1천원에 제공할 수 있게 함",
-     "sprvsnInstCd": "6301219",
-     "sprvsnInstCdNm": "대전광역시 의료건강국",
-     "sprvsnInstPicNm": "천현지",
-     "operInstCd": "6301226",
-     "operInstCdNm": "대전광역시 의료건강국 농생명정책과",
+     "plcyNm": "소프트웨어(SW) 미래채움사업",
+     "plcyKywdNm": "교육지원",
+     "plcyExplnCn": "- 지역 SW교육 거점센터 운영(SW미래채움 충북센터)\n- SW 전문강사 교육 프로그램 운영 및 강사 채용\n- 찾아가는/찾아오는 SW교육, SW체험, 경진대회 등 교육프로그램 운영",
+     "lclsfNm": "교육･직업훈련",
+     "mclsfNm": "미래역량강화",
+     "plcySprtCn": "- 지역 SW교육 거점센터 운영(SW미래채움 충북센터)\n- SW 전문강사 교육 프로그램 운영 및 강사 채용\n- 찾아가는/찾아오는 SW교육, SW체험, 경진대회 등 교육프로그램 운영",
+     "sprvsnInstCd": "1721000",
+     "sprvsnInstCdNm": "과학기술정보통신부",
+     "sprvsnInstPicNm": "",
+     "operInstCd": "       ",
+     "operInstCdNm": "",
      "operInstPicNm": "",
      "sprtSclLmtYn": "N",
      "aplyPrdSeCd": "0057001",
-     "bizPrdSeCd": "0056001",
-     "bizPrdBgngYmd": "20270401",
-     "bizPrdEndYmd": "20271231",
-     "bizPrdEtcCn": "",
+     "bizPrdSeCd": "0056002",
+     "bizPrdBgngYmd": "        ",
+     "bizPrdEndYmd": "        ",
+     "bizPrdEtcCn": "2019년~계속",
      "plcyAplyMthdCn": "",
      "srngMthdCn": "",
      "aplyUrlAddr": "",
      "sbmsnDcmntCn": "",
      "etcMttrCn": "",
-     "refUrlAddr1": "https://www.mafra.go.kr/home/5248/subview.do?enc=Zm5jdDF8QEB8JTJGYmJzJTJGaG9tZSUyRjc5NSUyRjU3NjAxMyUyRmFydGNsVmlldy5kbyUzRg%3D%3D",
+     "refUrlAddr1": "https://www.chungbuk.go.kr/young/contents.do?key=5048",
+     "refUrlAddr2": "",
+     "sprtSclCnt": "80",
+     "sprtArvlSeqYn": "N",
+     "sprtTrgtMinAge": "0",
+     "sprtTrgtMaxAge": "0",
+     "sprtTrgtAgeLmtYn": "Y",
+     "mrgSttsCd": "0055003",
+     "earnCndSeCd": "0043001",
+     "earnMinAmt": "0",
+     "earnMaxAmt": "0",
+     "earnEtcCn": "",
+     "addAplyQlfcCndCn": "(강사 양성) 경력단절여성, 미취업 청년, 퇴직자\n(SW 교육) 초중고등학생 ",
+     "ptcpPrpTrgtCn": "",
+     "inqCnt": "15",
+     "rgtrInstCd": "6431068",
+     "rgtrInstCdNm": "충청북도 기획조정실 인구청년정책담당관",
+     "rgtrUpInstCd": "6431053",
+     "rgtrUpInstCdNm": "충청북도 기획조정실",
+     "rgtrHghrkInstCd": "6430000",
+     "rgtrHghrkInstCdNm": "충청북도",
+     "zipCd": "43111,43112,43113,43114,43130,43150,43720,43730,43740,43745,43750,43760,43770,43800",
+     "plcyMajorCd": "0011009",
+     "jobCd": "0013010",
+     "schoolCd": "0049010",
+     "aplyYmd": "20260101 ~ 20260131",
+     "frstRegDt": "2026-10-04 15:50:07",
+     "lastMdfcnDt": "2026-10-06 13:19:14",
+     "sbizCd": "0014010"
+    },
+    {
+     "plcyNo": "20261004005400113857",
+     "bscPlanCycl": "2",
+     "bscPlanPlcyWayNo": "002",
+     "bscPlanFcsAsmtNo": "005",
+     "bscPlanAsmtNo": "017",
+     "pvsnInstGroupCd": "0054002",
+     "plcyPvsnMthdCd": "0042002",
+     "plcyAprvSttsCd": "0044002",
+     "plcyNm": "ICT이노베이션스퀘어 확산 사업",
+     "plcyKywdNm": "교육지원",
+     "plcyExplnCn": "- (디지털신기술 교육) 지역산업 특화 디지털 신기술(AI·데이터·블록체인 등) 기반 AI융합형 디지털 실무인재 양성\n- (콤플렉스 운영) 지역 디지털인재양성 거점공간 운영 및 AI허브기능 강화",
+     "lclsfNm": "교육･직업훈련",
+     "mclsfNm": "미래역량강화",
+     "plcySprtCn": "- (디지털신기술 교육) 지역산업 특화 디지털 신기술(AI·데이터·블록체인 등) 기반 AI융합형 디지털 실무인재 양성\n- (콤플렉스 운영) 지역 디지털인재양성 거점공간 운영 및 AI허브기능 강화",
+     "sprvsnInstCd": "1721000",
+     "sprvsnInstCdNm": "과학기술정보통신부",
+     "sprvsnInstPicNm": "",
+     "operInstCd": "       ",
+     "operInstCdNm": "",
+     "operInstPicNm": "",
+     "sprtSclLmtYn": "N",
+     "aplyPrdSeCd": "0057002",
+     "bizPrdSeCd": "0056002",
+     "bizPrdBgngYmd": "        ",
+     "bizPrdEndYmd": "        ",
+     "bizPrdEtcCn": "2020년 ~ 계속",
+     "plcyAplyMthdCn": "",
+     "srngMthdCn": "",
+     "aplyUrlAddr": "",
+     "sbmsnDcmntCn": "",
+     "etcMttrCn": "",
+     "refUrlAddr1": "https://www.cbist.or.kr/home/sub.do?mncd=1296",
      "refUrlAddr2": "",
      "sprtSclCnt": "0",
      "sprtArvlSeqYn": "N",
@@ -940,84 +1002,22 @@
      "earnMinAmt": "0",
      "earnMaxAmt": "0",
      "earnEtcCn": "",
-     "addAplyQlfcCndCn": "사업 시행 연도 농림축산식품부 지원 '대학생 천원의 아침밥' 선정 대학 중 관내 시비 지원 희망 대학",
+     "addAplyQlfcCndCn": "(연령 기준) 18세 이상",
      "ptcpPrpTrgtCn": "",
-     "inqCnt": "32",
-     "rgtrInstCd": "6300000",
-     "rgtrInstCdNm": "대전광역시",
-     "rgtrUpInstCd": "0000000",
-     "rgtrUpInstCdNm": "대전광역시",
-     "rgtrHghrkInstCd": "6300000",
-     "rgtrHghrkInstCdNm": "대전광역시",
-     "zipCd": "30110,30140,30170,30200,30230",
+     "inqCnt": "7",
+     "rgtrInstCd": "6431068",
+     "rgtrInstCdNm": "충청북도 기획조정실 인구청년정책담당관",
+     "rgtrUpInstCd": "6431053",
+     "rgtrUpInstCdNm": "충청북도 기획조정실",
+     "rgtrHghrkInstCd": "6430000",
+     "rgtrHghrkInstCdNm": "충청북도",
+     "zipCd": "43111,43112,43113,43114,43130,43150,43720,43730,43740,43745,43750,43760,43770,43800",
      "plcyMajorCd": "0011009",
      "jobCd": "0013010",
-     "schoolCd": "0049005",
-     "aplyYmd": "20270102 ~ 20270228",
-     "frstRegDt": "2026-10-02 18:17:43",
-     "lastMdfcnDt": "2026-10-02 18:31:30",
-     "sbizCd": "0014010"
-    },
-    {
-     "plcyNo": "20261002005400213835",
-     "bscPlanCycl": "2",
-     "bscPlanPlcyWayNo": "004",
-     "bscPlanFcsAsmtNo": "014",
-     "bscPlanAsmtNo": "055",
-     "pvsnInstGroupCd": "0054002",
-     "plcyPvsnMthdCd": "0042002",
-     "plcyAprvSttsCd": "0044002",
-     "plcyNm": "직장맘지원센터 운영",
-     "plcyKywdNm": "맞춤형상담서비스",
-     "plcyExplnCn": "일하는 여성의 노동권 및 모성권 보호를 위한 전문 고충 상담으로 경력단절 예방과 일·생활의 균형 도모",
-     "lclsfNm": "금융･복지･문화",
-     "mclsfNm": "문화활동 및 생활지원",
-     "plcySprtCn": " ㅇ 직장맘의 법적권리를 위한 제도적 정보 제공, 사용자의 부당행위에 대한 노무상담 및 분쟁해결 등 경력단절예방을 위한 플랫폼 역할 수행\n   - 상근노무사의 실시간 고충 상담 전문 창구를 통해 노무상담 지원 및 유관기관 서비스 연계로 교육, 심리상담 등 밀착 지원",
-     "sprvsnInstCd": "5690000",
-     "sprvsnInstCdNm": "세종특별자치시",
-     "sprvsnInstPicNm": "",
-     "operInstCd": "       ",
-     "operInstCdNm": "",
-     "operInstPicNm": "",
-     "sprtSclLmtYn": "N",
-     "aplyPrdSeCd": "0057002",
-     "bizPrdSeCd": "0056002",
-     "bizPrdBgngYmd": "        ",
-     "bizPrdEndYmd": "        ",
-     "bizPrdEtcCn": "연중 계속",
-     "plcyAplyMthdCn": "",
-     "srngMthdCn": "",
-     "aplyUrlAddr": "",
-     "sbmsnDcmntCn": "",
-     "etcMttrCn": "",
-     "refUrlAddr1": "https://sj-equity.or.kr/",
-     "refUrlAddr2": "https://sj.pass.or.kr/menu.es?mid=a10203030000",
-     "sprtSclCnt": "300",
-     "sprtArvlSeqYn": "N",
-     "sprtTrgtMinAge": "0",
-     "sprtTrgtMaxAge": "0",
-     "sprtTrgtAgeLmtYn": "Y",
-     "mrgSttsCd": "0055001",
-     "earnCndSeCd": "0043001",
-     "earnMinAmt": "0",
-     "earnMaxAmt": "0",
-     "earnEtcCn": "",
-     "addAplyQlfcCndCn": "",
-     "ptcpPrpTrgtCn": "",
-     "inqCnt": "18",
-     "rgtrInstCd": "5690000",
-     "rgtrInstCdNm": "세종특별자치시",
-     "rgtrUpInstCd": "0000000",
-     "rgtrUpInstCdNm": "세종특별자치시",
-     "rgtrHghrkInstCd": "5690000",
-     "rgtrHghrkInstCdNm": "세종특별자치시",
-     "zipCd": "36110",
-     "plcyMajorCd": "0011009",
-     "jobCd": "0013001,0013002,0013004,0013005,0013007,0013008",
      "schoolCd": "0049010",
      "aplyYmd": "",
-     "frstRegDt": "2026-10-02 18:12:13",
-     "lastMdfcnDt": "2026-10-02 18:30:47",
+     "frstRegDt": "2026-10-04 15:46:48",
+     "lastMdfcnDt": "2026-10-06 13:18:03",
      "sbizCd": "0014010"
     }
    ],
@@ -1027,14 +1027,14 @@
    }
   }
  },
- "updated_at": "2026-10-06T10:38+09:00",
+ "updated_at": "2026-10-07T09:18+09:00",
  "status": {
   "보조금24": "ok",
   "온통청년": "ok"
  },
  "schedule": {
-  "always": 1211,
-  "deadline": 458,
+  "always": 1207,
+  "deadline": 461,
   "yearly_window": 138
  }
 }

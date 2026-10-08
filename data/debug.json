@@ -311,10 +311,10 @@
     }
    ],
    "counts": {
-    "raw": 10951,
-    "conditions": 10951,
+    "raw": 10950,
+    "conditions": 10950,
     "used": 2068,
-    "region": 8622,
+    "region": 8621,
     "age": 261
    },
    "fields": [
@@ -396,19 +396,161 @@
   "온통청년": {
    "dropped_region": [
     {
-     "title": "소프트웨어(SW) 미래채움사업",
-     "zips": 14,
+     "title": "청년 해외인턴 지원사업",
+     "zips": 23,
      "zip_sample": [
-      "43111",
-      "43112",
-      "43113",
-      "43114",
-      "43130"
+      "47111",
+      "47113",
+      "47130",
+      "47150",
+      "47170"
      ],
-     "agency": "과학기술정보통신부"
+     "agency": "경상북도"
     },
     {
-     "title": "ICT이노베이션스퀘어 확산 사업",
+     "title": "청년농업인 네트워크 활성화 지원",
+     "zips": 1,
+     "zip_sample": [
+      "52140"
+     ],
+     "agency": "전북특별자치도 익산시 농업기술센터"
+    },
+    {
+     "title": "익산청년시청 소식지‘For the Youth’",
+     "zips": 1,
+     "zip_sample": [
+      "52140"
+     ],
+     "agency": "전북특별자치도 익산시 청년경제국"
+    },
+    {
+     "title": "익산청년시청 청년정책 제안소",
+     "zips": 256,
+     "agency": "전북특별자치도 익산시 청년경제국",
+     "why": "기관/제목이 다른 지역"
+    },
+    {
+     "title": "출산장려금 지원",
+     "zips": 1,
+     "zip_sample": [
+      "52140"
+     ],
+     "agency": "전북특별자치도 익산시 복지국"
+    },
+    {
+     "title": "1시민 1악기",
+     "zips": 1,
+     "zip_sample": [
+      "52140"
+     ],
+     "agency": "전북특별자치도 익산시 문화교육국"
+    },
+    {
+     "title": "전입세대 전입장려금 지원",
+     "zips": 1,
+     "zip_sample": [
+      "52140"
+     ],
+     "agency": "전북특별자치도 익산시 기획안전국"
+    },
+    {
+     "title": "청년농업인 농자재 지원사업",
+     "zips": 1,
+     "zip_sample": [
+      "52140"
+     ],
+     "agency": "전북특별자치도 익산시 농업기술센터"
+    },
+    {
+     "title": "청년농업인 선진영농 기술도입 기반조성",
+     "zips": 1,
+     "zip_sample": [
+      "52140"
+     ],
+     "agency": "전북특별자치도 익산시 농업기술센터"
+    },
+    {
+     "title": "청년농업인 시설하우스 설치지원",
+     "zips": 1,
+     "zip_sample": [
+      "52140"
+     ],
+     "agency": "전북특별자치도 익산시 농업기술센터"
+    },
+    {
+     "title": "청년농업인 농업기계 자율주행 기술도입 지원",
+     "zips": 1,
+     "zip_sample": [
+      "52140"
+     ],
+     "agency": "전북특별자치도 익산시"
+    },
+    {
+     "title": "대학일자리플러스센터운영",
+     "zips": 256,
+     "agency": "전북특별자치도 익산시",
+     "why": "기관/제목이 다른 지역"
+    },
+    {
+     "title": "익산 통합일자리센터 운영",
+     "zips": 1,
+     "zip_sample": [
+      "52140"
+     ],
+     "agency": "전북특별자치도 익산시"
+    },
+    {
+     "title": "고향올래(로컬벤처)사업",
+     "zips": 255,
+     "agency": "전북특별자치도 익산시",
+     "why": "기관/제목이 다른 지역"
+    },
+    {
+     "title": "특성화고 나노융합기술인력 양성 사업",
+     "zips": 23,
+     "zip_sample": [
+      "47111",
+      "47113",
+      "47130",
+      "47150",
+      "47170"
+     ],
+     "agency": "산업통상부"
+    },
+    {
+     "title": "2026년 전남광주 제3기「지역자원 연계 청년창업 지원사업」",
+     "zips": 13,
+     "zip_sample": [
+      "12710",
+      "12730",
+      "12740",
+      "12760",
+      "12770"
+     ],
+     "agency": "전남광주통합특별시"
+    },
+    {
+     "title": "청년 자립마을 활성화 지원사업",
+     "zips": 27,
+     "zip_sample": [
+      "12110",
+      "12130",
+      "12150",
+      "12170",
+      "12190"
+     ],
+     "agency": "전남광주통합특별시"
+    },
+    {
+     "title": "2026년 나주시 취업 청년 임대주택 지원사업 입주자 추가 모집",
+     "zips": 1,
+     "zip_sample": [
+      "12170"
+     ],
+     "agency": "전남광주통합특별시"
+    },
+    {
+     "title": "충북청년희망센터 운영",
      "zips": 14,
      "zip_sample": [
       "43111",
@@ -417,307 +559,249 @@
       "43114",
       "43130"
      ],
-     "agency": "과학기술정보통신부"
+     "agency": "충청북도 기획조정실 인구청년정책담당관"
+    },
+    {
+     "title": "충북인재 재능나눔 사업",
+     "zips": 14,
+     "zip_sample": [
+      "43111",
+      "43112",
+      "43113",
+      "43114",
+      "43130"
+     ],
+     "agency": "충청북도 AI과학인재국 미래인재육성과"
+    },
+    {
+     "title": "충북인재 정책제안 지원사업",
+     "zips": 14,
+     "zip_sample": [
+      "43111",
+      "43112",
+      "43113",
+      "43114",
+      "43130"
+     ],
+     "agency": "충청북도 AI과학인재국 미래인재육성과"
+    },
+    {
+     "title": "제11기 충북청년도정참여단",
+     "zips": 14,
+     "zip_sample": [
+      "43111",
+      "43112",
+      "43113",
+      "43114",
+      "43130"
+     ],
+     "agency": "충청북도 기획조정실 인구청년정책담당관"
+    },
+    {
+     "title": "충청북도 청년정책조정위원회 운영",
+     "zips": 14,
+     "zip_sample": [
+      "43111",
+      "43112",
+      "43113",
+      "43114",
+      "43130"
+     ],
+     "agency": "충청북도 기획조정실 인구청년정책담당관"
+    },
+    {
+     "title": "금왕산단 청년문화센터 건립사업",
+     "zips": 1,
+     "zip_sample": [
+      "43770"
+     ],
+     "agency": "산업통상부"
     },
     {
      "title": "청년 문화예술패스",
-     "zips": 1,
+     "zips": 14,
      "zip_sample": [
-      "36110"
+      "43111",
+      "43112",
+      "43113",
+      "43114",
+      "43130"
      ],
-     "agency": "세종특별자치시"
+     "agency": "문화체육관광부"
     },
     {
-     "title": "이스포츠 활성화 지원",
-     "zips": 1,
+     "title": "충북 청년 축제",
+     "zips": 14,
      "zip_sample": [
-      "36110"
+      "43111",
+      "43112",
+      "43113",
+      "43114",
+      "43130"
      ],
-     "agency": "세종특별자치시"
+     "agency": "충청북도 기획조정실 인구청년정책담당관"
     },
     {
-     "title": "지역과학문화 역량강화 사업",
-     "zips": 1,
+     "title": "충청북도 대학스포츠 동아리 대회",
+     "zips": 14,
      "zip_sample": [
-      "36110"
+      "43111",
+      "43112",
+      "43113",
+      "43114",
+      "43130"
      ],
-     "agency": "세종특별자치시"
+     "agency": "충청북도 문화체육관광국 체육진흥과"
     },
     {
-     "title": "청춘 건강상담소 사업 운영 (모바일헬스케어)",
-     "zips": 1,
-     "zip_sample": [
-      "36110"
-     ],
-     "agency": "세종특별자치시"
+     "title": "전국대학무용경연대회",
+     "zips": 256,
+     "agency": "충청북도 문화체육관광국 문화예술산업과",
+     "why": "기관/제목이 다른 지역"
     },
     {
-     "title": "청년사회서비스사업단 운영",
-     "zips": 1,
+     "title": "충북 젊은작가 창작작품 페스티벌",
+     "zips": 14,
      "zip_sample": [
-      "36110"
+      "43111",
+      "43112",
+      "43113",
+      "43114",
+      "43130"
      ],
-     "agency": "세종특별자치시"
+     "agency": "충청북도 문화체육관광국 문화예술산업과"
     },
     {
-     "title": "청년마음건강센터 운영",
-     "zips": 1,
+     "title": "농식품 바우처 사업",
+     "zips": 14,
      "zip_sample": [
-      "36110"
+      "43111",
+      "43112",
+      "43113",
+      "43114",
+      "43130"
      ],
-     "agency": "세종특별자치시"
+     "agency": "농림축산식품부"
     },
     {
-     "title": "청소년 한부모 아동양육 및 자립지원",
-     "zips": 1,
+     "title": "천원의 아침밥",
+     "zips": 14,
      "zip_sample": [
-      "36110"
+      "43111",
+      "43112",
+      "43113",
+      "43114",
+      "43130"
      ],
-     "agency": "세종특별자치시"
+     "agency": "농림축산식품부"
     },
     {
-     "title": "자립지원전담기관 운영",
-     "zips": 1,
+     "title": "청년층 자살시도자 치료비 지원",
+     "zips": 14,
      "zip_sample": [
-      "36110"
+      "43111",
+      "43112",
+      "43113",
+      "43114",
+      "43130"
      ],
-     "agency": "세종특별자치시"
+     "agency": "보건복지부"
     },
     {
-     "title": "보호종료아동 자립수당 및 자립정착금 지원",
-     "zips": 1,
+     "title": "중독 예방·치료 지원(중독자 정신건강 지원사업)",
+     "zips": 14,
      "zip_sample": [
-      "36110"
+      "43111",
+      "43112",
+      "43113",
+      "43114",
+      "43130"
      ],
-     "agency": "세종특별자치시"
+     "agency": "보건복지부"
     },
     {
-     "title": "일상돌봄서비스 사업",
-     "zips": 1,
+     "title": "청년층 정신건강서비스 강화(충북청년마음건강센터 운영)",
+     "zips": 14,
      "zip_sample": [
-      "36110"
+      "43111",
+      "43112",
+      "43113",
+      "43114",
+      "43130"
      ],
-     "agency": "세종특별자치시"
+     "agency": "보건복지부"
     },
     {
-     "title": "청년내일저축계좌",
-     "zips": 1,
+     "title": "영구적 불임예상 생식세포 동결‧보존 등 지원",
+     "zips": 14,
      "zip_sample": [
-      "36110"
+      "43111",
+      "43112",
+      "43113",
+      "43114",
+      "43130"
      ],
-     "agency": "세종특별자치시"
+     "agency": "보건복지부"
     },
     {
-     "title": "공공시설 나만의 결혼식",
-     "zips": 1,
+     "title": "태교1일 프로그램 운영(맘(Mom) 편한 태교 패키지 지원)",
+     "zips": 6,
      "zip_sample": [
-      "36110"
+      "43150",
+      "43720",
+      "43730",
+      "43740",
+      "43760"
      ],
-     "agency": "세종특별자치시"
+     "agency": "충청북도 기획조정실 인구청년정책담당관"
     },
     {
-     "title": "대학생 천원의 아침밥 지원 사업",
+     "title": "인구감소지역 결혼지원금",
      "zips": 5,
      "zip_sample": [
-      "30110",
-      "30140",
-      "30170",
-      "30200",
-      "30230"
+      "43150",
+      "43720",
+      "43740",
+      "43760",
+      "43800"
      ],
-     "agency": "대전광역시 의료건강국"
+     "agency": "충청북도 기획조정실 인구청년정책담당관"
     },
     {
-     "title": "직장맘지원센터 운영",
-     "zips": 1,
+     "title": "출산육아수당 지원",
+     "zips": 14,
      "zip_sample": [
-      "36110"
+      "43111",
+      "43112",
+      "43113",
+      "43114",
+      "43130"
      ],
-     "agency": "세종특별자치시"
+     "agency": "충청북도 기획조정실 인구청년정책담당관"
     },
     {
-     "title": "아이돌보는 아빠장려금 지원",
-     "zips": 1,
+     "title": "자립준비청년 자립수당 지급",
+     "zips": 14,
      "zip_sample": [
-      "36110"
+      "43111",
+      "43112",
+      "43113",
+      "43114",
+      "43130"
      ],
-     "agency": "세종특별자치시"
+     "agency": "보건복지부"
     },
     {
-     "title": "청년예술가 육성 지원(신진예술지원)",
-     "zips": 1,
+     "title": "희망디딤돌 충북센터 운영",
+     "zips": 14,
      "zip_sample": [
-      "36110"
+      "43111",
+      "43112",
+      "43113",
+      "43114",
+      "43130"
      ],
-     "agency": "세종특별자치시"
-    },
-    {
-     "title": "세종웹툰캠퍼스 조성 및 운영 사업",
-     "zips": 1,
-     "zip_sample": [
-      "36110"
-     ],
-     "agency": "세종특별자치시"
-    },
-    {
-     "title": "세종 청년주간 운영",
-     "zips": 1,
-     "zip_sample": [
-      "36110"
-     ],
-     "agency": "세종특별자치시"
-    },
-    {
-     "title": "임산부 및 모자보건 지원",
-     "zips": 1,
-     "zip_sample": [
-      "36110"
-     ],
-     "agency": "세종특별자치시"
-    },
-    {
-     "title": "산모·신생아 건강관리 지원",
-     "zips": 1,
-     "zip_sample": [
-      "36110"
-     ],
-     "agency": "세종특별자치시"
-    },
-    {
-     "title": "난임 부부 지원",
-     "zips": 1,
-     "zip_sample": [
-      "36110"
-     ],
-     "agency": "세종특별자치시"
-    },
-    {
-     "title": "세종 청년미래적금 운영",
-     "zips": 1,
-     "zip_sample": [
-      "36110"
-     ],
-     "agency": "세종특별자치시"
-    },
-    {
-     "title": "전세보증금반환보증 보증료 지원",
-     "zips": 1,
-     "zip_sample": [
-      "36110"
-     ],
-     "agency": "세종특별자치시"
-    },
-    {
-     "title": "기초청년 주거급여(임차급여)",
-     "zips": 1,
-     "zip_sample": [
-      "36110"
-     ],
-     "agency": "세종특별자치시"
-    },
-    {
-     "title": "청년월세 지원",
-     "zips": 1,
-     "zip_sample": [
-      "36110"
-     ],
-     "agency": "세종특별자치시"
-    },
-    {
-     "title": "청년 주택임차보증금 이자 지원",
-     "zips": 1,
-     "zip_sample": [
-      "36110"
-     ],
-     "agency": "세종특별자치시"
-    },
-    {
-     "title": "세종형 청년 주거 임대료 지원（월세지원）",
-     "zips": 1,
-     "zip_sample": [
-      "36110"
-     ],
-     "agency": "세종특별자치시"
-    },
-    {
-     "title": "지역혁신중심 대학지원체계",
-     "zips": 1,
-     "zip_sample": [
-      "36110"
-     ],
-     "agency": "세종특별자치시"
-    },
-    {
-     "title": "지역혁신클러스터 내 계약랩 운영",
-     "zips": 1,
-     "zip_sample": [
-      "36110"
-     ],
-     "agency": "세종특별자치시"
-    },
-    {
-     "title": "사이버보안 전문인력 양성",
-     "zips": 1,
-     "zip_sample": [
-      "36110"
-     ],
-     "agency": "세종특별자치시"
-    },
-    {
-     "title": "로컬콘텐츠 중점대학 지원사업",
-     "zips": 1,
-     "zip_sample": [
-      "36110"
-     ],
-     "agency": "세종특별자치시"
-    },
-    {
-     "title": "공동캠퍼스 조성",
-     "zips": 1,
-     "zip_sample": [
-      "36110"
-     ],
-     "agency": "세종특별자치시"
-    },
-    {
-     "title": "공학교육혁신센터 지원",
-     "zips": 1,
-     "zip_sample": [
-      "36110"
-     ],
-     "agency": "세종특별자치시"
-    },
-    {
-     "title": "지역ICT 이노베이션스퀘어 운영",
-     "zips": 1,
-     "zip_sample": [
-      "36110"
-     ],
-     "agency": "세종특별자치시"
-    },
-    {
-     "title": "반도체특성화대학 지원사업",
-     "zips": 256,
-     "agency": "세종특별자치시",
-     "why": "기관/제목이 다른 지역"
-    },
-    {
-     "title": "청년농업인 현장실습교육",
-     "zips": 256,
-     "agency": "세종특별자치시",
-     "why": "기관/제목이 다른 지역"
-    },
-    {
-     "title": "청년농업인 영농정착 지원사업",
-     "zips": 256,
-     "agency": "세종특별자치시",
-     "why": "기관/제목이 다른 지역"
-    },
-    {
-     "title": "청년성장프로젝트",
-     "zips": 256,
-     "agency": "세종특별자치시",
-     "why": "기관/제목이 다른 지역"
+     "agency": "충청북도 보건복지국 복지정책과"
     }
    ],
    "dropped_age": [
@@ -828,9 +912,9 @@
     }
    ],
    "counts": {
-    "raw": 3164,
-    "used": 639,
-    "region": 2504,
+    "raw": 3237,
+    "used": 649,
+    "region": 2567,
     "age": 21
    },
    "fields": [
@@ -897,7 +981,69 @@
    ],
    "raw_examples": [
     {
-     "plcyNo": "20261004005400113858",
+     "plcyNo": "20261007005400213929",
+     "bscPlanCycl": "2",
+     "bscPlanPlcyWayNo": "001",
+     "bscPlanFcsAsmtNo": "002",
+     "bscPlanAsmtNo": "005",
+     "pvsnInstGroupCd": "0054002",
+     "plcyPvsnMthdCd": "0042002",
+     "plcyAprvSttsCd": "0044002",
+     "plcyNm": "청년 해외인턴 지원사업",
+     "plcyKywdNm": "인턴,해외진출",
+     "plcyExplnCn": "경북 해외자문위원 및 해외 한인기업과 연계하여 도내 청년에게 해외 현장 실무경험을 제공하고, 국제 경쟁력 강화를 지원",
+     "lclsfNm": "일자리",
+     "mclsfNm": "취업",
+     "plcySprtCn": "참가자의 원활한 해외인턴 활동을 지원하기 위해 비자 발급비, 출국 항공료, 실손 보험료 등 출국에 필요한 비용을 지원하고, 사업 설명회와 사전 교육, 오리엔테이션, 수료생 간담회 등을 운영하여 참가자의 사업 이해도를 높이고 현지 적응 및 인턴 활동을 지원",
+     "sprvsnInstCd": "6470000",
+     "sprvsnInstCdNm": "경상북도",
+     "sprvsnInstPicNm": "권순태",
+     "operInstCd": "B553285",
+     "operInstCdNm": "(재)경상북도경제진흥원",
+     "operInstPicNm": "정유진",
+     "sprtSclLmtYn": "N",
+     "aplyPrdSeCd": "0057001",
+     "bizPrdSeCd": "0056001",
+     "bizPrdBgngYmd": "20260301",
+     "bizPrdEndYmd": "20270228",
+     "bizPrdEtcCn": "",
+     "plcyAplyMthdCn": "경상북도경제진흥원-지원사업마당-지원사업안내 참조",
+     "srngMthdCn": "",
+     "aplyUrlAddr": "",
+     "sbmsnDcmntCn": "모집 공고 참조",
+     "etcMttrCn": "",
+     "refUrlAddr1": "https://www.gepa.kr/",
+     "refUrlAddr2": "https://www.gepa.kr/?page_id=36",
+     "sprtSclCnt": "0",
+     "sprtArvlSeqYn": "N",
+     "sprtTrgtMinAge": "19",
+     "sprtTrgtMaxAge": "30",
+     "sprtTrgtAgeLmtYn": "N",
+     "mrgSttsCd": "0055003",
+     "earnCndSeCd": "0043001",
+     "earnMinAmt": "0",
+     "earnMaxAmt": "0",
+     "earnEtcCn": "",
+     "addAplyQlfcCndCn": "",
+     "ptcpPrpTrgtCn": "",
+     "inqCnt": "1",
+     "rgtrInstCd": "6470000",
+     "rgtrInstCdNm": "경상북도",
+     "rgtrUpInstCd": "0000000",
+     "rgtrUpInstCdNm": "경상북도",
+     "rgtrHghrkInstCd": "6470000",
+     "rgtrHghrkInstCdNm": "경상북도",
+     "zipCd": "47111,47113,47130,47150,47170,47190,47210,47230,47250,47280,47290,47730,47750,47760,47770,47820,47830,47840,47850,47900,47920,47930,47940",
+     "plcyMajorCd": "0011009",
+     "jobCd": "0013003",
+     "schoolCd": "0049004,0049005,0049006,0049007",
+     "aplyYmd": "20260301 ~ 20261231",
+     "frstRegDt": "2026-10-07 17:35:26",
+     "lastMdfcnDt": "2026-10-08 09:38:05",
+     "sbizCd": "0014010"
+    },
+    {
+     "plcyNo": "20261007005400213928",
      "bscPlanCycl": "2",
      "bscPlanPlcyWayNo": "002",
      "bscPlanFcsAsmtNo": "005",
@@ -905,14 +1051,14 @@
      "pvsnInstGroupCd": "0054002",
      "plcyPvsnMthdCd": "0042002",
      "plcyAprvSttsCd": "0044002",
-     "plcyNm": "소프트웨어(SW) 미래채움사업",
+     "plcyNm": "경기청년 갭이어 프로그램",
      "plcyKywdNm": "교육지원",
-     "plcyExplnCn": "- 지역 SW교육 거점센터 운영(SW미래채움 충북센터)\n- SW 전문강사 교육 프로그램 운영 및 강사 채용\n- 찾아가는/찾아오는 SW교육, SW체험, 경진대회 등 교육프로그램 운영",
+     "plcyExplnCn": "청년 스스로 하고 싶은 일을 탐색하고, 실패에 대한 두려움을 깰 수 있는 도전과 시도를 통한 변화의 기회 제공",
      "lclsfNm": "교육･직업훈련",
      "mclsfNm": "미래역량강화",
-     "plcySprtCn": "- 지역 SW교육 거점센터 운영(SW미래채움 충북센터)\n- SW 전문강사 교육 프로그램 운영 및 강사 채용\n- 찾아가는/찾아오는 SW교육, SW체험, 경진대회 등 교육프로그램 운영",
-     "sprvsnInstCd": "1721000",
-     "sprvsnInstCdNm": "과학기술정보통신부",
+     "plcySprtCn": "진로탐색 프로젝트 수행, 분야별 전문가 멘토링, 취·창업 연계 등",
+     "sprvsnInstCd": "B555267",
+     "sprvsnInstCdNm": "재단법인경기도미래세대재단",
      "sprvsnInstPicNm": "",
      "operInstCd": "       ",
      "operInstCdNm": "",
@@ -922,102 +1068,40 @@
      "bizPrdSeCd": "0056002",
      "bizPrdBgngYmd": "        ",
      "bizPrdEndYmd": "        ",
-     "bizPrdEtcCn": "2019년~계속",
-     "plcyAplyMthdCn": "",
+     "bizPrdEtcCn": "2026년 3월~12월",
+     "plcyAplyMthdCn": "경기도일자리재단 통합접수시스템 '잡아바 어플라이'(https://apply.jobaba.net/) 온라인 신청",
      "srngMthdCn": "",
-     "aplyUrlAddr": "",
+     "aplyUrlAddr": "https://apply.jobaba.net/",
      "sbmsnDcmntCn": "",
-     "etcMttrCn": "",
-     "refUrlAddr1": "https://www.chungbuk.go.kr/young/contents.do?key=5048",
-     "refUrlAddr2": "",
-     "sprtSclCnt": "80",
-     "sprtArvlSeqYn": "N",
-     "sprtTrgtMinAge": "0",
-     "sprtTrgtMaxAge": "0",
-     "sprtTrgtAgeLmtYn": "Y",
-     "mrgSttsCd": "0055003",
-     "earnCndSeCd": "0043001",
-     "earnMinAmt": "0",
-     "earnMaxAmt": "0",
-     "earnEtcCn": "",
-     "addAplyQlfcCndCn": "(강사 양성) 경력단절여성, 미취업 청년, 퇴직자\n(SW 교육) 초중고등학생 ",
-     "ptcpPrpTrgtCn": "",
-     "inqCnt": "15",
-     "rgtrInstCd": "6431068",
-     "rgtrInstCdNm": "충청북도 기획조정실 인구청년정책담당관",
-     "rgtrUpInstCd": "6431053",
-     "rgtrUpInstCdNm": "충청북도 기획조정실",
-     "rgtrHghrkInstCd": "6430000",
-     "rgtrHghrkInstCdNm": "충청북도",
-     "zipCd": "43111,43112,43113,43114,43130,43150,43720,43730,43740,43745,43750,43760,43770,43800",
-     "plcyMajorCd": "0011009",
-     "jobCd": "0013010",
-     "schoolCd": "0049010",
-     "aplyYmd": "20260101 ~ 20260131",
-     "frstRegDt": "2026-10-04 15:50:07",
-     "lastMdfcnDt": "2026-10-06 13:19:14",
-     "sbizCd": "0014010"
-    },
-    {
-     "plcyNo": "20261004005400113857",
-     "bscPlanCycl": "2",
-     "bscPlanPlcyWayNo": "002",
-     "bscPlanFcsAsmtNo": "005",
-     "bscPlanAsmtNo": "017",
-     "pvsnInstGroupCd": "0054002",
-     "plcyPvsnMthdCd": "0042002",
-     "plcyAprvSttsCd": "0044002",
-     "plcyNm": "ICT이노베이션스퀘어 확산 사업",
-     "plcyKywdNm": "교육지원",
-     "plcyExplnCn": "- (디지털신기술 교육) 지역산업 특화 디지털 신기술(AI·데이터·블록체인 등) 기반 AI융합형 디지털 실무인재 양성\n- (콤플렉스 운영) 지역 디지털인재양성 거점공간 운영 및 AI허브기능 강화",
-     "lclsfNm": "교육･직업훈련",
-     "mclsfNm": "미래역량강화",
-     "plcySprtCn": "- (디지털신기술 교육) 지역산업 특화 디지털 신기술(AI·데이터·블록체인 등) 기반 AI융합형 디지털 실무인재 양성\n- (콤플렉스 운영) 지역 디지털인재양성 거점공간 운영 및 AI허브기능 강화",
-     "sprvsnInstCd": "1721000",
-     "sprvsnInstCdNm": "과학기술정보통신부",
-     "sprvsnInstPicNm": "",
-     "operInstCd": "       ",
-     "operInstCdNm": "",
-     "operInstPicNm": "",
-     "sprtSclLmtYn": "N",
-     "aplyPrdSeCd": "0057002",
-     "bizPrdSeCd": "0056002",
-     "bizPrdBgngYmd": "        ",
-     "bizPrdEndYmd": "        ",
-     "bizPrdEtcCn": "2020년 ~ 계속",
-     "plcyAplyMthdCn": "",
-     "srngMthdCn": "",
-     "aplyUrlAddr": "",
-     "sbmsnDcmntCn": "",
-     "etcMttrCn": "",
-     "refUrlAddr1": "https://www.cbist.or.kr/home/sub.do?mncd=1296",
+     "etcMttrCn": "위 내용은 사업 안내를 위함으로, 사업 기간 및 제출 서류 등은 반드시 사업 추진 기관의 상세 공고를 확인하시길 바랍니다.",
+     "refUrlAddr1": "https://youth.gg.go.kr/gg/index.do",
      "refUrlAddr2": "",
      "sprtSclCnt": "0",
      "sprtArvlSeqYn": "N",
-     "sprtTrgtMinAge": "0",
-     "sprtTrgtMaxAge": "0",
-     "sprtTrgtAgeLmtYn": "Y",
+     "sprtTrgtMinAge": "19",
+     "sprtTrgtMaxAge": "39",
+     "sprtTrgtAgeLmtYn": "N",
      "mrgSttsCd": "0055003",
      "earnCndSeCd": "0043001",
      "earnMinAmt": "0",
      "earnMaxAmt": "0",
      "earnEtcCn": "",
-     "addAplyQlfcCndCn": "(연령 기준) 18세 이상",
+     "addAplyQlfcCndCn": "",
      "ptcpPrpTrgtCn": "",
-     "inqCnt": "7",
-     "rgtrInstCd": "6431068",
-     "rgtrInstCdNm": "충청북도 기획조정실 인구청년정책담당관",
-     "rgtrUpInstCd": "6431053",
-     "rgtrUpInstCdNm": "충청북도 기획조정실",
-     "rgtrHghrkInstCd": "6430000",
-     "rgtrHghrkInstCdNm": "충청북도",
-     "zipCd": "43111,43112,43113,43114,43130,43150,43720,43730,43740,43745,43750,43760,43770,43800",
+     "inqCnt": "1",
+     "rgtrInstCd": "6412831",
+     "rgtrInstCdNm": "경기도 미래평생교육국",
+     "rgtrUpInstCd": "6410000",
+     "rgtrUpInstCdNm": "경기도",
+     "rgtrHghrkInstCd": "6410000",
+     "rgtrHghrkInstCdNm": "경기도",
+     "zipCd": "41111,41113,41115,41117,41131,41133,41135,41150,41171,41173,41192,41194,41196,41210,41220,41250,41271,41273,41281,41285,41287,41290,41310,41360,41370,41390,41410,41430,41450,41461,41463,41465,41480,41",
      "plcyMajorCd": "0011009",
      "jobCd": "0013010",
      "schoolCd": "0049010",
-     "aplyYmd": "",
-     "frstRegDt": "2026-10-04 15:46:48",
-     "lastMdfcnDt": "2026-10-06 13:18:03",
+     "aplyYmd": "20260318 ~ 20260403",
+     "frstRegDt": "2026-10-07 16:21:40",
+     "lastMdfcnDt": "2026-10-08 09:37:12",
      "sbizCd": "0014010"
     }
    ],
@@ -1027,14 +1111,14 @@
    }
   }
  },
- "updated_at": "2026-10-07T09:18+09:00",
+ "updated_at": "2026-10-08T09:40+09:00",
  "status": {
   "보조금24": "ok",
   "온통청년": "ok"
  },
  "schedule": {
-  "always": 1207,
-  "deadline": 461,
+  "always": 1214,
+  "deadline": 466,
   "yearly_window": 138
  }
 }

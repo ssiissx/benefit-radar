@@ -311,10 +311,10 @@
     }
    ],
    "counts": {
-    "raw": 10950,
-    "conditions": 10950,
+    "raw": 10951,
+    "conditions": 10951,
     "used": 2068,
-    "region": 8621,
+    "region": 8622,
     "age": 261
    },
    "fields": [
@@ -562,6 +562,18 @@
      "agency": "충청북도 기획조정실 인구청년정책담당관"
     },
     {
+     "title": "청년농부 네트워크 지원",
+     "zips": 14,
+     "zip_sample": [
+      "43111",
+      "43112",
+      "43113",
+      "43114",
+      "43130"
+     ],
+     "agency": "충청북도 농정국 농업정책과"
+    },
+    {
      "title": "충북인재 재능나눔 사업",
      "zips": 14,
      "zip_sample": [
@@ -790,18 +802,6 @@
       "43130"
      ],
      "agency": "보건복지부"
-    },
-    {
-     "title": "희망디딤돌 충북센터 운영",
-     "zips": 14,
-     "zip_sample": [
-      "43111",
-      "43112",
-      "43113",
-      "43114",
-      "43130"
-     ],
-     "agency": "충청북도 보건복지국 복지정책과"
     }
    ],
    "dropped_age": [
@@ -912,9 +912,9 @@
     }
    ],
    "counts": {
-    "raw": 3237,
+    "raw": 3238,
     "used": 649,
-    "region": 2567,
+    "region": 2568,
     "age": 21
    },
    "fields": [
@@ -981,6 +981,68 @@
    ],
    "raw_examples": [
     {
+     "plcyNo": "20261008005400113930",
+     "bscPlanCycl": "2",
+     "bscPlanPlcyWayNo": "002",
+     "bscPlanFcsAsmtNo": "005",
+     "bscPlanAsmtNo": "019",
+     "pvsnInstGroupCd": "0054001",
+     "plcyPvsnMthdCd": "0042005",
+     "plcyAprvSttsCd": "0044002",
+     "plcyNm": "해외조달시장 전문인력 양성과정",
+     "plcyKywdNm": "교육지원",
+     "plcyExplnCn": "청년을 대상으로 해외조달시장 진출 직무 (해외 B2G) 교육 프로그램 제공",
+     "lclsfNm": "교육･직업훈련",
+     "mclsfNm": "미래역량강화",
+     "plcySprtCn": "청년을 대상으로 해외조달시장 진출 직무(해외 B2G)와 관련된 다음 프로그램 제공\n\n1. 해외 B2G 관련 이론 및 실무 강의, 실습\n2. 기업 현장 견학 및 기업 연계 프로젝트 진행\n3. 채용설명회 및 채용상담회 개최\n4. 네트워크 형성 및 취업 지원 프로그램 등",
+     "sprvsnInstCd": "1230000",
+     "sprvsnInstCdNm": "조달청",
+     "sprvsnInstPicNm": "",
+     "operInstCd": "       ",
+     "operInstCdNm": "",
+     "operInstPicNm": "",
+     "sprtSclLmtYn": "N",
+     "aplyPrdSeCd": "0057001",
+     "bizPrdSeCd": "0056001",
+     "bizPrdBgngYmd": "20260706",
+     "bizPrdEndYmd": "20260731",
+     "bizPrdEtcCn": "",
+     "plcyAplyMthdCn": "",
+     "srngMthdCn": "",
+     "aplyUrlAddr": "",
+     "sbmsnDcmntCn": "",
+     "etcMttrCn": "",
+     "refUrlAddr1": "https://www.jobkorea.co.kr/Recruit/GI_Read/49098517",
+     "refUrlAddr2": "",
+     "sprtSclCnt": "0",
+     "sprtArvlSeqYn": "N",
+     "sprtTrgtMinAge": "19",
+     "sprtTrgtMaxAge": "34",
+     "sprtTrgtAgeLmtYn": "N",
+     "mrgSttsCd": "0055003",
+     "earnCndSeCd": "0043001",
+     "earnMinAmt": "0",
+     "earnMaxAmt": "0",
+     "earnEtcCn": "",
+     "addAplyQlfcCndCn": "제대군인 지원법에 따라 군 복무자는 신청가능 연령 연장",
+     "ptcpPrpTrgtCn": "",
+     "inqCnt": "8",
+     "rgtrInstCd": "1230000",
+     "rgtrInstCdNm": "조달청",
+     "rgtrUpInstCd": "0000000",
+     "rgtrUpInstCdNm": "조달청",
+     "rgtrHghrkInstCd": "1230000",
+     "rgtrHghrkInstCdNm": "조달청",
+     "zipCd": "11110,11140,11170,11200,11215,11230,11260,11290,11305,11320,11350,11380,11410,11440,11470,11500,11530,11545,11560,11590,11620,11650,11680,11710,11740,12110,12130,12150,12170,12190,12210,12240,12270,12",
+     "plcyMajorCd": "0011009",
+     "jobCd": "0013003",
+     "schoolCd": "0049010",
+     "aplyYmd": "20260507 ~ 20260607",
+     "frstRegDt": "2026-10-08 16:52:36",
+     "lastMdfcnDt": "2026-10-08 17:06:23",
+     "sbizCd": "0014010"
+    },
+    {
      "plcyNo": "20261007005400213929",
      "bscPlanCycl": "2",
      "bscPlanPlcyWayNo": "001",
@@ -1026,7 +1088,7 @@
      "earnEtcCn": "",
      "addAplyQlfcCndCn": "",
      "ptcpPrpTrgtCn": "",
-     "inqCnt": "1",
+     "inqCnt": "31",
      "rgtrInstCd": "6470000",
      "rgtrInstCdNm": "경상북도",
      "rgtrUpInstCd": "0000000",
@@ -1041,68 +1103,6 @@
      "frstRegDt": "2026-10-07 17:35:26",
      "lastMdfcnDt": "2026-10-08 09:38:05",
      "sbizCd": "0014010"
-    },
-    {
-     "plcyNo": "20261007005400213928",
-     "bscPlanCycl": "2",
-     "bscPlanPlcyWayNo": "002",
-     "bscPlanFcsAsmtNo": "005",
-     "bscPlanAsmtNo": "017",
-     "pvsnInstGroupCd": "0054002",
-     "plcyPvsnMthdCd": "0042002",
-     "plcyAprvSttsCd": "0044002",
-     "plcyNm": "경기청년 갭이어 프로그램",
-     "plcyKywdNm": "교육지원",
-     "plcyExplnCn": "청년 스스로 하고 싶은 일을 탐색하고, 실패에 대한 두려움을 깰 수 있는 도전과 시도를 통한 변화의 기회 제공",
-     "lclsfNm": "교육･직업훈련",
-     "mclsfNm": "미래역량강화",
-     "plcySprtCn": "진로탐색 프로젝트 수행, 분야별 전문가 멘토링, 취·창업 연계 등",
-     "sprvsnInstCd": "B555267",
-     "sprvsnInstCdNm": "재단법인경기도미래세대재단",
-     "sprvsnInstPicNm": "",
-     "operInstCd": "       ",
-     "operInstCdNm": "",
-     "operInstPicNm": "",
-     "sprtSclLmtYn": "N",
-     "aplyPrdSeCd": "0057001",
-     "bizPrdSeCd": "0056002",
-     "bizPrdBgngYmd": "        ",
-     "bizPrdEndYmd": "        ",
-     "bizPrdEtcCn": "2026년 3월~12월",
-     "plcyAplyMthdCn": "경기도일자리재단 통합접수시스템 '잡아바 어플라이'(https://apply.jobaba.net/) 온라인 신청",
-     "srngMthdCn": "",
-     "aplyUrlAddr": "https://apply.jobaba.net/",
-     "sbmsnDcmntCn": "",
-     "etcMttrCn": "위 내용은 사업 안내를 위함으로, 사업 기간 및 제출 서류 등은 반드시 사업 추진 기관의 상세 공고를 확인하시길 바랍니다.",
-     "refUrlAddr1": "https://youth.gg.go.kr/gg/index.do",
-     "refUrlAddr2": "",
-     "sprtSclCnt": "0",
-     "sprtArvlSeqYn": "N",
-     "sprtTrgtMinAge": "19",
-     "sprtTrgtMaxAge": "39",
-     "sprtTrgtAgeLmtYn": "N",
-     "mrgSttsCd": "0055003",
-     "earnCndSeCd": "0043001",
-     "earnMinAmt": "0",
-     "earnMaxAmt": "0",
-     "earnEtcCn": "",
-     "addAplyQlfcCndCn": "",
-     "ptcpPrpTrgtCn": "",
-     "inqCnt": "1",
-     "rgtrInstCd": "6412831",
-     "rgtrInstCdNm": "경기도 미래평생교육국",
-     "rgtrUpInstCd": "6410000",
-     "rgtrUpInstCdNm": "경기도",
-     "rgtrHghrkInstCd": "6410000",
-     "rgtrHghrkInstCdNm": "경기도",
-     "zipCd": "41111,41113,41115,41117,41131,41133,41135,41150,41171,41173,41192,41194,41196,41210,41220,41250,41271,41273,41281,41285,41287,41290,41310,41360,41370,41390,41410,41430,41450,41461,41463,41465,41480,41",
-     "plcyMajorCd": "0011009",
-     "jobCd": "0013010",
-     "schoolCd": "0049010",
-     "aplyYmd": "20260318 ~ 20260403",
-     "frstRegDt": "2026-10-07 16:21:40",
-     "lastMdfcnDt": "2026-10-08 09:37:12",
-     "sbizCd": "0014010"
     }
    ],
    "missing": {
@@ -1111,14 +1111,14 @@
    }
   }
  },
- "updated_at": "2026-10-08T09:40+09:00",
+ "updated_at": "2026-10-09T09:56+09:00",
  "status": {
   "보조금24": "ok",
   "온통청년": "ok"
  },
  "schedule": {
-  "always": 1214,
-  "deadline": 466,
+  "always": 1213,
+  "deadline": 467,
   "yearly_window": 138
  }
 }

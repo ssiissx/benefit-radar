@@ -311,10 +311,10 @@
     }
    ],
    "counts": {
-    "raw": 10958,
-    "conditions": 10958,
+    "raw": 10965,
+    "conditions": 10965,
     "used": 2068,
-    "region": 8629,
+    "region": 8636,
     "age": 261
    },
    "fields": [
@@ -1026,7 +1026,7 @@
      "earnEtcCn": "",
      "addAplyQlfcCndCn": "제대군인 지원법에 따라 군 복무자는 신청가능 연령 연장",
      "ptcpPrpTrgtCn": "",
-     "inqCnt": "16",
+     "inqCnt": "19",
      "rgtrInstCd": "1230000",
      "rgtrInstCdNm": "조달청",
      "rgtrUpInstCd": "0000000",
@@ -1052,7 +1052,7 @@
      "plcyPvsnMthdCd": "0042002",
      "plcyAprvSttsCd": "0044002",
      "plcyNm": "청년 해외인턴 지원사업",
-     "plcyKywdNm": "인턴,해외진출",
+     "plcyKywdNm": "해외진출,인턴",
      "plcyExplnCn": "경북 해외자문위원 및 해외 한인기업과 연계하여 도내 청년에게 해외 현장 실무경험을 제공하고, 국제 경쟁력 강화를 지원",
      "lclsfNm": "일자리",
      "mclsfNm": "취업",
@@ -1088,7 +1088,7 @@
      "earnEtcCn": "",
      "addAplyQlfcCndCn": "",
      "ptcpPrpTrgtCn": "",
-     "inqCnt": "51",
+     "inqCnt": "77",
      "rgtrInstCd": "6470000",
      "rgtrInstCdNm": "경상북도",
      "rgtrUpInstCd": "0000000",
@@ -1111,7 +1111,7 @@
    }
   }
  },
- "updated_at": "2026-10-10T09:26+09:00",
+ "updated_at": "2026-10-11T09:04+09:00",
  "status": {
   "보조금24": "ok",
   "온통청년": "ok"

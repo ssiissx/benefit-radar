@@ -1026,7 +1026,7 @@
      "earnEtcCn": "",
      "addAplyQlfcCndCn": "제대군인 지원법에 따라 군 복무자는 신청가능 연령 연장",
      "ptcpPrpTrgtCn": "",
-     "inqCnt": "19",
+     "inqCnt": "25",
      "rgtrInstCd": "1230000",
      "rgtrInstCdNm": "조달청",
      "rgtrUpInstCd": "0000000",
@@ -1088,7 +1088,7 @@
      "earnEtcCn": "",
      "addAplyQlfcCndCn": "",
      "ptcpPrpTrgtCn": "",
-     "inqCnt": "77",
+     "inqCnt": "92",
      "rgtrInstCd": "6470000",
      "rgtrInstCdNm": "경상북도",
      "rgtrUpInstCd": "0000000",
@@ -1111,7 +1111,7 @@
    }
   }
  },
- "updated_at": "2026-10-11T09:04+09:00",
+ "updated_at": "2026-10-12T09:10+09:00",
  "status": {
   "보조금24": "ok",
   "온통청년": "ok"

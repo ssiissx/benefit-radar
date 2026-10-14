@@ -311,10 +311,10 @@
     }
    ],
    "counts": {
-    "raw": 10966,
-    "conditions": 10966,
+    "raw": 10967,
+    "conditions": 10967,
     "used": 2068,
-    "region": 8637,
+    "region": 8638,
     "age": 261
    },
    "fields": [
@@ -1026,7 +1026,7 @@
      "earnEtcCn": "",
      "addAplyQlfcCndCn": "제대군인 지원법에 따라 군 복무자는 신청가능 연령 연장",
      "ptcpPrpTrgtCn": "",
-     "inqCnt": "51",
+     "inqCnt": "79",
      "rgtrInstCd": "1230000",
      "rgtrInstCdNm": "조달청",
      "rgtrUpInstCd": "0000000",
@@ -1088,7 +1088,7 @@
      "earnEtcCn": "",
      "addAplyQlfcCndCn": "",
      "ptcpPrpTrgtCn": "",
-     "inqCnt": "139",
+     "inqCnt": "176",
      "rgtrInstCd": "6470000",
      "rgtrInstCdNm": "경상북도",
      "rgtrUpInstCd": "0000000",
@@ -1111,7 +1111,7 @@
    }
   }
  },
- "updated_at": "2026-10-13T11:21+09:00",
+ "updated_at": "2026-10-14T09:04+09:00",
  "status": {
   "보조금24": "ok",
   "온통청년": "ok"

@@ -3,13 +3,6 @@
   "보조금24": {
    "dropped_age": [
     {
-     "title": "유아학비 (누리과정) 지원",
-     "age": [
-      3,
-      5
-     ]
-    },
-    {
      "title": "북한이탈주민 정착금 지원(가산금)",
      "age": [
       60,
@@ -105,6 +98,13 @@
      "age": [
       0,
       18
+     ]
+    },
+    {
+     "title": "노인실명예방사업",
+     "age": [
+      60,
+      120
      ]
     }
    ],
@@ -311,11 +311,11 @@
     }
    ],
    "counts": {
-    "raw": 10968,
-    "conditions": 10968,
+    "raw": 10969,
+    "conditions": 10969,
     "used": 2068,
-    "region": 8639,
-    "age": 261
+    "region": 8642,
+    "age": 259
    },
    "fields": [
     "등록일시",
@@ -395,6 +395,30 @@
   },
   "온통청년": {
    "dropped_region": [
+    {
+     "title": "우리동네 초등방학 돌봄터 운영",
+     "zips": 23,
+     "zip_sample": [
+      "47111",
+      "47113",
+      "47130",
+      "47150",
+      "47170"
+     ],
+     "agency": "경상북도 지방정부전략국 아이돌봄과"
+    },
+    {
+     "title": "K보듬 6000 0세 특화반 운영",
+     "zips": 256,
+     "agency": "경상북도 지방정부전략국 아이돌봄과",
+     "why": "기관/제목이 다른 지역"
+    },
+    {
+     "title": "함께 키워요! K보듬 6000",
+     "zips": 256,
+     "agency": "경상북도 지방정부전략국 아이돌봄과",
+     "why": "기관/제목이 다른 지역"
+    },
     {
      "title": "(군협력담당관) 경기도 재난복구지원 군장병 상해보험 가입지원",
      "zips": 99,
@@ -756,36 +780,6 @@
       "43130"
      ],
      "agency": "충청북도 기획조정실 인구청년정책담당관"
-    },
-    {
-     "title": "충청북도 대학스포츠 동아리 대회",
-     "zips": 14,
-     "zip_sample": [
-      "43111",
-      "43112",
-      "43113",
-      "43114",
-      "43130"
-     ],
-     "agency": "충청북도 문화체육관광국 체육진흥과"
-    },
-    {
-     "title": "전국대학무용경연대회",
-     "zips": 256,
-     "agency": "충청북도 문화체육관광국 문화예술산업과",
-     "why": "기관/제목이 다른 지역"
-    },
-    {
-     "title": "충북 젊은작가 창작작품 페스티벌",
-     "zips": 14,
-     "zip_sample": [
-      "43111",
-      "43112",
-      "43113",
-      "43114",
-      "43130"
-     ],
-     "agency": "충청북도 문화체육관광국 문화예술산업과"
     }
    ],
    "dropped_age": [
@@ -896,9 +890,9 @@
     }
    ],
    "counts": {
-    "raw": 3251,
-    "used": 652,
-    "region": 2578,
+    "raw": 3258,
+    "used": 656,
+    "region": 2581,
     "age": 21
    },
    "fields": [
@@ -965,40 +959,40 @@
    ],
    "raw_examples": [
     {
-     "plcyNo": "20261014005400213946",
+     "plcyNo": "20261015005400213953",
      "bscPlanCycl": "2",
      "bscPlanPlcyWayNo": "004",
-     "bscPlanFcsAsmtNo": "012",
-     "bscPlanAsmtNo": "044",
+     "bscPlanFcsAsmtNo": "014",
+     "bscPlanAsmtNo": "055",
      "pvsnInstGroupCd": "0054002",
-     "plcyPvsnMthdCd": "0042008",
+     "plcyPvsnMthdCd": "0042013",
      "plcyAprvSttsCd": "0044002",
-     "plcyNm": "(군협력담당관) 경기도 재난복구지원 군장병 상해보험 가입지원",
-     "plcyKywdNm": "맞춤형상담서비스",
-     "plcyExplnCn": "경기도 내 재난복구 현장에 동원된 군 장병의 안전 확보와 사고 발생 시 상해보험 가입 지원(경기도 외 타주소지 군 장병 대상)",
+     "plcyNm": "1인가구 건강돌봄 프로그램",
+     "plcyKywdNm": "교육지원",
+     "plcyExplnCn": "1인가구의 활동성 증진 및 신체적·정신적 삶의 질 향상을 위해 연령대별 맞춤형 건강관리 프로그램을 지원",
      "lclsfNm": "금융･복지･문화",
-     "mclsfNm": "취약계층 및 금융지원",
-     "plcySprtCn": "1. 사업근거:    「경기도 재난복구지원 군 장병 안전 확보 및 지원에 관한 조례」 제6조에 근거\n2. 지원대상: 경기도 내 재난복구 현장에 동원되는 군 장병 (현역 병·장교·준사관·부사관 및 군간부        후보생) / 제외대상: 상근예비역, 의무경찰, 의무소방, 사회복무요원, 군무원, 군복무 청년 상해보험 가입자 등   \n3. 주요  보장 내용: ",
-     "sprvsnInstCd": "6412663",
-     "sprvsnInstCdNm": "경기도 균형발전기획실 군협력담당관",
-     "sprvsnInstPicNm": "박보미",
+     "mclsfNm": "문화활동 및 생활지원",
+     "plcySprtCn": "1인가구의 활동성 증진 및 신체적·정신적 삶의 질 향상을 위해 연령대별 맞춤형 건강관리 프로그램을 지원",
+     "sprvsnInstCd": "6412834",
+     "sprvsnInstCdNm": "경기도 여성가족국 가족정책과",
+     "sprvsnInstPicNm": "",
      "operInstCd": "       ",
      "operInstCdNm": "",
-     "operInstPicNm": "메리츠화재",
+     "operInstPicNm": "",
      "sprtSclLmtYn": "N",
      "aplyPrdSeCd": "0057002",
-     "bizPrdSeCd": "0056001",
-     "bizPrdBgngYmd": "20260624",
-     "bizPrdEndYmd": "20270623",
-     "bizPrdEtcCn": "",
-     "plcyAplyMthdCn": "",
+     "bizPrdSeCd": "0056002",
+     "bizPrdBgngYmd": "        ",
+     "bizPrdEndYmd": "        ",
+     "bizPrdEtcCn": "운영주체별 운영기관 상이",
+     "plcyAplyMthdCn": "경기도 1인가구 포털(https://www.gg.go.kr/1ingg) > 참여프로그램",
      "srngMthdCn": "",
-     "aplyUrlAddr": "",
+     "aplyUrlAddr": "https://www.gg.go.kr/1ingg",
      "sbmsnDcmntCn": "",
      "etcMttrCn": "",
-     "refUrlAddr1": "https://www.gg.go.kr/bbs/boardView.do?bIdx=180272055&bsIdx=711&menuId=2867",
-     "refUrlAddr2": "",
-     "sprtSclCnt": "2500",
+     "refUrlAddr1": "https://www.gg.go.kr/1ingg",
+     "refUrlAddr2": "https://www.gg.go.kr/1ingg/bbs/boardView.do?bsIdx=871&bIdx=110386&page=1&menuId=4111&bcIdx=531",
+     "sprtSclCnt": "0",
      "sprtArvlSeqYn": "N",
      "sprtTrgtMinAge": "0",
      "sprtTrgtMaxAge": "0",
@@ -1008,84 +1002,84 @@
      "earnMinAmt": "0",
      "earnMaxAmt": "0",
      "earnEtcCn": "",
-     "addAplyQlfcCndCn": "",
-     "ptcpPrpTrgtCn": "경기도 주소지 군장병은 군복무 경기 청년 상해보험으로 가입 지원됨.",
-     "inqCnt": "24",
-     "rgtrInstCd": "6412663",
-     "rgtrInstCdNm": "경기도 균형발전기획실 군협력담당관",
-     "rgtrUpInstCd": "6411929",
-     "rgtrUpInstCdNm": "경기도 균형발전기획실",
+     "addAplyQlfcCndCn": "1인가구",
+     "ptcpPrpTrgtCn": "",
+     "inqCnt": "10",
+     "rgtrInstCd": "6412834",
+     "rgtrInstCdNm": "경기도 여성가족국 가족정책과",
+     "rgtrUpInstCd": "6411608",
+     "rgtrUpInstCdNm": "경기도 여성가족국",
      "rgtrHghrkInstCd": "6410000",
      "rgtrHghrkInstCdNm": "경기도",
-     "zipCd": "11110,11140,11170,11200,11215,11230,11260,11290,11305,11320,11350,11380,11410,11440,11470,11500,11530,11545,11560,11590,11620,11650,11680,11710,11740,12110,12130,12150,12170,12190,12210,12240,12270,12",
+     "zipCd": "41111,41113,41115,41117,41131,41133,41135,41150,41171,41173,41192,41194,41196,41210,41220,41250,41271,41273,41281,41285,41287,41290,41310,41360,41370,41390,41410,41430,41450,41461,41463,41465,41480,41",
      "plcyMajorCd": "0011009",
      "jobCd": "0013010",
      "schoolCd": "0049010",
      "aplyYmd": "",
-     "frstRegDt": "2026-10-14 14:36:50",
-     "lastMdfcnDt": "2026-10-14 15:57:16",
-     "sbizCd": "0014007"
+     "frstRegDt": "2026-10-15 10:25:15",
+     "lastMdfcnDt": "2026-10-15 17:48:41",
+     "sbizCd": "0014010"
     },
     {
-     "plcyNo": "20261014005400213945",
+     "plcyNo": "20261015005400213952",
      "bscPlanCycl": "2",
-     "bscPlanPlcyWayNo": "002",
-     "bscPlanFcsAsmtNo": "007",
-     "bscPlanAsmtNo": "024",
+     "bscPlanPlcyWayNo": "004",
+     "bscPlanFcsAsmtNo": "014",
+     "bscPlanAsmtNo": "055",
      "pvsnInstGroupCd": "0054002",
-     "plcyPvsnMthdCd": "0042005",
+     "plcyPvsnMthdCd": "0042013",
      "plcyAprvSttsCd": "0044002",
-     "plcyNm": "[남구] NCS 무료 강의",
-     "plcyKywdNm": "교육지원",
-     "plcyExplnCn": "NCS 무료 강의",
-     "lclsfNm": "교육･직업훈련",
-     "mclsfNm": "교육비지원",
-     "plcySprtCn": "NCS 무료 강의\n\n대상: 공공기관·공기업 취업을 준비하는 청년(19~39세)\n방식: 3일 과정 · 1일 4시간 × 3회 (총 12시간)\n내용: 이론 강의 + 문제 풀이 실습 + 실전 모의고사\n무료제공:  문제지 · 해설지 · 모의고사지 등\n강사: 에듀코칭코리아 대표 노유정 ",
-     "sprvsnInstCd": "6130000",
-     "sprvsnInstCdNm": "전남광주통합특별시",
-     "sprvsnInstPicNm": "청년정책담당자",
-     "operInstCd": "6130000",
-     "operInstCdNm": "전남광주통합특별시",
-     "operInstPicNm": "청년정책담당자",
-     "sprtSclLmtYn": "Y",
-     "aplyPrdSeCd": "0057001",
+     "plcyNm": "1인가구 식생활 개선 다이닝",
+     "plcyKywdNm": "청년가장",
+     "plcyExplnCn": "1인가구의 혼밥·식생활 개선 및 사회적 교류 증진을 위한 공동 조리·식사 요리교",
+     "lclsfNm": "금융･복지･문화",
+     "mclsfNm": "문화활동 및 생활지원",
+     "plcySprtCn": "1인가구의 혼밥·식생활 개선 및 사회적 교류 증진을 위한 공동 조리·식사 요리교",
+     "sprvsnInstCd": "6412834",
+     "sprvsnInstCdNm": "경기도 여성가족국 가족정책과",
+     "sprvsnInstPicNm": "",
+     "operInstCd": "       ",
+     "operInstCdNm": "",
+     "operInstPicNm": "",
+     "sprtSclLmtYn": "N",
+     "aplyPrdSeCd": "0057002",
      "bizPrdSeCd": "0056002",
      "bizPrdBgngYmd": "        ",
      "bizPrdEndYmd": "        ",
-     "bizPrdEtcCn": "연중",
-     "plcyAplyMthdCn": "https://naver.me/GCJikDGD",
+     "bizPrdEtcCn": "운영주체별 운영기관 상이",
+     "plcyAplyMthdCn": "경기도 1인가구 포털(https://www.gg.go.kr/1ingg) > 참여프로그램",
      "srngMthdCn": "",
-     "aplyUrlAddr": "",
+     "aplyUrlAddr": "https://www.gg.go.kr/1ingg",
      "sbmsnDcmntCn": "",
      "etcMttrCn": "",
-     "refUrlAddr1": "https://youth.jeonnam-gwangju.go.kr/www/50?siteId=www&policyId=1482&url=%2Fwww%2Fpolicy%2FgjYgPolicyView",
-     "refUrlAddr2": "",
+     "refUrlAddr1": "https://www.gg.go.kr/1ingg",
+     "refUrlAddr2": "https://www.gg.go.kr/1ingg/bbs/boardView.do?bsIdx=871&bIdx=110653&page=1&menuId=4111&bcIdx=531",
      "sprtSclCnt": "0",
      "sprtArvlSeqYn": "N",
      "sprtTrgtMinAge": "0",
      "sprtTrgtMaxAge": "0",
-     "sprtTrgtAgeLmtYn": "N",
+     "sprtTrgtAgeLmtYn": "Y",
      "mrgSttsCd": "0055003",
      "earnCndSeCd": "0043001",
      "earnMinAmt": "0",
      "earnMaxAmt": "0",
      "earnEtcCn": "",
-     "addAplyQlfcCndCn": "",
+     "addAplyQlfcCndCn": "1인가구",
      "ptcpPrpTrgtCn": "",
-     "inqCnt": "8",
-     "rgtrInstCd": "6130000",
-     "rgtrInstCdNm": "전남광주통합특별시",
-     "rgtrUpInstCd": "6130000",
-     "rgtrUpInstCdNm": "전남광주통합특별시",
-     "rgtrHghrkInstCd": "6130000",
-     "rgtrHghrkInstCdNm": "전남광주통합특별시",
-     "zipCd": "12210,12240,12270,12300,12330",
+     "inqCnt": "7",
+     "rgtrInstCd": "6412834",
+     "rgtrInstCdNm": "경기도 여성가족국 가족정책과",
+     "rgtrUpInstCd": "6411608",
+     "rgtrUpInstCdNm": "경기도 여성가족국",
+     "rgtrHghrkInstCd": "6410000",
+     "rgtrHghrkInstCdNm": "경기도",
+     "zipCd": "41111,41113,41115,41117,41131,41133,41135,41150,41171,41173,41192,41194,41196,41210,41220,41250,41271,41273,41281,41285,41287,41290,41310,41360,41370,41390,41410,41430,41450,41461,41463,41465,41480,41",
      "plcyMajorCd": "0011009",
      "jobCd": "0013010",
      "schoolCd": "0049010",
-     "aplyYmd": "20261012 ~ 20261201",
-     "frstRegDt": "2026-10-14 09:14:31",
-     "lastMdfcnDt": "2026-10-14 15:54:01",
+     "aplyYmd": "",
+     "frstRegDt": "2026-10-15 10:21:06",
+     "lastMdfcnDt": "2026-10-15 17:47:23",
      "sbizCd": "0014010"
     }
    ],
@@ -1095,14 +1089,14 @@
    }
   }
  },
- "updated_at": "2026-10-15T08:36+09:00",
+ "updated_at": "2026-10-16T08:31+09:00",
  "status": {
   "보조금24": "ok",
   "온통청년": "ok"
  },
  "schedule": {
-  "always": 1214,
-  "deadline": 470,
+  "always": 1216,
+  "deadline": 471,
   "yearly_window": 138
  }
 }

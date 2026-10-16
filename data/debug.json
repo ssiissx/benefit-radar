@@ -311,10 +311,10 @@
     }
    ],
    "counts": {
-    "raw": 10969,
-    "conditions": 10969,
+    "raw": 10970,
+    "conditions": 10970,
     "used": 2068,
-    "region": 8642,
+    "region": 8643,
     "age": 259
    },
    "fields": [
@@ -395,6 +395,86 @@
   },
   "온통청년": {
    "dropped_region": [
+    {
+     "title": "'충남청년포털' 유지보수",
+     "zips": 14,
+     "zip_sample": [
+      "44130",
+      "44150",
+      "44180",
+      "44200",
+      "44230"
+     ],
+     "agency": "청년정책과"
+    },
+    {
+     "title": "공공기관 청년고용의무제 운영",
+     "zips": 13,
+     "zip_sample": [
+      "44130",
+      "44150",
+      "44180",
+      "44200",
+      "44230"
+     ],
+     "agency": "예산담당관"
+    },
+    {
+     "title": "충청남도 청년네트워크 구성·운영",
+     "zips": 14,
+     "zip_sample": [
+      "44130",
+      "44150",
+      "44180",
+      "44200",
+      "44230"
+     ],
+     "agency": "청년정책과"
+    },
+    {
+     "title": "청년 주택임차보증금 이자 지원사업",
+     "zips": 14,
+     "zip_sample": [
+      "44130",
+      "44150",
+      "44180",
+      "44200",
+      "44230"
+     ],
+     "agency": "청년정책과"
+    },
+    {
+     "title": "청년도전 지원사업(청년)",
+     "zips": 14,
+     "zip_sample": [
+      "44130",
+      "44150",
+      "44180",
+      "44200",
+      "44230"
+     ],
+     "agency": "청년정책과"
+    },
+    {
+     "title": "학자금대출 신용유의자 신용회복 지원사업",
+     "zips": 27,
+     "zip_sample": [
+      "12110",
+      "12130",
+      "12150",
+      "12170",
+      "12190"
+     ],
+     "agency": "전남광주통합특별시"
+    },
+    {
+     "title": "[남구] 증명사진 무료 지원",
+     "zips": 1,
+     "zip_sample": [
+      "12270"
+     ],
+     "agency": "전남광주통합특별시"
+    },
     {
      "title": "우리동네 초등방학 돌봄터 운영",
      "zips": 23,
@@ -700,86 +780,6 @@
       "43130"
      ],
      "agency": "충청북도 농정국 농업정책과"
-    },
-    {
-     "title": "충북인재 재능나눔 사업",
-     "zips": 14,
-     "zip_sample": [
-      "43111",
-      "43112",
-      "43113",
-      "43114",
-      "43130"
-     ],
-     "agency": "충청북도 AI과학인재국 미래인재육성과"
-    },
-    {
-     "title": "충북인재 정책제안 지원사업",
-     "zips": 14,
-     "zip_sample": [
-      "43111",
-      "43112",
-      "43113",
-      "43114",
-      "43130"
-     ],
-     "agency": "충청북도 AI과학인재국 미래인재육성과"
-    },
-    {
-     "title": "제11기 충북청년도정참여단",
-     "zips": 14,
-     "zip_sample": [
-      "43111",
-      "43112",
-      "43113",
-      "43114",
-      "43130"
-     ],
-     "agency": "충청북도 기획조정실 인구청년정책담당관"
-    },
-    {
-     "title": "충청북도 청년정책조정위원회 운영",
-     "zips": 14,
-     "zip_sample": [
-      "43111",
-      "43112",
-      "43113",
-      "43114",
-      "43130"
-     ],
-     "agency": "충청북도 기획조정실 인구청년정책담당관"
-    },
-    {
-     "title": "금왕산단 청년문화센터 건립사업",
-     "zips": 1,
-     "zip_sample": [
-      "43770"
-     ],
-     "agency": "산업통상부"
-    },
-    {
-     "title": "청년 문화예술패스",
-     "zips": 14,
-     "zip_sample": [
-      "43111",
-      "43112",
-      "43113",
-      "43114",
-      "43130"
-     ],
-     "agency": "문화체육관광부"
-    },
-    {
-     "title": "충북 청년 축제",
-     "zips": 14,
-     "zip_sample": [
-      "43111",
-      "43112",
-      "43113",
-      "43114",
-      "43130"
-     ],
-     "agency": "충청북도 기획조정실 인구청년정책담당관"
     }
    ],
    "dropped_age": [
@@ -890,9 +890,9 @@
     }
    ],
    "counts": {
-    "raw": 3258,
-    "used": 656,
-    "region": 2581,
+    "raw": 3264,
+    "used": 659,
+    "region": 2584,
     "age": 21
    },
    "fields": [
@@ -959,127 +959,127 @@
    ],
    "raw_examples": [
     {
-     "plcyNo": "20261015005400213953",
+     "plcyNo": "20261016005400113967",
      "bscPlanCycl": "2",
-     "bscPlanPlcyWayNo": "004",
-     "bscPlanFcsAsmtNo": "014",
-     "bscPlanAsmtNo": "055",
-     "pvsnInstGroupCd": "0054002",
-     "plcyPvsnMthdCd": "0042013",
+     "bscPlanPlcyWayNo": "005",
+     "bscPlanFcsAsmtNo": "016",
+     "bscPlanAsmtNo": "059",
+     "pvsnInstGroupCd": "0054001",
+     "plcyPvsnMthdCd": "0042011",
      "plcyAprvSttsCd": "0044002",
-     "plcyNm": "1인가구 건강돌봄 프로그램",
-     "plcyKywdNm": "교육지원",
-     "plcyExplnCn": "1인가구의 활동성 증진 및 신체적·정신적 삶의 질 향상을 위해 연령대별 맞춤형 건강관리 프로그램을 지원",
-     "lclsfNm": "금융･복지･문화",
-     "mclsfNm": "문화활동 및 생활지원",
-     "plcySprtCn": "1인가구의 활동성 증진 및 신체적·정신적 삶의 질 향상을 위해 연령대별 맞춤형 건강관리 프로그램을 지원",
-     "sprvsnInstCd": "6412834",
-     "sprvsnInstCdNm": "경기도 여성가족국 가족정책과",
-     "sprvsnInstPicNm": "",
-     "operInstCd": "       ",
-     "operInstCdNm": "",
+     "plcyNm": "'충남청년포털' 유지보수",
+     "plcyKywdNm": "맞춤형상담서비스,보조금,교육지원",
+     "plcyExplnCn": "온라인 청년 플랫폼 「충남청년포털」유지보수를 통해 청년정책 정보 적기제공 및 운영의 안정성 확보",
+     "lclsfNm": "참여･기반",
+     "mclsfNm": "정책인프라구축",
+     "plcySprtCn": "충남청년포털 유지보수 및 안정적이고 효율적인 시스템 운영",
+     "sprvsnInstCd": "6441553",
+     "sprvsnInstCdNm": "청년정책과",
+     "sprvsnInstPicNm": "인성주 주무관",
+     "operInstCd": "6441553",
+     "operInstCdNm": "청년정책과",
      "operInstPicNm": "",
-     "sprtSclLmtYn": "N",
+     "sprtSclLmtYn": "Y",
      "aplyPrdSeCd": "0057002",
      "bizPrdSeCd": "0056002",
      "bizPrdBgngYmd": "        ",
      "bizPrdEndYmd": "        ",
-     "bizPrdEtcCn": "운영주체별 운영기관 상이",
-     "plcyAplyMthdCn": "경기도 1인가구 포털(https://www.gg.go.kr/1ingg) > 참여프로그램",
-     "srngMthdCn": "",
-     "aplyUrlAddr": "https://www.gg.go.kr/1ingg",
-     "sbmsnDcmntCn": "",
+     "bizPrdEtcCn": "2026-01-01~2026-12-31",
+     "plcyAplyMthdCn": "별도 문의",
+     "srngMthdCn": "별도 문의",
+     "aplyUrlAddr": "",
+     "sbmsnDcmntCn": "별도 문의",
      "etcMttrCn": "",
-     "refUrlAddr1": "https://www.gg.go.kr/1ingg",
-     "refUrlAddr2": "https://www.gg.go.kr/1ingg/bbs/boardView.do?bsIdx=871&bIdx=110386&page=1&menuId=4111&bcIdx=531",
+     "refUrlAddr1": "https://youth.chungnam.go.kr/web/main/main",
+     "refUrlAddr2": "",
      "sprtSclCnt": "0",
      "sprtArvlSeqYn": "N",
-     "sprtTrgtMinAge": "0",
-     "sprtTrgtMaxAge": "0",
+     "sprtTrgtMinAge": "19",
+     "sprtTrgtMaxAge": "39",
      "sprtTrgtAgeLmtYn": "Y",
      "mrgSttsCd": "0055003",
      "earnCndSeCd": "0043001",
      "earnMinAmt": "0",
      "earnMaxAmt": "0",
      "earnEtcCn": "",
-     "addAplyQlfcCndCn": "1인가구",
-     "ptcpPrpTrgtCn": "",
-     "inqCnt": "10",
-     "rgtrInstCd": "6412834",
-     "rgtrInstCdNm": "경기도 여성가족국 가족정책과",
-     "rgtrUpInstCd": "6411608",
-     "rgtrUpInstCdNm": "경기도 여성가족국",
-     "rgtrHghrkInstCd": "6410000",
-     "rgtrHghrkInstCdNm": "경기도",
-     "zipCd": "41111,41113,41115,41117,41131,41133,41135,41150,41171,41173,41192,41194,41196,41210,41220,41250,41271,41273,41281,41285,41287,41290,41310,41360,41370,41390,41410,41430,41450,41461,41463,41465,41480,41",
+     "addAplyQlfcCndCn": "해당 없음",
+     "ptcpPrpTrgtCn": "해당 없음",
+     "inqCnt": "0",
+     "rgtrInstCd": "6441553",
+     "rgtrInstCdNm": "청년정책과",
+     "rgtrUpInstCd": "6441552",
+     "rgtrUpInstCdNm": "",
+     "rgtrHghrkInstCd": "6440000",
+     "rgtrHghrkInstCdNm": "",
+     "zipCd": "44130,44150,44180,44200,44230,44250,44270,44710,44760,44770,44790,44800,44810,44825",
      "plcyMajorCd": "0011009",
      "jobCd": "0013010",
      "schoolCd": "0049010",
      "aplyYmd": "",
-     "frstRegDt": "2026-10-15 10:25:15",
-     "lastMdfcnDt": "2026-10-15 17:48:41",
+     "frstRegDt": "2026-10-16 16:19:11",
+     "lastMdfcnDt": "2026-10-16 17:31:20",
      "sbizCd": "0014010"
     },
     {
-     "plcyNo": "20261015005400213952",
+     "plcyNo": "20261016005400113966",
      "bscPlanCycl": "2",
-     "bscPlanPlcyWayNo": "004",
-     "bscPlanFcsAsmtNo": "014",
-     "bscPlanAsmtNo": "055",
-     "pvsnInstGroupCd": "0054002",
-     "plcyPvsnMthdCd": "0042013",
+     "bscPlanPlcyWayNo": "001",
+     "bscPlanFcsAsmtNo": "002",
+     "bscPlanAsmtNo": "004",
+     "pvsnInstGroupCd": "0054001",
+     "plcyPvsnMthdCd": "0042004",
      "plcyAprvSttsCd": "0044002",
-     "plcyNm": "1인가구 식생활 개선 다이닝",
-     "plcyKywdNm": "청년가장",
-     "plcyExplnCn": "1인가구의 혼밥·식생활 개선 및 사회적 교류 증진을 위한 공동 조리·식사 요리교",
-     "lclsfNm": "금융･복지･문화",
-     "mclsfNm": "문화활동 및 생활지원",
-     "plcySprtCn": "1인가구의 혼밥·식생활 개선 및 사회적 교류 증진을 위한 공동 조리·식사 요리교",
-     "sprvsnInstCd": "6412834",
-     "sprvsnInstCdNm": "경기도 여성가족국 가족정책과",
-     "sprvsnInstPicNm": "",
+     "plcyNm": "공공기관 청년고용의무제 운영",
+     "plcyKywdNm": "인턴",
+     "plcyExplnCn": "지방공기업 정원의 100분의3 이상씩 청년 미취업자 고용",
+     "lclsfNm": "일자리",
+     "mclsfNm": "취업",
+     "plcySprtCn": "「청년고용촉진 특례법」에 따라 지방공기업 청년고용의무제를 실시하고 사장경영성과계약 이행실적 평가 시 고용의무제 100% 달성 노력",
+     "sprvsnInstCd": "       ",
+     "sprvsnInstCdNm": "예산담당관",
+     "sprvsnInstPicNm": "최선영 주무관",
      "operInstCd": "       ",
-     "operInstCdNm": "",
+     "operInstCdNm": "충청남도개발공사",
      "operInstPicNm": "",
-     "sprtSclLmtYn": "N",
-     "aplyPrdSeCd": "0057002",
-     "bizPrdSeCd": "0056002",
-     "bizPrdBgngYmd": "        ",
-     "bizPrdEndYmd": "        ",
-     "bizPrdEtcCn": "운영주체별 운영기관 상이",
-     "plcyAplyMthdCn": "경기도 1인가구 포털(https://www.gg.go.kr/1ingg) > 참여프로그램",
-     "srngMthdCn": "",
-     "aplyUrlAddr": "https://www.gg.go.kr/1ingg",
-     "sbmsnDcmntCn": "",
+     "sprtSclLmtYn": "Y",
+     "aplyPrdSeCd": "0057001",
+     "bizPrdSeCd": "0056001",
+     "bizPrdBgngYmd": "20260420",
+     "bizPrdEndYmd": "20260710",
+     "bizPrdEtcCn": "",
+     "plcyAplyMthdCn": "별도 문의",
+     "srngMthdCn": "별도 문의",
+     "aplyUrlAddr": "",
+     "sbmsnDcmntCn": "별도 문의",
      "etcMttrCn": "",
-     "refUrlAddr1": "https://www.gg.go.kr/1ingg",
-     "refUrlAddr2": "https://www.gg.go.kr/1ingg/bbs/boardView.do?bsIdx=871&bIdx=110653&page=1&menuId=4111&bcIdx=531",
+     "refUrlAddr1": "",
+     "refUrlAddr2": "",
      "sprtSclCnt": "0",
-     "sprtArvlSeqYn": "N",
-     "sprtTrgtMinAge": "0",
-     "sprtTrgtMaxAge": "0",
+     "sprtArvlSeqYn": " ",
+     "sprtTrgtMinAge": "19",
+     "sprtTrgtMaxAge": "34",
      "sprtTrgtAgeLmtYn": "Y",
      "mrgSttsCd": "0055003",
      "earnCndSeCd": "0043001",
      "earnMinAmt": "0",
      "earnMaxAmt": "0",
      "earnEtcCn": "",
-     "addAplyQlfcCndCn": "1인가구",
-     "ptcpPrpTrgtCn": "",
-     "inqCnt": "7",
-     "rgtrInstCd": "6412834",
-     "rgtrInstCdNm": "경기도 여성가족국 가족정책과",
-     "rgtrUpInstCd": "6411608",
-     "rgtrUpInstCdNm": "경기도 여성가족국",
-     "rgtrHghrkInstCd": "6410000",
-     "rgtrHghrkInstCdNm": "경기도",
-     "zipCd": "41111,41113,41115,41117,41131,41133,41135,41150,41171,41173,41192,41194,41196,41210,41220,41250,41271,41273,41281,41285,41287,41290,41310,41360,41370,41390,41410,41430,41450,41461,41463,41465,41480,41",
+     "addAplyQlfcCndCn": "해당 없음",
+     "ptcpPrpTrgtCn": "해당 없음",
+     "inqCnt": "4",
+     "rgtrInstCd": "6441367",
+     "rgtrInstCdNm": "청년정책관",
+     "rgtrUpInstCd": "6440000",
+     "rgtrUpInstCdNm": "",
+     "rgtrHghrkInstCd": "6440000",
+     "rgtrHghrkInstCdNm": "",
+     "zipCd": "44130,44150,44180,44200,44230,44270,44710,44760,44770,44790,44800,44810,44825",
      "plcyMajorCd": "0011009",
-     "jobCd": "0013010",
+     "jobCd": "0013003",
      "schoolCd": "0049010",
-     "aplyYmd": "",
-     "frstRegDt": "2026-10-15 10:21:06",
-     "lastMdfcnDt": "2026-10-15 17:47:23",
+     "aplyYmd": "20260518 ~ 20260630",
+     "frstRegDt": "2026-10-16 16:18:44",
+     "lastMdfcnDt": "2026-10-16 17:30:39",
      "sbizCd": "0014010"
     }
    ],
@@ -1089,14 +1089,14 @@
    }
   }
  },
- "updated_at": "2026-10-16T08:31+09:00",
+ "updated_at": "2026-10-17T08:13+09:00",
  "status": {
   "보조금24": "ok",
   "온통청년": "ok"
  },
  "schedule": {
-  "always": 1216,
-  "deadline": 471,
+  "always": 1213,
+  "deadline": 475,
   "yearly_window": 138
  }
 }

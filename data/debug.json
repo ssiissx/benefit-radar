@@ -890,9 +890,9 @@
     }
    ],
    "counts": {
-    "raw": 3264,
+    "raw": 3262,
     "used": 659,
-    "region": 2584,
+    "region": 2582,
     "age": 21
    },
    "fields": [
@@ -968,7 +968,7 @@
      "plcyPvsnMthdCd": "0042011",
      "plcyAprvSttsCd": "0044002",
      "plcyNm": "'충남청년포털' 유지보수",
-     "plcyKywdNm": "교육지원,보조금,맞춤형상담서비스",
+     "plcyKywdNm": "맞춤형상담서비스,보조금,교육지원",
      "plcyExplnCn": "온라인 청년 플랫폼 「충남청년포털」유지보수를 통해 청년정책 정보 적기제공 및 운영의 안정성 확보",
      "lclsfNm": "참여･기반",
      "mclsfNm": "정책인프라구축",
@@ -1004,7 +1004,7 @@
      "earnEtcCn": "",
      "addAplyQlfcCndCn": "해당 없음",
      "ptcpPrpTrgtCn": "해당 없음",
-     "inqCnt": "6",
+     "inqCnt": "13",
      "rgtrInstCd": "6441553",
      "rgtrInstCdNm": "청년정책과",
      "rgtrUpInstCd": "6441552",
@@ -1066,7 +1066,7 @@
      "earnEtcCn": "",
      "addAplyQlfcCndCn": "해당 없음",
      "ptcpPrpTrgtCn": "해당 없음",
-     "inqCnt": "5",
+     "inqCnt": "16",
      "rgtrInstCd": "6441367",
      "rgtrInstCdNm": "청년정책관",
      "rgtrUpInstCd": "6440000",
@@ -1089,7 +1089,7 @@
    }
   }
  },
- "updated_at": "2026-10-18T07:49+09:00",
+ "updated_at": "2026-10-19T07:43+09:00",
  "status": {
   "보조금24": "ok",
   "온통청년": "ok"

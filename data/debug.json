@@ -311,10 +311,10 @@
     }
    ],
    "counts": {
-    "raw": 10964,
-    "conditions": 10964,
+    "raw": 10963,
+    "conditions": 10963,
     "used": 2067,
-    "region": 8638,
+    "region": 8637,
     "age": 259
    },
    "fields": [
@@ -396,84 +396,299 @@
   "온통청년": {
    "dropped_region": [
     {
-     "title": "기후동행카드(청년할인 서비스)",
-     "zips": 25,
-     "zip_sample": [
-      "11110",
-      "11140",
-      "11170",
-      "11200",
-      "11215"
-     ],
-     "agency": "서울특별시 교통실 교통기획관"
+     "title": "청년 귀환 채널구축 사업(고향올래)",
+     "zips": 247,
+     "agency": "대구광역시",
+     "why": "기관/제목이 다른 지역"
     },
     {
-     "title": "'충남청년포털' 유지보수",
-     "zips": 14,
-     "zip_sample": [
-      "44130",
-      "44150",
-      "44180",
-      "44200",
-      "44230"
-     ],
-     "agency": "청년정책과"
-    },
-    {
-     "title": "공공기관 청년고용의무제 운영",
-     "zips": 13,
-     "zip_sample": [
-      "44130",
-      "44150",
-      "44180",
-      "44200",
-      "44230"
-     ],
-     "agency": "예산담당관"
-    },
-    {
-     "title": "충청남도 청년네트워크 구성·운영",
-     "zips": 14,
-     "zip_sample": [
-      "44130",
-      "44150",
-      "44180",
-      "44200",
-      "44230"
-     ],
-     "agency": "청년정책과"
-    },
-    {
-     "title": "청년 주택임차보증금 이자 지원사업",
-     "zips": 14,
-     "zip_sample": [
-      "44130",
-      "44150",
-      "44180",
-      "44200",
-      "44230"
-     ],
-     "agency": "청년정책과"
-    },
-    {
-     "title": "학자금대출 신용유의자 신용회복 지원사업",
-     "zips": 27,
-     "zip_sample": [
-      "12110",
-      "12130",
-      "12150",
-      "12170",
-      "12190"
-     ],
-     "agency": "전남광주통합특별시"
-    },
-    {
-     "title": "[남구] 증명사진 무료 지원",
+     "title": "2026년 청년 주거비 지원사업",
      "zips": 1,
      "zip_sample": [
-      "12270"
+      "51750"
      ],
-     "agency": "전남광주통합특별시"
+     "agency": "강원특별자치도 영월군"
+    },
+    {
+     "title": "청년회관 운영 지원",
+     "zips": 1,
+     "zip_sample": [
+      "47900"
+     ],
+     "agency": "경상북도 예천군"
+    },
+    {
+     "title": "청년정책협의체 운영지원",
+     "zips": 1,
+     "zip_sample": [
+      "47900"
+     ],
+     "agency": "경상북도 예천군"
+    },
+    {
+     "title": "동아시아 전통ㆍ현대 퓨전음악 청년세대 문화 교류 록페스티벌",
+     "zips": 23,
+     "zip_sample": [
+      "47111",
+      "47113",
+      "47130",
+      "47150",
+      "47170"
+     ],
+     "agency": "경상북도 문화관광체육국"
+    },
+    {
+     "title": "청년취업 올인원 지원사업",
+     "zips": 1,
+     "zip_sample": [
+      "47900"
+     ],
+     "agency": "경상북도 예천군"
+    },
+    {
+     "title": "경상북도 아마추어 e스포츠대회",
+     "zips": 23,
+     "zip_sample": [
+      "47111",
+      "47113",
+      "47130",
+      "47150",
+      "47170"
+     ],
+     "agency": "경상북도 문화관광체육국"
+    },
+    {
+     "title": "예천군 청년 키움 돋움사업",
+     "zips": 1,
+     "zip_sample": [
+      "47900"
+     ],
+     "agency": "경상북도 예천군"
+    },
+    {
+     "title": "웹툰캠퍼스 운영사업",
+     "zips": 1,
+     "zip_sample": [
+      "47130"
+     ],
+     "agency": "경상북도 문화관광체육국"
+    },
+    {
+     "title": "칠곡군 군복무 청년 단체 상해보험 가입비",
+     "zips": 1,
+     "zip_sample": [
+      "47850"
+     ],
+     "agency": "경상북도 칠곡군 행정복지국"
+    },
+    {
+     "title": "삼척중앙시장 청년몰 청년상인 수시모집",
+     "zips": 1,
+     "zip_sample": [
+      "51230"
+     ],
+     "agency": "강원특별자치도 삼척시"
+    },
+    {
+     "title": "청년 이사비 지원사업",
+     "zips": 1,
+     "zip_sample": [
+      "47850"
+     ],
+     "agency": "경상북도 칠곡군 농업기술센터"
+    },
+    {
+     "title": "청년 맞춤형 금융교육",
+     "zips": 1,
+     "zip_sample": [
+      "12300"
+     ],
+     "agency": "전남광주통합특별시 북구"
+    },
+    {
+     "title": "칠곡농업 부자농CEO육성 프로젝트",
+     "zips": 1,
+     "zip_sample": [
+      "47850"
+     ],
+     "agency": "경상북도 칠곡군 농업기술센터"
+    },
+    {
+     "title": "청년카페(청년일자리스테이션 용봉) 운영",
+     "zips": 5,
+     "zip_sample": [
+      "12210",
+      "12240",
+      "12270",
+      "12300",
+      "12330"
+     ],
+     "agency": "전남광주통합특별시 북구"
+    },
+    {
+     "title": "청년창업LAB운영",
+     "zips": 1,
+     "zip_sample": [
+      "47840"
+     ],
+     "agency": "경상북도 성주군 미래전략실"
+    },
+    {
+     "title": "더드림신혼부부주거비지원사업",
+     "zips": 1,
+     "zip_sample": [
+      "47840"
+     ],
+     "agency": "경상북도 성주군 건축허가과"
+    },
+    {
+     "title": "청년 자산관리 주치의제 운영",
+     "zips": 1,
+     "zip_sample": [
+      "12300"
+     ],
+     "agency": "전남광주통합특별시 북구"
+    },
+    {
+     "title": "AI 브랜디드 콘텐츠 육성사업",
+     "zips": 2,
+     "zip_sample": [
+      "47250",
+      "47290"
+     ],
+     "agency": "경상북도 과학산업국"
+    },
+    {
+     "title": "청년농업인 맞춤형 교육 프로그램",
+     "zips": 1,
+     "zip_sample": [
+      "47840"
+     ],
+     "agency": "경상북도 성주군 농업기술센터"
+    },
+    {
+     "title": "천원의 아침밥 지원",
+     "zips": 23,
+     "zip_sample": [
+      "47111",
+      "47113",
+      "47130",
+      "47150",
+      "47170"
+     ],
+     "agency": "경상북도 농축산유통국"
+    },
+    {
+     "title": "청년농업인정착기반조성",
+     "zips": 1,
+     "zip_sample": [
+      "47840"
+     ],
+     "agency": "경상북도 성주군 농업기술센터"
+    },
+    {
+     "title": "전·월세 안심거래 상담소 운영",
+     "zips": 1,
+     "zip_sample": [
+      "12300"
+     ],
+     "agency": "전남광주통합특별시 북구"
+    },
+    {
+     "title": "청년 고민상담소",
+     "zips": 23,
+     "zip_sample": [
+      "47111",
+      "47113",
+      "47130",
+      "47150",
+      "47170"
+     ],
+     "agency": "경상북도 복지건강국"
+    },
+    {
+     "title": "청년 주거환경 개선",
+     "zips": 1,
+     "zip_sample": [
+      "12300"
+     ],
+     "agency": "전남광주통합특별시 북구"
+    },
+    {
+     "title": "청년농업인양성아카데미",
+     "zips": 1,
+     "zip_sample": [
+      "47840"
+     ],
+     "agency": "경상북도 성주군 농업기술센터"
+    },
+    {
+     "title": "청년한부모 자녀양육비 지원",
+     "zips": 23,
+     "zip_sample": [
+      "47111",
+      "47113",
+      "47130",
+      "47150",
+      "47170"
+     ],
+     "agency": "경상북도 지방정부전략국"
+    },
+    {
+     "title": "청년일자리 공공인턴사업",
+     "zips": 1,
+     "zip_sample": [
+      "47830"
+     ],
+     "agency": "경상북도 고령군 인구정책실"
+    },
+    {
+     "title": "자립준비청년 자립정착금 지원",
+     "zips": 23,
+     "zip_sample": [
+      "47111",
+      "47113",
+      "47130",
+      "47150",
+      "47170"
+     ],
+     "agency": "경상북도 지방정부전략국"
+    },
+    {
+     "title": "고령군 일자리청년창업지원센터 운영",
+     "zips": 1,
+     "zip_sample": [
+      "47830"
+     ],
+     "agency": "경상북도 고령군 인구정책실"
+    },
+    {
+     "title": "24시 장애아전문어린이집 연장운영",
+     "zips": 5,
+     "zip_sample": [
+      "47111",
+      "47113",
+      "47130",
+      "47150",
+      "47190"
+     ],
+     "agency": "경상북도 지방정부전략국"
+    },
+    {
+     "title": "영관군 청년명예부군수제 및 청년협의체 운영",
+     "zips": 1,
+     "zip_sample": [
+      "12830"
+     ],
+     "agency": "전남광주통합특별시 영광군"
+    },
+    {
+     "title": "청년 일경험 지원사업",
+     "zips": 1,
+     "zip_sample": [
+      "47770"
+     ],
+     "agency": "경상북도 영덕군"
     },
     {
      "title": "우리동네 초등방학 돌봄터 운영",
@@ -485,126 +700,10 @@
       "47150",
       "47170"
      ],
-     "agency": "경상북도 지방정부전략국 아이돌봄과"
+     "agency": "경상북도 지방정부전략국"
     },
     {
-     "title": "K보듬 6000 0세 특화반 운영",
-     "zips": 256,
-     "agency": "경상북도 지방정부전략국 아이돌봄과",
-     "why": "기관/제목이 다른 지역"
-    },
-    {
-     "title": "함께 키워요! K보듬 6000",
-     "zips": 256,
-     "agency": "경상북도 지방정부전략국 아이돌봄과",
-     "why": "기관/제목이 다른 지역"
-    },
-    {
-     "title": "(군협력담당관) 경기도 재난복구지원 군장병 상해보험 가입지원",
-     "zips": 99,
-     "zip_sample": [
-      "11110",
-      "11140",
-      "11170",
-      "11200",
-      "11215"
-     ],
-     "agency": "경기도 균형발전기획실 군협력담당관"
-    },
-    {
-     "title": "[남구] NCS 무료 강의",
-     "zips": 5,
-     "zip_sample": [
-      "12210",
-      "12240",
-      "12270",
-      "12300",
-      "12330"
-     ],
-     "agency": "전남광주통합특별시"
-    },
-    {
-     "title": "2026년 10월 가계부 소모임 - 4회차",
-     "zips": 27,
-     "zip_sample": [
-      "12110",
-      "12130",
-      "12150",
-      "12170",
-      "12190"
-     ],
-     "agency": "전남광주통합특별시"
-    },
-    {
-     "title": "청년 취업자 주거비 지원사업",
-     "zips": 1,
-     "zip_sample": [
-      "52730"
-     ],
-     "agency": "전북특별자치도 무주군"
-    },
-    {
-     "title": "충청북도 청년위원회 위원 모집",
-     "zips": 14,
-     "zip_sample": [
-      "43111",
-      "43112",
-      "43113",
-      "43114",
-      "43130"
-     ],
-     "agency": "충청북도 기획조정실 인구청년정책담당관"
-    },
-    {
-     "title": "청년농업인 창업 플랜 교육",
-     "zips": 1,
-     "zip_sample": [
-      "47150"
-     ],
-     "agency": "경상북도 김천시 농업기술센터"
-    },
-    {
-     "title": "(수영구)무인화랑 운영",
-     "zips": 1,
-     "zip_sample": [
-      "26500"
-     ],
-     "agency": "부산광역시 수영구 행정문화국 문화예술과"
-    },
-    {
-     "title": "(수영구)광안리 SUP 전국 대학교 대항전",
-     "zips": 16,
-     "zip_sample": [
-      "26110",
-      "26140",
-      "26170",
-      "26200",
-      "26230"
-     ],
-     "agency": "부산광역시 수영구 행정문화국 관광스포츠과"
-    },
-    {
-     "title": "(수영구)청년 대상 '지방세 절세팁 구독' 운영",
-     "zips": 1,
-     "zip_sample": [
-      "26500"
-     ],
-     "agency": "부산광역시 수영구 행정문화국 세무2과"
-    },
-    {
-     "title": "산업단지 일생활 균형 제도 확대(산단 행복일터 프로젝트)",
-     "zips": 9,
-     "zip_sample": [
-      "11530",
-      "11545",
-      "12300",
-      "12330",
-      "41171"
-     ],
-     "agency": "고용노동부"
-    },
-    {
-     "title": "청년 해외인턴 지원사업",
+     "title": "청년발전소 운영",
      "zips": 23,
      "zip_sample": [
       "47111",
@@ -613,108 +712,10 @@
       "47150",
       "47170"
      ],
-     "agency": "경상북도"
+     "agency": "경상북도 지방정부전략국"
     },
     {
-     "title": "청년농업인 네트워크 활성화 지원",
-     "zips": 1,
-     "zip_sample": [
-      "52140"
-     ],
-     "agency": "전북특별자치도 익산시 농업기술센터"
-    },
-    {
-     "title": "익산청년시청 소식지‘For the Youth’",
-     "zips": 1,
-     "zip_sample": [
-      "52140"
-     ],
-     "agency": "전북특별자치도 익산시 청년경제국"
-    },
-    {
-     "title": "익산청년시청 청년정책 제안소",
-     "zips": 256,
-     "agency": "전북특별자치도 익산시 청년경제국",
-     "why": "기관/제목이 다른 지역"
-    },
-    {
-     "title": "출산장려금 지원",
-     "zips": 1,
-     "zip_sample": [
-      "52140"
-     ],
-     "agency": "전북특별자치도 익산시 복지국"
-    },
-    {
-     "title": "1시민 1악기",
-     "zips": 1,
-     "zip_sample": [
-      "52140"
-     ],
-     "agency": "전북특별자치도 익산시 문화교육국"
-    },
-    {
-     "title": "전입세대 전입장려금 지원",
-     "zips": 1,
-     "zip_sample": [
-      "52140"
-     ],
-     "agency": "전북특별자치도 익산시 기획안전국"
-    },
-    {
-     "title": "청년농업인 농자재 지원사업",
-     "zips": 1,
-     "zip_sample": [
-      "52140"
-     ],
-     "agency": "전북특별자치도 익산시 농업기술센터"
-    },
-    {
-     "title": "청년농업인 선진영농 기술도입 기반조성",
-     "zips": 1,
-     "zip_sample": [
-      "52140"
-     ],
-     "agency": "전북특별자치도 익산시 농업기술센터"
-    },
-    {
-     "title": "청년농업인 시설하우스 설치지원",
-     "zips": 1,
-     "zip_sample": [
-      "52140"
-     ],
-     "agency": "전북특별자치도 익산시 농업기술센터"
-    },
-    {
-     "title": "청년농업인 농업기계 자율주행 기술도입 지원",
-     "zips": 1,
-     "zip_sample": [
-      "52140"
-     ],
-     "agency": "전북특별자치도 익산시"
-    },
-    {
-     "title": "대학일자리플러스센터운영",
-     "zips": 256,
-     "agency": "전북특별자치도 익산시",
-     "why": "기관/제목이 다른 지역"
-    },
-    {
-     "title": "익산 통합일자리센터 운영",
-     "zips": 1,
-     "zip_sample": [
-      "52140"
-     ],
-     "agency": "전북특별자치도 익산시"
-    },
-    {
-     "title": "고향올래(로컬벤처)사업",
-     "zips": 255,
-     "agency": "전북특별자치도 익산시",
-     "why": "기관/제목이 다른 지역"
-    },
-    {
-     "title": "특성화고 나노융합기술인력 양성 사업",
+     "title": "청년근로자 사랑채움사업",
      "zips": 23,
      "zip_sample": [
       "47111",
@@ -723,66 +724,53 @@
       "47150",
       "47170"
      ],
-     "agency": "산업통상부"
+     "agency": "경상북도 지방정부전략국"
     },
     {
-     "title": "2026년 전남광주 제3기「지역자원 연계 청년창업 지원사업」",
-     "zips": 13,
+     "title": "1인문화콘텐츠창조기업 지원",
+     "zips": 23,
      "zip_sample": [
-      "12710",
-      "12730",
-      "12740",
-      "12760",
-      "12770"
+      "47111",
+      "47113",
+      "47130",
+      "47150",
+      "47170"
      ],
-     "agency": "전남광주통합특별시"
+     "agency": "문화체육관광부"
     },
     {
-     "title": "청년 자립마을 활성화 지원사업",
-     "zips": 27,
-     "zip_sample": [
-      "12110",
-      "12130",
-      "12150",
-      "12170",
-      "12190"
-     ],
-     "agency": "전남광주통합특별시"
-    },
-    {
-     "title": "2026년 나주시 취업 청년 임대주택 지원사업 입주자 추가 모집",
+     "title": "청송 공공임대주택 청년빌리지 건립사업",
      "zips": 1,
      "zip_sample": [
-      "12170"
+      "47750"
      ],
-     "agency": "전남광주통합특별시"
+     "agency": "경상북도 청송군 농촌활력과"
     },
     {
-     "title": "충북청년희망센터 운영",
-     "zips": 14,
+     "title": "스마트팜 연계 청년주거지 운영",
+     "zips": 1,
      "zip_sample": [
-      "43111",
-      "43112",
-      "43113",
-      "43114",
-      "43130"
+      "47730"
      ],
-     "agency": "충청북도 기획조정실 인구청년정책담당관"
+     "agency": "경상북도 의성군"
     },
     {
-     "title": "청년농부 네트워크 지원",
-     "zips": 14,
+     "title": "영광군 청년 희망 디딤돌 통장사업",
+     "zips": 1,
      "zip_sample": [
-      "43111",
-      "43112",
-      "43113",
-      "43114",
-      "43130"
+      "12830"
      ],
-     "agency": "충청북도 농정국 농업정책과"
+     "agency": "전남광주통합특별시 영광군"
     }
    ],
    "dropped_age": [
+    {
+     "title": "경기도 장애인 누림통장",
+     "age": [
+      19,
+      23
+     ]
+    },
     {
      "title": "청년 한부모 자립 지원(추가 아동 양육비 지원)",
      "age": [
@@ -880,20 +868,13 @@
       17,
       19
      ]
-    },
-    {
-     "title": "고교 취업연계 장려금",
-     "age": [
-      17,
-      21
-     ]
     }
    ],
    "counts": {
-    "raw": 3259,
-    "used": 660,
-    "region": 2578,
-    "age": 21
+    "raw": 3411,
+    "used": 675,
+    "region": 2714,
+    "age": 22
    },
    "fields": [
     "plcyNo",
@@ -959,127 +940,127 @@
    ],
    "raw_examples": [
     {
-     "plcyNo": "20261019005400214005",
+     "plcyNo": "20261020005400214141",
      "bscPlanCycl": "2",
-     "bscPlanPlcyWayNo": "004",
-     "bscPlanFcsAsmtNo": "014",
-     "bscPlanAsmtNo": "055",
+     "bscPlanPlcyWayNo": "001",
+     "bscPlanFcsAsmtNo": "001",
+     "bscPlanAsmtNo": "002",
      "pvsnInstGroupCd": "0054002",
-     "plcyPvsnMthdCd": "0042013",
+     "plcyPvsnMthdCd": "0042002",
      "plcyAprvSttsCd": "0044002",
-     "plcyNm": "기후동행카드(청년할인 서비스)",
-     "plcyKywdNm": "바우처",
-     "plcyExplnCn": "사회생활을 시작하는 청년들의 교통비 부담을 완화",
-     "lclsfNm": "금융･복지･문화",
-     "mclsfNm": "문화활동 및 생활지원",
-     "plcySprtCn": "기후동행카드 일반권 권종 대비 7천원 할인 제공",
-     "sprvsnInstCd": "",
-     "sprvsnInstCdNm": "서울특별시 교통실 교통기획관",
-     "sprvsnInstPicNm": "김홍장",
-     "operInstCd": "",
-     "operInstCdNm": "㈜티머니",
-     "operInstPicNm": "",
-     "sprtSclLmtYn": "Y",
-     "aplyPrdSeCd": "0057002",
-     "bizPrdSeCd": "0056001",
-     "bizPrdBgngYmd": "20260101",
-     "bizPrdEndYmd": "20261231",
-     "bizPrdEtcCn": "",
-     "plcyAplyMthdCn": "티머니카드&페이 웹사이트에서 청년인증 후 할인권 충전",
-     "srngMthdCn": "",
-     "aplyUrlAddr": "https://pay.tmoney.co.kr/",
-     "sbmsnDcmntCn": "",
-     "etcMttrCn": "",
-     "refUrlAddr1": "https://news.seoul.go.kr/traffic/archives/515047",
-     "refUrlAddr2": "https://pay.tmoney.co.kr/ncs/pct/cardrgt/ReadClmtAcmpCardYthDscd.dev",
-     "sprtSclCnt": "0",
-     "sprtArvlSeqYn": "N",
-     "sprtTrgtMinAge": "19",
-     "sprtTrgtMaxAge": "39",
-     "sprtTrgtAgeLmtYn": "Y",
-     "mrgSttsCd": "0055003",
-     "earnCndSeCd": "0043001",
-     "earnMinAmt": "0",
-     "earnMaxAmt": "0",
-     "earnEtcCn": "",
-     "addAplyQlfcCndCn": "",
-     "ptcpPrpTrgtCn": "",
-     "inqCnt": "63",
-     "rgtrInstCd": "1100000",
-     "rgtrInstCdNm": "서울특별시",
-     "rgtrUpInstCd": "",
-     "rgtrUpInstCdNm": "",
-     "rgtrHghrkInstCd": "",
-     "rgtrHghrkInstCdNm": "",
-     "zipCd": "11110,11140,11170,11200,11215,11230,11260,11290,11305,11320,11350,11380,11410,11440,11470,11500,11530,11545,11560,11590,11620,11650,11680,11710,11740",
-     "plcyMajorCd": "0011009",
-     "jobCd": "0013010",
-     "schoolCd": "0049010",
-     "aplyYmd": "",
-     "frstRegDt": "2026-10-19 10:10:16",
-     "lastMdfcnDt": "2026-10-19 10:16:38",
-     "sbizCd": "0014010"
-    },
-    {
-     "plcyNo": "20261016005400113967",
-     "bscPlanCycl": "2",
-     "bscPlanPlcyWayNo": "005",
-     "bscPlanFcsAsmtNo": "016",
-     "bscPlanAsmtNo": "059",
-     "pvsnInstGroupCd": "0054001",
-     "plcyPvsnMthdCd": "0042011",
-     "plcyAprvSttsCd": "0044002",
-     "plcyNm": "'충남청년포털' 유지보수",
-     "plcyKywdNm": "교육지원,보조금,맞춤형상담서비스",
-     "plcyExplnCn": "온라인 청년 플랫폼 「충남청년포털」유지보수를 통해 청년정책 정보 적기제공 및 운영의 안정성 확보",
-     "lclsfNm": "참여･기반",
-     "mclsfNm": "정책인프라구축",
-     "plcySprtCn": "충남청년포털 유지보수 및 안정적이고 효율적인 시스템 운영",
-     "sprvsnInstCd": "6441553",
-     "sprvsnInstCdNm": "청년정책과",
-     "sprvsnInstPicNm": "인성주 주무관",
-     "operInstCd": "6441553",
-     "operInstCdNm": "청년정책과",
-     "operInstPicNm": "",
-     "sprtSclLmtYn": "Y",
+     "plcyNm": "청년 귀환 채널구축 사업(고향올래)",
+     "plcyKywdNm": "벤처,교육지원,주거지원",
+     "plcyExplnCn": "타지역 청년을 대상으로 대구 귀환 희망 청년을 발굴하여, 대구에서 정착할 수 있도록 귀환 경로별 지원 및 주거·창업공간 제공",
+     "lclsfNm": "일자리",
+     "mclsfNm": "취업",
+     "plcySprtCn": "○ 대구 청년 정책 홍보 및 타지역 청년 유입 경로별 활동 프로그램 운영\n  - 온라인 홍보 플랫폼 운영 및 오프라인 홍보 사업설명회 개최\n  - 대구 한달살기, 유입 경로별(로컬벤처창업·취업·프리랜서) 지원 프로그램 운영\n     · (로컬벤처)창업교육, 시제품 개발비, 사업화자금 등 지원\n     · (취    업)대구 기업 채용박람회 참여실비 지원, ",
+     "sprvsnInstCd": "6270000",
+     "sprvsnInstCdNm": "대구광역시",
+     "sprvsnInstPicNm": "김현중",
+     "operInstCd": "B553238",
+     "operInstCdNm": "(재)대구테크노파크",
+     "operInstPicNm": "김청극",
+     "sprtSclLmtYn": "N",
      "aplyPrdSeCd": "0057002",
      "bizPrdSeCd": "0056002",
      "bizPrdBgngYmd": "        ",
      "bizPrdEndYmd": "        ",
-     "bizPrdEtcCn": "2026-01-01~2026-12-31",
-     "plcyAplyMthdCn": "별도 문의",
-     "srngMthdCn": "별도 문의",
-     "aplyUrlAddr": "",
-     "sbmsnDcmntCn": "별도 문의",
+     "bizPrdEtcCn": "프로그램별 별도 공",
+     "plcyAplyMthdCn": "프로그램별 별도 접수(홈페이지 참조)",
+     "srngMthdCn": "",
+     "aplyUrlAddr": "https://dgtp.or.kr/dgtp.do",
+     "sbmsnDcmntCn": "프로그램별 별도 접수(홈페이지 참조)",
      "etcMttrCn": "",
-     "refUrlAddr1": "https://youth.chungnam.go.kr/web/main/main",
+     "refUrlAddr1": "https://dgtp.or.kr/dgtp.do",
      "refUrlAddr2": "",
-     "sprtSclCnt": "0",
+     "sprtSclCnt": "300",
      "sprtArvlSeqYn": "N",
      "sprtTrgtMinAge": "19",
      "sprtTrgtMaxAge": "39",
-     "sprtTrgtAgeLmtYn": "Y",
+     "sprtTrgtAgeLmtYn": "N",
      "mrgSttsCd": "0055003",
      "earnCndSeCd": "0043001",
      "earnMinAmt": "0",
      "earnMaxAmt": "0",
      "earnEtcCn": "",
-     "addAplyQlfcCndCn": "해당 없음",
-     "ptcpPrpTrgtCn": "해당 없음",
-     "inqCnt": "15",
-     "rgtrInstCd": "6441553",
-     "rgtrInstCdNm": "청년정책과",
-     "rgtrUpInstCd": "6441552",
-     "rgtrUpInstCdNm": "",
-     "rgtrHghrkInstCd": "6440000",
-     "rgtrHghrkInstCdNm": "",
-     "zipCd": "44130,44150,44180,44200,44230,44250,44270,44710,44760,44770,44790,44800,44810,44825",
+     "addAplyQlfcCndCn": "대구 외 타지역 거주 청년",
+     "ptcpPrpTrgtCn": "",
+     "inqCnt": "19",
+     "rgtrInstCd": "6270000",
+     "rgtrInstCdNm": "대구광역시",
+     "rgtrUpInstCd": "0000000",
+     "rgtrUpInstCdNm": "대구광역시",
+     "rgtrHghrkInstCd": "6270000",
+     "rgtrHghrkInstCdNm": "대구광역시",
+     "zipCd": "11110,11140,11170,11200,11215,11230,11260,11290,11305,11320,11350,11380,11410,11440,11470,11500,11530,11545,11560,11590,11620,11650,11680,11710,11740,12110,12130,12150,12170,12190,12210,12240,12270,12",
      "plcyMajorCd": "0011009",
      "jobCd": "0013010",
      "schoolCd": "0049010",
      "aplyYmd": "",
-     "frstRegDt": "2026-10-16 16:19:11",
-     "lastMdfcnDt": "2026-10-16 17:31:20",
+     "frstRegDt": "2026-10-20 17:03:49",
+     "lastMdfcnDt": "2026-10-20 17:25:24",
+     "sbizCd": "0014010"
+    },
+    {
+     "plcyNo": "20261020005400214138",
+     "bscPlanCycl": "2",
+     "bscPlanPlcyWayNo": "002",
+     "bscPlanFcsAsmtNo": "005",
+     "bscPlanAsmtNo": "019",
+     "pvsnInstGroupCd": "0054002",
+     "plcyPvsnMthdCd": "0042006",
+     "plcyAprvSttsCd": "0044002",
+     "plcyNm": "「원주시 청년지원센터」 스터디카페·독서실 이용료 지원",
+     "plcyKywdNm": "교육지원",
+     "plcyExplnCn": "신청일 현재 원주시에 1개월 이상 거주 중인 18~39세 청년 중 대학교 3학년 마친 휴학생, 대학교 4학년 재학생, 일반 청년이면서 취업 준비를 하며 관내 스터디카페·독서실 이용료를 지원받고자 하는 청년 모집",
+     "lclsfNm": "교육･직업훈련",
+     "mclsfNm": "미래역량강화",
+     "plcySprtCn": "2026년에 결제한 관내 스터디카페·독서실 이용료 / 1인 연 1회 최대 100,000원(실비)",
+     "sprvsnInstCd": "4191000",
+     "sprvsnInstCdNm": "강원특별자치도 원주시",
+     "sprvsnInstPicNm": "",
+     "operInstCd": "       ",
+     "operInstCdNm": "",
+     "operInstPicNm": "",
+     "sprtSclLmtYn": "N",
+     "aplyPrdSeCd": "0057001",
+     "bizPrdSeCd": "0056001",
+     "bizPrdBgngYmd": "20260202",
+     "bizPrdEndYmd": "20261130",
+     "bizPrdEtcCn": "",
+     "plcyAplyMthdCn": "",
+     "srngMthdCn": "",
+     "aplyUrlAddr": "https://www.wonju.go.kr/wjyouth/viewTnWjyouthProgrmU.do?progrmNo=53&key=5942",
+     "sbmsnDcmntCn": "",
+     "etcMttrCn": "",
+     "refUrlAddr1": "https://www.wonju.go.kr/wjyouth/viewTnWjyouthProgrmU.do?progrmNo=53&key=5942",
+     "refUrlAddr2": "",
+     "sprtSclCnt": "300",
+     "sprtArvlSeqYn": "Y",
+     "sprtTrgtMinAge": "18",
+     "sprtTrgtMaxAge": "39",
+     "sprtTrgtAgeLmtYn": "N",
+     "mrgSttsCd": "0055003",
+     "earnCndSeCd": "0043001",
+     "earnMinAmt": "0",
+     "earnMaxAmt": "0",
+     "earnEtcCn": "",
+     "addAplyQlfcCndCn": "신청일 현재 원주시에 1개월 이상 거주 중인 18~39세 청년 중 대학교 3학년 마친 휴학생, 대학교 4학년 재학생, 일반 청년이면서 취업 준비 중인 청년",
+     "ptcpPrpTrgtCn": "고등학생, 대학 재학생 및 휴학생(1~3학년), 직장인, 사업자",
+     "inqCnt": "7",
+     "rgtrInstCd": "6530000",
+     "rgtrInstCdNm": "강원특별자치도",
+     "rgtrUpInstCd": "0000000",
+     "rgtrUpInstCdNm": "강원특별자치도",
+     "rgtrHghrkInstCd": "6530000",
+     "rgtrHghrkInstCdNm": "강원특별자치도",
+     "zipCd": "51130",
+     "plcyMajorCd": "0011009",
+     "jobCd": "0013010",
+     "schoolCd": "0049009",
+     "aplyYmd": "20260202 ~ 20261130",
+     "frstRegDt": "2026-10-20 15:30:19",
+     "lastMdfcnDt": "2026-10-20 17:24:44",
      "sbizCd": "0014010"
     }
    ],
@@ -1089,14 +1070,14 @@
    }
   }
  },
- "updated_at": "2026-10-20T09:05+09:00",
+ "updated_at": "2026-10-21T08:35+09:00",
  "status": {
   "보조금24": "ok",
   "온통청년": "ok"
  },
  "schedule": {
-  "always": 1212,
-  "deadline": 476,
+  "always": 1215,
+  "deadline": 488,
   "yearly_window": 138
  }
 }

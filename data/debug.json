@@ -1,0 +1,1074 @@
+{
+ "sources": {
+  "보조금24": {
+   "dropped_age": [
+    {
+     "title": "북한이탈주민 정착금 지원(가산금)",
+     "age": [
+      60,
+      120
+     ]
+    },
+    {
+     "title": "소년원 출원생 등 소외계층 청소년을 위한 청소년자립생활관 운영 지원",
+     "age": [
+      13,
+      18
+     ]
+    },
+    {
+     "title": "교육급여",
+     "age": [
+      6,
+      19
+     ]
+    },
+    {
+     "title": "국립특수학교 및 국립부설학교 특수학급 지원",
+     "age": [
+      6,
+      20
+     ]
+    },
+    {
+     "title": "대학입학전형료 면제·감액",
+     "age": [
+      16,
+      19
+     ]
+    },
+    {
+     "title": "위(Wee) 클래스 상담 지원",
+     "age": [
+      6,
+      19
+     ]
+    },
+    {
+     "title": "가정양육수당 지원",
+     "age": [
+      2,
+      7
+     ]
+    },
+    {
+     "title": "시간제보육 지원",
+     "age": [
+      0,
+      3
+     ]
+    },
+    {
+     "title": "영유아보육료 지원",
+     "age": [
+      0,
+      5
+     ]
+    },
+    {
+     "title": "초·중·고 교육비 지원",
+     "age": [
+      6,
+      18
+     ]
+    },
+    {
+     "title": "유아교육비·보육료 추가지원",
+     "age": [
+      5,
+      7
+     ]
+    },
+    {
+     "title": "의료급여 틀니·치과임플란트 지원",
+     "age": [
+      65,
+      120
+     ]
+    },
+    {
+     "title": "소년소녀가정 지원",
+     "age": [
+      0,
+      17
+     ]
+    },
+    {
+     "title": "학대피해아동쉼터 지원",
+     "age": [
+      0,
+      18
+     ]
+    },
+    {
+     "title": "노인실명예방사업",
+     "age": [
+      60,
+      120
+     ]
+    }
+   ],
+   "dropped_region": [
+    {
+     "title": "임산부 건강관리 지원",
+     "agency": "서울특별시 종로구",
+     "type": "시군구"
+    },
+    {
+     "title": "저소득주민 국민건강보험료 지원",
+     "agency": "서울특별시 종로구",
+     "type": "시군구"
+    },
+    {
+     "title": "장애인 자립생활주택 지원",
+     "agency": "서울특별시 종로구",
+     "type": "시군구"
+    },
+    {
+     "title": "지역화폐(종로사랑상품권)",
+     "agency": "서울특별시 종로구",
+     "type": "시군구"
+    },
+    {
+     "title": "홀몸 어르신 건강음료 지원",
+     "agency": "서울특별시 종로구",
+     "type": "시군구"
+    },
+    {
+     "title": "지자체(취약계층) 인플루엔자 예방접종 지원",
+     "agency": "서울특별시 종로구",
+     "type": "시군구"
+    },
+    {
+     "title": "한의약 치매 건강증진서비스 지원",
+     "agency": "서울특별시 종로구",
+     "type": "시군구"
+    },
+    {
+     "title": "출산장려 건강보험 가입지원",
+     "agency": "서울특별시 종로구",
+     "type": "시군구"
+    },
+    {
+     "title": "장수축하금 지원",
+     "agency": "서울특별시 종로구",
+     "type": "시군구"
+    },
+    {
+     "title": "장애인 활동지원(추가)",
+     "agency": "서울특별시 종로구",
+     "type": "시군구"
+    },
+    {
+     "title": "가정위탁아동 및 입양가정 지원",
+     "agency": "서울특별시 종로구",
+     "type": "시군구"
+    },
+    {
+     "title": "지역아동센터 운영 지원",
+     "agency": "서울특별시 종로구",
+     "type": "시군구"
+    },
+    {
+     "title": "2026년 종로구 주거환경개선사업[종로 온(溫)집수리]",
+     "agency": "서울특별시 종로구",
+     "type": "시군구"
+    },
+    {
+     "title": "국가보훈대상자 보훈예우수당 지급",
+     "agency": "서울특별시 종로구",
+     "type": "시군구"
+    },
+    {
+     "title": "국가유공자 사망위로금 지급",
+     "agency": "서울특별시 종로구",
+     "type": "시군구"
+    },
+    {
+     "title": "국가보훈대상자 위문금 지급",
+     "agency": "서울특별시 종로구",
+     "type": "시군구"
+    },
+    {
+     "title": "저소득가구 명절 위문금 지원(기초주거급여,기초교육급여, 차상위 및 법정 한부모가정)",
+     "agency": "서울특별시 종로구",
+     "type": "시군구"
+    },
+    {
+     "title": "싱크대용 수동 탈수기 유상보급 사업",
+     "agency": "서울특별시 종로구",
+     "type": "시군구"
+    },
+    {
+     "title": "EM발효액 무상 보급",
+     "agency": "서울특별시 종로구",
+     "type": "시군구"
+    },
+    {
+     "title": "암표지자 검사 서비스",
+     "agency": "서울특별시 종로구",
+     "type": "시군구"
+    },
+    {
+     "title": "기초건강검진",
+     "agency": "서울특별시 종로구",
+     "type": "시군구"
+    },
+    {
+     "title": "장애인 전동 보장구 수리비 지원",
+     "agency": "서울특별시 종로구",
+     "type": "시군구"
+    },
+    {
+     "title": "제증명발급 수수료 면제",
+     "agency": "서울특별시 종로구",
+     "type": "시군구"
+    },
+    {
+     "title": "아동양육시설 위문",
+     "agency": "서울특별시 종로구",
+     "type": "시군구"
+    },
+    {
+     "title": "시청각 장애인을 위한 문화관광해설프로그램 운영",
+     "agency": "서울특별시 종로구",
+     "type": "시군구"
+    },
+    {
+     "title": "어린이 국가예방접종 지원",
+     "agency": "서울특별시 종로구",
+     "type": "시군구"
+    },
+    {
+     "title": "소상공인 영업소 출입 통행로로 사용하는 경우 도로점용료 감면(10%)",
+     "agency": "서울특별시 종로구",
+     "type": "시군구"
+    },
+    {
+     "title": "종로구 산모신생아 건강관리 지원",
+     "agency": "서울특별시 종로구",
+     "type": "시군구"
+    },
+    {
+     "title": "임산부 선천성 태아 기형아 검사 및 풍진 항체검사",
+     "agency": "서울특별시 종로구",
+     "type": "시군구"
+    },
+    {
+     "title": "종로종합사회복지관 운영 및 지원",
+     "agency": "서울특별시 종로구",
+     "type": "시군구"
+    },
+    {
+     "title": "보훈대상자 및 보훈단체 지원",
+     "agency": "서울특별시 종로구",
+     "type": "시군구"
+    },
+    {
+     "title": "구립 미술관 관람료 감면",
+     "agency": "서울특별시 종로구",
+     "type": "시군구"
+    },
+    {
+     "title": "취업 상담·알선 서비스 제공(종로 일자리플러스센터 운영)",
+     "agency": "서울특별시 종로구",
+     "type": "시군구"
+    },
+    {
+     "title": "멘토링 지원",
+     "agency": "서울특별시 종로구",
+     "type": "시군구"
+    },
+    {
+     "title": "경로당 취미교실 운영",
+     "agency": "서울특별시 종로구",
+     "type": "시군구"
+    },
+    {
+     "title": "폭염대비 취약계층 에어컨 지원 사업",
+     "agency": "서울특별시 종로구",
+     "type": "시군구"
+    },
+    {
+     "title": "종로 복지등기 우편사업",
+     "agency": "서울특별시 종로구",
+     "type": "시군구"
+    },
+    {
+     "title": "국가유공자 장례서비스 지원",
+     "agency": "서울특별시 종로구",
+     "type": "시군구"
+    },
+    {
+     "title": "주민 정보화교육 지원",
+     "agency": "서울특별시 종로구",
+     "type": "시군구"
+    },
+    {
+     "title": "노인 구강보건사업",
+     "agency": "서울특별시 종로구",
+     "type": "시군구"
+    }
+   ],
+   "counts": {
+    "raw": 10942,
+    "conditions": 10942,
+    "used": 2061,
+    "region": 8622,
+    "age": 259
+   },
+   "fields": [
+    "등록일시",
+    "부서명",
+    "사용자구분",
+    "상세조회URL",
+    "서비스ID",
+    "서비스명",
+    "서비스목적요약",
+    "서비스분야",
+    "선정기준",
+    "소관기관명",
+    "소관기관유형",
+    "소관기관코드",
+    "수정일시",
+    "신청기한",
+    "신청기한유형",
+    "신청방법",
+    "전화문의",
+    "접수기관",
+    "조회수",
+    "지원내용",
+    "지원대상",
+    "지원유형"
+   ],
+   "condition_fields": [
+    "JA0101",
+    "JA0102",
+    "JA0110",
+    "JA0111",
+    "JA0201",
+    "JA0202",
+    "JA0203",
+    "JA0204",
+    "JA0205",
+    "JA0301",
+    "JA0302",
+    "JA0303",
+    "JA0313",
+    "JA0314",
+    "JA0315",
+    "JA0316",
+    "JA0317",
+    "JA0318",
+    "JA0319",
+    "JA0320",
+    "JA0322",
+    "JA0326",
+    "JA0327",
+    "JA0328",
+    "JA0329",
+    "JA0330",
+    "JA0401",
+    "JA0402",
+    "JA0403",
+    "JA0404",
+    "JA0410",
+    "JA0411",
+    "JA0412",
+    "JA0413",
+    "JA0414",
+    "JA1101",
+    "JA1102",
+    "JA1103",
+    "JA1201",
+    "JA1202",
+    "JA1299",
+    "JA2101",
+    "JA2102",
+    "JA2103",
+    "JA2201",
+    "JA2202",
+    "JA2203",
+    "JA2299",
+    "서비스ID",
+    "서비스명"
+   ]
+  },
+  "온통청년": {
+   "dropped_region": [
+    {
+     "title": "김제청년축제",
+     "zips": 1,
+     "zip_sample": [
+      "52210"
+     ],
+     "agency": "전북특별자치도 김제시 성장전략실"
+    },
+    {
+     "title": "청년공감 서포터즈",
+     "zips": 1,
+     "zip_sample": [
+      "52210"
+     ],
+     "agency": "전북특별자치도 김제시 성장전략실"
+    },
+    {
+     "title": "취업청년 정착수당",
+     "zips": 1,
+     "zip_sample": [
+      "52210"
+     ],
+     "agency": "전북특별자치도 김제시 성장전략실"
+    },
+    {
+     "title": "김제 청년거주형 스테이케이션",
+     "zips": 1,
+     "zip_sample": [
+      "52210"
+     ],
+     "agency": "전북특별자치도 김제시 성장전략실"
+    },
+    {
+     "title": "충남형 도시리브투게더",
+     "zips": 14,
+     "zip_sample": [
+      "44130",
+      "44150",
+      "44180",
+      "44200",
+      "44230"
+     ],
+     "agency": "주택도시과"
+    },
+    {
+     "title": "충남형 농촌리브투게더",
+     "zips": 9,
+     "zip_sample": [
+      "44150",
+      "44180",
+      "44230",
+      "44710",
+      "44760"
+     ],
+     "agency": "주택도시과"
+    },
+    {
+     "title": "청년 어촌정착 지원사업",
+     "zips": 14,
+     "zip_sample": [
+      "44130",
+      "44150",
+      "44180",
+      "44200",
+      "44230"
+     ],
+     "agency": "어촌산업과"
+    },
+    {
+     "title": "청년친화형 연구타운 조성",
+     "zips": 2,
+     "zip_sample": [
+      "44130",
+      "44200"
+     ],
+     "agency": "미래산업과"
+    },
+    {
+     "title": "청년 농촌보금자리 조성사업",
+     "zips": 2,
+     "zip_sample": [
+      "44150",
+      "44760"
+     ],
+     "agency": "농촌공간과"
+    },
+    {
+     "title": "해양수산 창업투자 지원사업",
+     "zips": 14,
+     "zip_sample": [
+      "44130",
+      "44150",
+      "44180",
+      "44200",
+      "44230"
+     ],
+     "agency": "어촌산업과"
+    },
+    {
+     "title": "고립·은둔청년 지원사업",
+     "zips": 2,
+     "zip_sample": [
+      "50110",
+      "50130"
+     ],
+     "agency": "제주특별자치도"
+    },
+    {
+     "title": "영암군 결혼장려금 지원사업",
+     "zips": 1,
+     "zip_sample": [
+      "12800"
+     ],
+     "agency": "전남광주통합특별시 영암군"
+    },
+    {
+     "title": "영암군 청년참여포인트제",
+     "zips": 1,
+     "zip_sample": [
+      "12800"
+     ],
+     "agency": "전남광주통합특별시 영암군"
+    },
+    {
+     "title": "영암군 청년동아리 지원사업",
+     "zips": 1,
+     "zip_sample": [
+      "12800"
+     ],
+     "agency": "전남광주통합특별시 영암군"
+    },
+    {
+     "title": "청년창업공간 시설개선 지원사업(스페이스업)",
+     "zips": 1,
+     "zip_sample": [
+      "52210"
+     ],
+     "agency": "전북특별자치도 김제시 성장전략실"
+    },
+    {
+     "title": "청년농촌보금자리 운영",
+     "zips": 256,
+     "agency": "경상북도 상주시 경제산업국",
+     "why": "기관/제목이 다른 지역"
+    },
+    {
+     "title": "청년 주거 임차비 지원",
+     "zips": 1,
+     "zip_sample": [
+      "47250"
+     ],
+     "agency": "경상북도 상주시 인구정책실"
+    },
+    {
+     "title": "청년 구직자 자격증 취득 지원",
+     "zips": 1,
+     "zip_sample": [
+      "47250"
+     ],
+     "agency": "경상북도 상주시 인구정책실"
+    },
+    {
+     "title": "(재)상주시장학회 장학생 선발(희망)",
+     "zips": 1,
+     "zip_sample": [
+      "47250"
+     ],
+     "agency": "(재)상주시장학회"
+    },
+    {
+     "title": "(재)상주시장학회 장학생 선발(나래)",
+     "zips": 1,
+     "zip_sample": [
+      "47250"
+     ],
+     "agency": "(재)상주시장학회"
+    },
+    {
+     "title": "2026 김제 세일즈-업(UP) 청춘 프로젝트",
+     "zips": 1,
+     "zip_sample": [
+      "52210"
+     ],
+     "agency": "전북특별자치도 김제시 성장전략실"
+    },
+    {
+     "title": "청년 행정일자리",
+     "zips": 1,
+     "zip_sample": [
+      "47250"
+     ],
+     "agency": "경상북도 상주시 인구정책실"
+    },
+    {
+     "title": "통상마스터Youth(청년창업가형)",
+     "zips": 1,
+     "zip_sample": [
+      "52210"
+     ],
+     "agency": "전북특별자치도 김제시 성장전략실"
+    },
+    {
+     "title": "2026년 김제 창업청년 스케일업 컨설팅(점프업)",
+     "zips": 1,
+     "zip_sample": [
+      "52210"
+     ],
+     "agency": "전북특별자치도 김제시 성장전략실"
+    },
+    {
+     "title": "김제청년 창업 도약 지원사업 ‘톡톡’",
+     "zips": 1,
+     "zip_sample": [
+      "52210"
+     ],
+     "agency": "전북특별자치도 김제시 성장전략실"
+    },
+    {
+     "title": "경력단절 청년 재취업 지원(새일여성인턴사업)",
+     "zips": 10,
+     "zip_sample": [
+      "44130",
+      "44150",
+      "44180",
+      "44200",
+      "44230"
+     ],
+     "agency": "성평등가족과"
+    },
+    {
+     "title": "김제청년 예비창업 도전 지원사업 힌트",
+     "zips": 1,
+     "zip_sample": [
+      "52210"
+     ],
+     "agency": "전북특별자치도 김제시"
+    },
+    {
+     "title": "청년내일저축계좌",
+     "zips": 1,
+     "zip_sample": [
+      "12770"
+     ],
+     "agency": "보건복지부"
+    },
+    {
+     "title": "청년농업인 창업 스케일업(성장) 지원사업",
+     "zips": 1,
+     "zip_sample": [
+      "12770"
+     ],
+     "agency": "농촌진흥청"
+    },
+    {
+     "title": "청년농업인 스타트업(초기창업) 지원사업",
+     "zips": 1,
+     "zip_sample": [
+      "12770"
+     ],
+     "agency": "농촌진흥청"
+    },
+    {
+     "title": "2026년 청년어업인 영어정착 지원사업",
+     "zips": 1,
+     "zip_sample": [
+      "12770"
+     ],
+     "agency": "전남광주통합특별시 장흥군 해양수산과"
+    },
+    {
+     "title": "서구 청년정책 기본계획 수립",
+     "zips": 1,
+     "zip_sample": [
+      "12240"
+     ],
+     "agency": "전남광주통합특별시 서구 복지일자리국"
+    },
+    {
+     "title": "서구 청년센터 운영",
+     "zips": 1,
+     "zip_sample": [
+      "12240"
+     ],
+     "agency": "전남광주통합특별시 서구 복지일자리국"
+    },
+    {
+     "title": "서구 청년축제 개최",
+     "zips": 1,
+     "zip_sample": [
+      "12240"
+     ],
+     "agency": "전남광주통합특별시 서구 복지일자리국"
+    },
+    {
+     "title": "청년자율공간 확충",
+     "zips": 1,
+     "zip_sample": [
+      "12240"
+     ],
+     "agency": "전남광주통합특별시 서구 복지일자리국"
+    },
+    {
+     "title": "청년 정책네트워크 운영",
+     "zips": 1,
+     "zip_sample": [
+      "12240"
+     ],
+     "agency": "전남광주통합특별시 서구 복지일자리국"
+    },
+    {
+     "title": "충남 청년 로컬창업 생태계 구축  프로젝트 Y:LOCAL",
+     "zips": 9,
+     "zip_sample": [
+      "44150",
+      "44180",
+      "44230",
+      "44710",
+      "44760"
+     ],
+     "agency": "청년정책과"
+    },
+    {
+     "title": "청년월세 지원사업",
+     "zips": 14,
+     "zip_sample": [
+      "44130",
+      "44150",
+      "44180",
+      "44200",
+      "44230"
+     ],
+     "agency": "청년정책과"
+    },
+    {
+     "title": "우리 동네 청년 사장님들을 소개합니다",
+     "zips": 14,
+     "zip_sample": [
+      "44130",
+      "44150",
+      "44180",
+      "44200",
+      "44230"
+     ],
+     "agency": "청년정책과"
+    },
+    {
+     "title": "청년 창업‧창직 지원사업",
+     "zips": 14,
+     "zip_sample": [
+      "44130",
+      "44150",
+      "44180",
+      "44200",
+      "44230"
+     ],
+     "agency": "청년정책과"
+    }
+   ],
+   "dropped_age": [
+    {
+     "title": "경기도 장애인 누림통장",
+     "age": [
+      19,
+      23
+     ]
+    },
+    {
+     "title": "청년 한부모 자립 지원(추가 아동 양육비 지원)",
+     "age": [
+      25,
+      34
+     ]
+    },
+    {
+     "title": "직업계고 학생 현장실습 내실화",
+     "age": [
+      16,
+      18
+     ]
+    },
+    {
+     "title": "직업계고 채용연계형 직무교육과정 지원",
+     "age": [
+      16,
+      18
+     ]
+    },
+    {
+     "title": "재직자 인공지능·디지털(AI·D) 집중과정 지원",
+     "age": [
+      29,
+      100
+     ]
+    },
+    {
+     "title": "가정양육수당 지원",
+     "age": [
+      2,
+      6
+     ]
+    },
+    {
+     "title": "고교 취업연계 장려금 지원",
+     "age": [
+      17,
+      21
+     ]
+    },
+    {
+     "title": "청년문화예술패스",
+     "age": [
+      19,
+      20
+     ]
+    },
+    {
+     "title": "나노기술 인력양성 사업",
+     "age": [
+      19,
+      23
+     ]
+    },
+    {
+     "title": "청년한부모 자립 지원(추가아동양육비 지원)",
+     "age": [
+      25,
+      34
+     ]
+    },
+    {
+     "title": "직업계고 채용연계형 직무교육과정 지원",
+     "age": [
+      17,
+      20
+     ]
+    },
+    {
+     "title": "직업계고 학생 현장실습 내실화",
+     "age": [
+      16,
+      19
+     ]
+    },
+    {
+     "title": "자립준비청년 자립정착금 지원",
+     "age": [
+      15,
+      18
+     ]
+    },
+    {
+     "title": "자립준비청년 자립수당 지원",
+     "age": [
+      15,
+      18
+     ]
+    },
+    {
+     "title": "현장실습 지원금",
+     "age": [
+      17,
+      19
+     ]
+    }
+   ],
+   "counts": {
+    "raw": 3665,
+    "used": 684,
+    "region": 2959,
+    "age": 22
+   },
+   "fields": [
+    "plcyNo",
+    "bscPlanCycl",
+    "bscPlanPlcyWayNo",
+    "bscPlanFcsAsmtNo",
+    "bscPlanAsmtNo",
+    "pvsnInstGroupCd",
+    "plcyPvsnMthdCd",
+    "plcyAprvSttsCd",
+    "plcyNm",
+    "plcyKywdNm",
+    "plcyExplnCn",
+    "lclsfNm",
+    "mclsfNm",
+    "plcySprtCn",
+    "sprvsnInstCd",
+    "sprvsnInstCdNm",
+    "sprvsnInstPicNm",
+    "operInstCd",
+    "operInstCdNm",
+    "operInstPicNm",
+    "sprtSclLmtYn",
+    "aplyPrdSeCd",
+    "bizPrdSeCd",
+    "bizPrdBgngYmd",
+    "bizPrdEndYmd",
+    "bizPrdEtcCn",
+    "plcyAplyMthdCn",
+    "srngMthdCn",
+    "aplyUrlAddr",
+    "sbmsnDcmntCn",
+    "etcMttrCn",
+    "refUrlAddr1",
+    "refUrlAddr2",
+    "sprtSclCnt",
+    "sprtArvlSeqYn",
+    "sprtTrgtMinAge",
+    "sprtTrgtMaxAge",
+    "sprtTrgtAgeLmtYn",
+    "mrgSttsCd",
+    "earnCndSeCd",
+    "earnMinAmt",
+    "earnMaxAmt",
+    "earnEtcCn",
+    "addAplyQlfcCndCn",
+    "ptcpPrpTrgtCn",
+    "inqCnt",
+    "rgtrInstCd",
+    "rgtrInstCdNm",
+    "rgtrUpInstCd",
+    "rgtrUpInstCdNm",
+    "rgtrHghrkInstCd",
+    "rgtrHghrkInstCdNm",
+    "zipCd",
+    "plcyMajorCd",
+    "jobCd",
+    "schoolCd",
+    "aplyYmd",
+    "frstRegDt",
+    "lastMdfcnDt",
+    "sbizCd"
+   ],
+   "raw_examples": [
+    {
+     "plcyNo": "20261028005400214474",
+     "bscPlanCycl": "2",
+     "bscPlanPlcyWayNo": "005",
+     "bscPlanFcsAsmtNo": "016",
+     "bscPlanAsmtNo": "060",
+     "pvsnInstGroupCd": "0054002",
+     "plcyPvsnMthdCd": "0042005",
+     "plcyAprvSttsCd": "0044002",
+     "plcyNm": "김제청년축제",
+     "plcyKywdNm": "보조금",
+     "plcyExplnCn": "청년이 직접 기획하고 참여하는 축제를 통해 청년문화 활성화와 지역사회 참여기회 확대",
+     "lclsfNm": "참여･기반",
+     "mclsfNm": "정책인프라구축",
+     "plcySprtCn": "10월 30~31일 김제실내체육관 일원에서 공연·먹거리·체험·정책홍보 등 참여형 축제 운영",
+     "sprvsnInstCd": "4711066",
+     "sprvsnInstCdNm": "전북특별자치도 김제시 성장전략실",
+     "sprvsnInstPicNm": "이용혁",
+     "operInstCd": "       ",
+     "operInstCdNm": "",
+     "operInstPicNm": "",
+     "sprtSclLmtYn": "N",
+     "aplyPrdSeCd": "0057001",
+     "bizPrdSeCd": "0056001",
+     "bizPrdBgngYmd": "20260701",
+     "bizPrdEndYmd": "20261031",
+     "bizPrdEtcCn": "",
+     "plcyAplyMthdCn": "",
+     "srngMthdCn": "",
+     "aplyUrlAddr": "",
+     "sbmsnDcmntCn": "",
+     "etcMttrCn": "",
+     "refUrlAddr1": "https://www.gimje.go.kr/",
+     "refUrlAddr2": "https://www.gimje.go.kr/town/board/view.gimje?menuCd=DOM_000002217004001000&boardId=BBS_0000027&dataSid=366194",
+     "sprtSclCnt": "2000",
+     "sprtArvlSeqYn": "N",
+     "sprtTrgtMinAge": "18",
+     "sprtTrgtMaxAge": "39",
+     "sprtTrgtAgeLmtYn": "N",
+     "mrgSttsCd": "0055003",
+     "earnCndSeCd": "0043001",
+     "earnMinAmt": "0",
+     "earnMaxAmt": "0",
+     "earnEtcCn": "",
+     "addAplyQlfcCndCn": "○ (사업대상) 김제시 청년 및 시민\n- (연령기준) 청년 18~39세(주요 참여대상)\n- (기타조건) 청년이 기획·운영에 참여하고 시민 누구나 관람·참여 가능",
+     "ptcpPrpTrgtCn": "",
+     "inqCnt": "14",
+     "rgtrInstCd": "4711000",
+     "rgtrInstCdNm": "전북특별자치도 김제시",
+     "rgtrUpInstCd": "6540000",
+     "rgtrUpInstCdNm": "전북특별자치도",
+     "rgtrHghrkInstCd": "6540000",
+     "rgtrHghrkInstCdNm": "전북특별자치도",
+     "zipCd": "52210",
+     "plcyMajorCd": "0011009",
+     "jobCd": "0013010",
+     "schoolCd": "0049010",
+     "aplyYmd": "20261030 ~ 20261031",
+     "frstRegDt": "2026-10-28 10:22:54",
+     "lastMdfcnDt": "2026-10-28 14:37:44",
+     "sbizCd": "0014010"
+    },
+    {
+     "plcyNo": "20261028005400214473",
+     "bscPlanCycl": "2",
+     "bscPlanPlcyWayNo": "005",
+     "bscPlanFcsAsmtNo": "017",
+     "bscPlanAsmtNo": "062",
+     "pvsnInstGroupCd": "0054002",
+     "plcyPvsnMthdCd": "0042013",
+     "plcyAprvSttsCd": "0044002",
+     "plcyNm": "청년공감 서포터즈",
+     "plcyKywdNm": "보조금",
+     "plcyExplnCn": "청년들의 시정 참여 기회를 확대하여 청년정책에 대한 관심도를 높이고, 청년의 자율적인 결속을 위한 환경을 마련하여 수요자 중심의 맞춤형 청년정책 추진을 위한 소통 강화",
+     "lclsfNm": "참여･기반",
+     "mclsfNm": "청년참여",
+     "plcySprtCn": "청년정책 발굴제안 및 네트워크 구축을 위한 청년 교류 활동 지원",
+     "sprvsnInstCd": "4711066",
+     "sprvsnInstCdNm": "전북특별자치도 김제시 성장전략실",
+     "sprvsnInstPicNm": "최향순",
+     "operInstCd": "       ",
+     "operInstCdNm": "",
+     "operInstPicNm": "",
+     "sprtSclLmtYn": "N",
+     "aplyPrdSeCd": "0057001",
+     "bizPrdSeCd": "0056001",
+     "bizPrdBgngYmd": "20260507",
+     "bizPrdEndYmd": "20261231",
+     "bizPrdEtcCn": "",
+     "plcyAplyMthdCn": "○ 신청방법\n- 방문(김제시청 성장전략실) 또는 이메일 접수\n",
+     "srngMthdCn": "○ 심사방법 : 서류심사\n- 모집요건 충족 여부 확인 후 적격자 선정\n- 관내 주민등록 여부, 관내 대학교 재학 및 직장 재직 여부 조회‧확인\n※ 관내 거주 여부 및 재학·재직 여부 확인되지 않을 경우 미선정\n- 청년 관련 행사참여자 또는 기획 경험자 우대 선발\n- 시정 참여 또는 공익활동 경험 여부 종합 고려",
+     "aplyUrlAddr": "",
+     "sbmsnDcmntCn": "신청서, 개인정보 수집‧이용 및 제공 동의서",
+     "etcMttrCn": "",
+     "refUrlAddr1": "https://www.gimje.go.kr/",
+     "refUrlAddr2": "https://www.gimje.go.kr/board/view.gimje?menuCd=DOM_000000104001000000&boardId=BBS_0000027&dataSid=318761",
+     "sprtSclCnt": "50",
+     "sprtArvlSeqYn": "N",
+     "sprtTrgtMinAge": "18",
+     "sprtTrgtMaxAge": "39",
+     "sprtTrgtAgeLmtYn": "N",
+     "mrgSttsCd": "0055003",
+     "earnCndSeCd": "0043001",
+     "earnMinAmt": "0",
+     "earnMaxAmt": "0",
+     "earnEtcCn": "",
+     "addAplyQlfcCndCn": "○ 모집대상 : 관내 거주 및 활동하고 있는 청년\n- (거주) 김제시에 주민등록 되어 있는 청년\n- (활동) 관내에서 재학‧재직 중인 대학생, 직장인, 사업가 등\n- (연령) 18세 이상~39세 이하(1986.1.1.~2007.12.31. 출생)",
+     "ptcpPrpTrgtCn": "○ 정당한 사유없이 지속적으로 청년축제기획단 활동 불참 시 해촉\n※ 정당한 사유 : 본인 질병·부상, 시험, 면접, 직계존비속·배우자·형제자매의 결혼·장례 등 경조사, 천재지변(태풍, 폭설 등)으로 이동이 어려운 경우, 기타 사회통념상 불가피하다고 인정되는 경우",
+     "inqCnt": "5",
+     "rgtrInstCd": "4711000",
+     "rgtrInstCdNm": "전북특별자치도 김제시",
+     "rgtrUpInstCd": "6540000",
+     "rgtrUpInstCdNm": "전북특별자치도",
+     "rgtrHghrkInstCd": "6540000",
+     "rgtrHghrkInstCdNm": "전북특별자치도",
+     "zipCd": "52210",
+     "plcyMajorCd": "0011009",
+     "jobCd": "0013010",
+     "schoolCd": "0049010",
+     "aplyYmd": "20260421 ~ 20260507",
+     "frstRegDt": "2026-10-28 10:06:50",
+     "lastMdfcnDt": "2026-10-28 14:36:04",
+     "sbizCd": "0014010"
+    }
+   ],
+   "missing": {
+    "no_id": 0,
+    "no_zipCd": 0
+   }
+  }
+ },
+ "updated_at": "2026-10-29T09:34+09:00",
+ "status": {
+  "보조금24": "ok",
+  "온통청년": "ok"
+ },
+ "schedule": {
+  "always": 1213,
+  "deadline": 490,
+  "yearly_window": 137
+ }
+}

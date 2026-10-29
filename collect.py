@@ -610,6 +610,29 @@ def apply_state(items, profile):
     return state, first_run
 
 
+def telegram_send(token: str, chat: str, text: str, tries: int = 3):
+    """텔레그램 한 통 보내기. 연결 끊김·429·5xx 는 다시 해 보고, 끝내 안 되면 예외를 낸다
+    (그러면 이번 결과가 저장되지 않아 다음 실행에서 새 소식으로 다시 알려 준다).
+    토큰·채팅 번호가 틀린 경우(그 밖의 4xx)는 다시 해도 소용없으니 경고만 남긴다.
+    예외 문구에는 주소(토큰 포함)가 섞일 수 있어 종류만 적는다."""
+    last = None
+    for i in range(tries):
+        try:
+            r = requests.post(f"https://api.telegram.org/bot{token}/sendMessage",
+                              data={"chat_id": chat, "text": text, "disable_web_page_preview": "true"},
+                              timeout=20)
+            if r.status_code == 200:
+                return
+            last = f"HTTP {r.status_code}"
+            if r.status_code != 429 and r.status_code < 500:
+                log(f"  ⚠ 텔레그램이 요청을 받아 주지 않았어요 ({last}) — 토큰·채팅 번호를 확인하세요")
+                return
+        except requests.RequestException as e:
+            last = type(e).__name__
+        time.sleep(3 * (i + 1))
+    raise RuntimeError(f"텔레그램 전송 실패: {last}")
+
+
 def notify_telegram(items, first_run):
     token, chat = os.getenv("TELEGRAM_BOT_TOKEN"), os.getenv("TELEGRAM_CHAT_ID")
     if not token or not chat or first_run:
@@ -631,9 +654,7 @@ def notify_telegram(items, first_run):
         lines.append(f"\n전체 보기: {page}")
     text = "\n".join(lines)
     for i in range(0, len(text), 3900):
-        requests.post(f"https://api.telegram.org/bot{token}/sendMessage",
-                      data={"chat_id": chat, "text": text[i:i + 3900], "disable_web_page_preview": "true"},
-                      timeout=20)
+        telegram_send(token, chat, text[i:i + 3900])
     log(f"  알림: 텔레그램 전송 (신규 {len(new)}, 임박 {len(soon)})")
 
 

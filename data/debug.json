@@ -397,361 +397,360 @@
   "온통청년": {
    "dropped_region": [
     {
-     "title": "김제청년축제",
+     "title": "청년의 날 운영",
      "zips": 1,
      "zip_sample": [
-      "52210"
+      "26380"
      ],
-     "agency": "전북특별자치도 김제시 성장전략실"
+     "agency": "부산광역시 사하구"
     },
     {
-     "title": "청년공감 서포터즈",
+     "title": "사하청년 온라인 플랫폼 <사하청년 1839 운영>",
      "zips": 1,
      "zip_sample": [
-      "52210"
+      "26380"
      ],
-     "agency": "전북특별자치도 김제시 성장전략실"
+     "agency": "부산광역시 사하구"
     },
     {
-     "title": "취업청년 정착수당",
+     "title": "사하청년네트워크",
      "zips": 1,
      "zip_sample": [
-      "52210"
+      "26380"
      ],
-     "agency": "전북특별자치도 김제시 성장전략실"
+     "agency": "부산광역시 사하구"
     },
     {
-     "title": "김제 청년거주형 스테이케이션",
+     "title": "진안청년 내일 창업 아카데미",
      "zips": 1,
      "zip_sample": [
-      "52210"
+      "52720"
      ],
-     "agency": "전북특별자치도 김제시 성장전략실"
+     "agency": "전북특별자치도 진안군 농산촌미래국"
     },
     {
-     "title": "충남형 도시리브투게더",
-     "zips": 14,
+     "title": "진안군 청년쉐어하우스 월랑 입주 지원",
+     "zips": 1,
      "zip_sample": [
-      "44130",
-      "44150",
-      "44180",
-      "44200",
-      "44230"
+      "52720"
      ],
-     "agency": "주택도시과"
+     "agency": "전북특별자치도 진안군 농산촌미래국"
     },
     {
-     "title": "충남형 농촌리브투게더",
+     "title": "진안청년 참여지원(청년참여 포인트제도)",
+     "zips": 1,
+     "zip_sample": [
+      "52720"
+     ],
+     "agency": "전북특별자치도 진안군 농산촌미래국"
+    },
+    {
+     "title": "진안군 청년창업 지원사업",
+     "zips": 1,
+     "zip_sample": [
+      "52720"
+     ],
+     "agency": "전북특별자치도 진안군 농산촌미래국"
+    },
+    {
+     "title": "진안군 청년 주거비 지원사업",
+     "zips": 1,
+     "zip_sample": [
+      "52720"
+     ],
+     "agency": "전북특별자치도 진안군 농산촌미래국"
+    },
+    {
+     "title": "신혼부부 및 청년 공공임대주택 임대보증금 지원사업",
+     "zips": 1,
+     "zip_sample": [
+      "52180"
+     ],
+     "agency": "전북특별자치도 정읍시"
+    },
+    {
+     "title": "자격증응시료 지원사업",
+     "zips": 1,
+     "zip_sample": [
+      "26380"
+     ],
+     "agency": "부산광역시 사하구 경제환경국"
+    },
+    {
+     "title": "2030세대 귀농인 영농정착 지원",
+     "zips": 1,
+     "zip_sample": [
+      "52180"
+     ],
+     "agency": "전북특별자치도 정읍시"
+    },
+    {
+     "title": "청년 소상공인맞춤형 방문컨설팅사업",
+     "zips": 1,
+     "zip_sample": [
+      "12130"
+     ],
+     "agency": "전남광주통합특별시 여수시 기획경제국"
+    },
+    {
+     "title": "K-Art 청년창작자 지원",
+     "zips": 15,
+     "zip_sample": [
+      "52111",
+      "52113",
+      "52130",
+      "52140",
+      "52180"
+     ],
+     "agency": "전북특별자치도 문화체육관광국"
+    },
+    {
+     "title": "민간 소공연장 청년인력 지원사업",
+     "zips": 15,
+     "zip_sample": [
+      "52111",
+      "52113",
+      "52130",
+      "52140",
+      "52180"
+     ],
+     "agency": "전북특별자치도 문화체육관광국"
+    },
+    {
+     "title": "청년 문화예술 활성화 사업",
+     "zips": 15,
+     "zip_sample": [
+      "52111",
+      "52113",
+      "52130",
+      "52140",
+      "52180"
+     ],
+     "agency": "전북특별자치도 문화체육관광국"
+    },
+    {
+     "title": "얼티밋 뮤직 페스티벌 개최",
+     "zips": 15,
+     "zip_sample": [
+      "52111",
+      "52113",
+      "52130",
+      "52140",
+      "52180"
+     ],
+     "agency": "전북특별자치도 문화체육관광국"
+    },
+    {
+     "title": "고용친화기업 선정·지원 사업",
      "zips": 9,
      "zip_sample": [
-      "44150",
-      "44180",
-      "44230",
-      "44710",
-      "44760"
+      "27110",
+      "27140",
+      "27170",
+      "27200",
+      "27230"
      ],
-     "agency": "주택도시과"
+     "agency": "대구광역시 경제국 고용노동정책과"
     },
     {
-     "title": "청년 어촌정착 지원사업",
-     "zips": 14,
+     "title": "문화예술교육사 현장역량강화사업",
+     "zips": 15,
      "zip_sample": [
-      "44130",
-      "44150",
-      "44180",
-      "44200",
-      "44230"
+      "52111",
+      "52113",
+      "52130",
+      "52140",
+      "52180"
      ],
-     "agency": "어촌산업과"
+     "agency": "전북특별자치도 문화체육관광국"
     },
     {
-     "title": "청년친화형 연구타운 조성",
-     "zips": 2,
-     "zip_sample": [
-      "44130",
-      "44200"
-     ],
-     "agency": "미래산업과"
-    },
-    {
-     "title": "청년 농촌보금자리 조성사업",
-     "zips": 2,
-     "zip_sample": [
-      "44150",
-      "44760"
-     ],
-     "agency": "농촌공간과"
-    },
-    {
-     "title": "해양수산 창업투자 지원사업",
-     "zips": 14,
-     "zip_sample": [
-      "44130",
-      "44150",
-      "44180",
-      "44200",
-      "44230"
-     ],
-     "agency": "어촌산업과"
-    },
-    {
-     "title": "고립·은둔청년 지원사업",
-     "zips": 2,
-     "zip_sample": [
-      "50110",
-      "50130"
-     ],
-     "agency": "제주특별자치도"
-    },
-    {
-     "title": "영암군 결혼장려금 지원사업",
-     "zips": 1,
-     "zip_sample": [
-      "12800"
-     ],
-     "agency": "전남광주통합특별시 영암군"
-    },
-    {
-     "title": "영암군 청년참여포인트제",
-     "zips": 1,
-     "zip_sample": [
-      "12800"
-     ],
-     "agency": "전남광주통합특별시 영암군"
-    },
-    {
-     "title": "영암군 청년동아리 지원사업",
-     "zips": 1,
-     "zip_sample": [
-      "12800"
-     ],
-     "agency": "전남광주통합특별시 영암군"
-    },
-    {
-     "title": "청년창업공간 시설개선 지원사업(스페이스업)",
-     "zips": 1,
-     "zip_sample": [
-      "52210"
-     ],
-     "agency": "전북특별자치도 김제시 성장전략실"
-    },
-    {
-     "title": "청년농촌보금자리 운영",
-     "zips": 256,
-     "agency": "경상북도 상주시 경제산업국",
-     "why": "기관/제목이 다른 지역"
-    },
-    {
-     "title": "청년 주거 임차비 지원",
-     "zips": 1,
-     "zip_sample": [
-      "47250"
-     ],
-     "agency": "경상북도 상주시 인구정책실"
-    },
-    {
-     "title": "청년 구직자 자격증 취득 지원",
-     "zips": 1,
-     "zip_sample": [
-      "47250"
-     ],
-     "agency": "경상북도 상주시 인구정책실"
-    },
-    {
-     "title": "(재)상주시장학회 장학생 선발(희망)",
-     "zips": 1,
-     "zip_sample": [
-      "47250"
-     ],
-     "agency": "(재)상주시장학회"
-    },
-    {
-     "title": "(재)상주시장학회 장학생 선발(나래)",
-     "zips": 1,
-     "zip_sample": [
-      "47250"
-     ],
-     "agency": "(재)상주시장학회"
-    },
-    {
-     "title": "2026 김제 세일즈-업(UP) 청춘 프로젝트",
-     "zips": 1,
-     "zip_sample": [
-      "52210"
-     ],
-     "agency": "전북특별자치도 김제시 성장전략실"
-    },
-    {
-     "title": "청년 행정일자리",
-     "zips": 1,
-     "zip_sample": [
-      "47250"
-     ],
-     "agency": "경상북도 상주시 인구정책실"
-    },
-    {
-     "title": "통상마스터Youth(청년창업가형)",
-     "zips": 1,
-     "zip_sample": [
-      "52210"
-     ],
-     "agency": "전북특별자치도 김제시 성장전략실"
-    },
-    {
-     "title": "2026년 김제 창업청년 스케일업 컨설팅(점프업)",
-     "zips": 1,
-     "zip_sample": [
-      "52210"
-     ],
-     "agency": "전북특별자치도 김제시 성장전략실"
-    },
-    {
-     "title": "김제청년 창업 도약 지원사업 ‘톡톡’",
-     "zips": 1,
-     "zip_sample": [
-      "52210"
-     ],
-     "agency": "전북특별자치도 김제시 성장전략실"
-    },
-    {
-     "title": "경력단절 청년 재취업 지원(새일여성인턴사업)",
-     "zips": 10,
-     "zip_sample": [
-      "44130",
-      "44150",
-      "44180",
-      "44200",
-      "44230"
-     ],
-     "agency": "성평등가족과"
-    },
-    {
-     "title": "김제청년 예비창업 도전 지원사업 힌트",
-     "zips": 1,
-     "zip_sample": [
-      "52210"
-     ],
-     "agency": "전북특별자치도 김제시"
-    },
-    {
-     "title": "청년내일저축계좌",
-     "zips": 1,
-     "zip_sample": [
-      "12770"
-     ],
-     "agency": "보건복지부"
-    },
-    {
-     "title": "청년농업인 창업 스케일업(성장) 지원사업",
-     "zips": 1,
-     "zip_sample": [
-      "12770"
-     ],
-     "agency": "농촌진흥청"
-    },
-    {
-     "title": "청년농업인 스타트업(초기창업) 지원사업",
-     "zips": 1,
-     "zip_sample": [
-      "12770"
-     ],
-     "agency": "농촌진흥청"
-    },
-    {
-     "title": "2026년 청년어업인 영어정착 지원사업",
-     "zips": 1,
-     "zip_sample": [
-      "12770"
-     ],
-     "agency": "전남광주통합특별시 장흥군 해양수산과"
-    },
-    {
-     "title": "서구 청년정책 기본계획 수립",
-     "zips": 1,
-     "zip_sample": [
-      "12240"
-     ],
-     "agency": "전남광주통합특별시 서구 복지일자리국"
-    },
-    {
-     "title": "서구 청년센터 운영",
-     "zips": 1,
-     "zip_sample": [
-      "12240"
-     ],
-     "agency": "전남광주통합특별시 서구 복지일자리국"
-    },
-    {
-     "title": "서구 청년축제 개최",
-     "zips": 1,
-     "zip_sample": [
-      "12240"
-     ],
-     "agency": "전남광주통합특별시 서구 복지일자리국"
-    },
-    {
-     "title": "청년자율공간 확충",
-     "zips": 1,
-     "zip_sample": [
-      "12240"
-     ],
-     "agency": "전남광주통합특별시 서구 복지일자리국"
-    },
-    {
-     "title": "청년 정책네트워크 운영",
-     "zips": 1,
-     "zip_sample": [
-      "12240"
-     ],
-     "agency": "전남광주통합특별시 서구 복지일자리국"
-    },
-    {
-     "title": "충남 청년 로컬창업 생태계 구축  프로젝트 Y:LOCAL",
+     "title": "대구 경북 공공기관 지역인재 합동채용설명회",
      "zips": 9,
      "zip_sample": [
-      "44150",
-      "44180",
-      "44230",
-      "44710",
-      "44760"
+      "27110",
+      "27140",
+      "27170",
+      "27200",
+      "27230"
      ],
-     "agency": "청년정책과"
+     "agency": "대구광역시 기획조정실 광역행정담당관"
     },
     {
-     "title": "청년월세 지원사업",
-     "zips": 14,
+     "title": "전북 청년문화예술 주문배달서비스사업",
+     "zips": 15,
      "zip_sample": [
-      "44130",
-      "44150",
-      "44180",
-      "44200",
-      "44230"
+      "52111",
+      "52113",
+      "52130",
+      "52140",
+      "52180"
      ],
-     "agency": "청년정책과"
+     "agency": "전북특별자치도 문화체육관광국"
     },
     {
-     "title": "우리 동네 청년 사장님들을 소개합니다",
-     "zips": 14,
+     "title": "문화예술일자리지원사업",
+     "zips": 15,
      "zip_sample": [
-      "44130",
-      "44150",
-      "44180",
-      "44200",
-      "44230"
+      "52111",
+      "52113",
+      "52130",
+      "52140",
+      "52180"
      ],
-     "agency": "청년정책과"
+     "agency": "전북특별자치도 문화체육관광국"
     },
     {
-     "title": "청년 창업‧창직 지원사업",
-     "zips": 14,
+     "title": "건강증진대학만들기",
+     "zips": 1,
      "zip_sample": [
-      "44130",
-      "44150",
-      "44180",
-      "44200",
-      "44230"
+      "47290"
      ],
-     "agency": "청년정책과"
+     "agency": "경상북도 경산시 교육문화국"
+    },
+    {
+     "title": "청년취업지원사업",
+     "zips": 1,
+     "zip_sample": [
+      "47290"
+     ],
+     "agency": "경상북도 경산시 교육문화국"
+    },
+    {
+     "title": "대학생 학자금대출 이자지원",
+     "zips": 1,
+     "zip_sample": [
+      "47290"
+     ],
+     "agency": "경상북도 경산시 교육문화국"
+    },
+    {
+     "title": "경산시 청년센터",
+     "zips": 1,
+     "zip_sample": [
+      "47290"
+     ],
+     "agency": "경상북도 경산시 교육문화국"
+    },
+    {
+     "title": "경산청년지식놀이터",
+     "zips": 1,
+     "zip_sample": [
+      "47290"
+     ],
+     "agency": "경상북도 경산시 교육문화국"
+    },
+    {
+     "title": "서울시 내발산동 공공기숙사",
+     "zips": 1,
+     "zip_sample": [
+      "47290"
+     ],
+     "agency": "경상북도 경산시 교육문화국"
+    },
+    {
+     "title": "글로벌 미래인재 육성사업",
+     "zips": 1,
+     "zip_sample": [
+      "47290"
+     ],
+     "agency": "경상북도 경산시 교육문화국"
+    },
+    {
+     "title": "청년농업인 온라인 마케팅 경쟁력 제고",
+     "zips": 1,
+     "zip_sample": [
+      "47290"
+     ],
+     "agency": "경상북도 경산시 농업기술센터"
+    },
+    {
+     "title": "세종시 위원회 청년참여 확대",
+     "zips": 1,
+     "zip_sample": [
+      "36110"
+     ],
+     "agency": "세종특별자치시"
+    },
+    {
+     "title": "출생축하금 지원",
+     "zips": 1,
+     "zip_sample": [
+      "36110"
+     ],
+     "agency": "세종특별자치시"
+    },
+    {
+     "title": "반도체특성화대학 지원사업",
+     "zips": 1,
+     "zip_sample": [
+      "36110"
+     ],
+     "agency": "세종특별자치시"
+    },
+    {
+     "title": "행복일터 인증제",
+     "zips": 1,
+     "zip_sample": [
+      "36110"
+     ],
+     "agency": "세종특별자치시"
+    },
+    {
+     "title": "청년성장프로젝트",
+     "zips": 1,
+     "zip_sample": [
+      "36110"
+     ],
+     "agency": "세종특별자치시"
+    },
+    {
+     "title": "청년도전 지원사업 운영",
+     "zips": 1,
+     "zip_sample": [
+      "36110"
+     ],
+     "agency": "세종특별자치시"
+    },
+    {
+     "title": "청년농업인 영농정착지원사업",
+     "zips": 1,
+     "zip_sample": [
+      "36110"
+     ],
+     "agency": "세종특별자치시"
+    },
+    {
+     "title": "청년 취업역량강화 지원사업(대학일자리플러스센터)",
+     "zips": 1,
+     "zip_sample": [
+      "36110"
+     ],
+     "agency": "세종특별자치시"
+    },
+    {
+     "title": "지역산업맞춤형 자치단체 지원사업",
+     "zips": 1,
+     "zip_sample": [
+      "36110"
+     ],
+     "agency": "세종특별자치시"
+    },
+    {
+     "title": "청년 소상공인 지원 패키지",
+     "zips": 1,
+     "zip_sample": [
+      "36110"
+     ],
+     "agency": "세종특별자치시"
+    },
+    {
+     "title": "청년농업인 4-H육성 지원",
+     "zips": 1,
+     "zip_sample": [
+      "36110"
+     ],
+     "agency": "세종특별자치시"
     }
    ],
    "dropped_age": [
@@ -862,9 +861,9 @@
     }
    ],
    "counts": {
-    "raw": 3658,
-    "used": 684,
-    "region": 2952,
+    "raw": 3843,
+    "used": 701,
+    "region": 3120,
     "age": 22
    },
    "fields": [
@@ -931,102 +930,102 @@
    ],
    "raw_examples": [
     {
-     "plcyNo": "20261028005400214474",
+     "plcyNo": "20261030005400214653",
      "bscPlanCycl": "2",
-     "bscPlanPlcyWayNo": "005",
-     "bscPlanFcsAsmtNo": "016",
-     "bscPlanAsmtNo": "060",
+     "bscPlanPlcyWayNo": "003",
+     "bscPlanFcsAsmtNo": "009",
+     "bscPlanAsmtNo": "030",
      "pvsnInstGroupCd": "0054002",
-     "plcyPvsnMthdCd": "0042005",
+     "plcyPvsnMthdCd": "0042006",
      "plcyAprvSttsCd": "0044002",
-     "plcyNm": "김제청년축제",
-     "plcyKywdNm": "보조금",
-     "plcyExplnCn": "청년이 직접 기획하고 참여하는 축제를 통해 청년문화 활성화와 지역사회 참여기회 확대",
-     "lclsfNm": "참여･기반",
-     "mclsfNm": "정책인프라구축",
-     "plcySprtCn": "10월 30~31일 김제실내체육관 일원에서 공연·먹거리·체험·정책홍보 등 참여형 축제 운영",
-     "sprvsnInstCd": "4711066",
-     "sprvsnInstCdNm": "전북특별자치도 김제시 성장전략실",
-     "sprvsnInstPicNm": "이용혁",
+     "plcyNm": "전세보증금반환보증 보증료 지원",
+     "plcyKywdNm": "보조금,주거지원",
+     "plcyExplnCn": "전세사기피해 예방 및 주거안정 도모\n\n",
+     "lclsfNm": "주거",
+     "mclsfNm": "전월세 및 주거급여 지원",
+     "plcySprtCn": "실 납부 전세보증금반환보증 보증료(최대 40만원) 지원\n",
+     "sprvsnInstCd": "6412659",
+     "sprvsnInstCdNm": "경기도 도시주택실 주택정책과",
+     "sprvsnInstPicNm": "",
      "operInstCd": "       ",
      "operInstCdNm": "",
      "operInstPicNm": "",
-     "sprtSclLmtYn": "N",
-     "aplyPrdSeCd": "0057001",
-     "bizPrdSeCd": "0056001",
-     "bizPrdBgngYmd": "20260701",
-     "bizPrdEndYmd": "20261031",
-     "bizPrdEtcCn": "",
+     "sprtSclLmtYn": "Y",
+     "aplyPrdSeCd": "0057002",
+     "bizPrdSeCd": "0056002",
+     "bizPrdBgngYmd": "        ",
+     "bizPrdEndYmd": "        ",
+     "bizPrdEtcCn": "2026년 1월 ~ 12월",
      "plcyAplyMthdCn": "",
      "srngMthdCn": "",
      "aplyUrlAddr": "",
      "sbmsnDcmntCn": "",
-     "etcMttrCn": "",
-     "refUrlAddr1": "https://www.gimje.go.kr/",
-     "refUrlAddr2": "https://www.gimje.go.kr/town/board/view.gimje?menuCd=DOM_000002217004001000&boardId=BBS_0000027&dataSid=366194",
-     "sprtSclCnt": "2000",
+     "etcMttrCn": "문의전화 :\n국토교통부(1599-0001)\n\n자세한 사업정보 및 제출서류 등 세부 사항은 문의처 및 사업 추진 기관의 상세 공고를 확인하시길 바랍니다.",
+     "refUrlAddr1": "https://housing.gg.go.kr/html/51502.do",
+     "refUrlAddr2": "",
+     "sprtSclCnt": "0",
      "sprtArvlSeqYn": "N",
-     "sprtTrgtMinAge": "18",
-     "sprtTrgtMaxAge": "39",
-     "sprtTrgtAgeLmtYn": "N",
+     "sprtTrgtMinAge": "0",
+     "sprtTrgtMaxAge": "0",
+     "sprtTrgtAgeLmtYn": "Y",
      "mrgSttsCd": "0055003",
-     "earnCndSeCd": "0043001",
+     "earnCndSeCd": "0043003",
      "earnMinAmt": "0",
      "earnMaxAmt": "0",
-     "earnEtcCn": "",
-     "addAplyQlfcCndCn": "○ (사업대상) 김제시 청년 및 시민\n- (연령기준) 청년 18~39세(주요 참여대상)\n- (기타조건) 청년이 기획·운영에 참여하고 시민 누구나 관람·참여 가능",
+     "earnEtcCn": "청년:연소득 5천만원 이하, 청년 외:연소득 6천만원 이하, 신혼부부:연소득 7.5천만원 이하",
+     "addAplyQlfcCndCn": "보증보험에 가입한 전세보증금 3억원 이하인 무주택 임차인",
      "ptcpPrpTrgtCn": "",
-     "inqCnt": "28",
-     "rgtrInstCd": "4711000",
-     "rgtrInstCdNm": "전북특별자치도 김제시",
-     "rgtrUpInstCd": "6540000",
-     "rgtrUpInstCdNm": "전북특별자치도",
-     "rgtrHghrkInstCd": "6540000",
-     "rgtrHghrkInstCdNm": "전북특별자치도",
-     "zipCd": "52210",
+     "inqCnt": "5",
+     "rgtrInstCd": "6412831",
+     "rgtrInstCdNm": "경기도 미래평생교육국",
+     "rgtrUpInstCd": "6410000",
+     "rgtrUpInstCdNm": "경기도",
+     "rgtrHghrkInstCd": "6410000",
+     "rgtrHghrkInstCdNm": "경기도",
+     "zipCd": "41111,41113,41115,41117,41131,41133,41135,41150,41171,41173,41192,41194,41196,41210,41220,41250,41271,41273,41281,41285,41287,41290,41310,41360,41370,41390,41410,41430,41450,41461,41463,41465,41480,41",
      "plcyMajorCd": "0011009",
      "jobCd": "0013010",
      "schoolCd": "0049010",
-     "aplyYmd": "20261030 ~ 20261031",
-     "frstRegDt": "2026-10-28 10:22:54",
-     "lastMdfcnDt": "2026-10-28 14:37:44",
+     "aplyYmd": "",
+     "frstRegDt": "2026-10-30 17:58:45",
+     "lastMdfcnDt": "2026-10-30 19:45:46",
      "sbizCd": "0014010"
     },
     {
-     "plcyNo": "20261028005400214473",
+     "plcyNo": "20261030005400214652",
      "bscPlanCycl": "2",
      "bscPlanPlcyWayNo": "005",
      "bscPlanFcsAsmtNo": "017",
      "bscPlanAsmtNo": "062",
      "pvsnInstGroupCd": "0054002",
-     "plcyPvsnMthdCd": "0042013",
+     "plcyPvsnMthdCd": "0042002",
      "plcyAprvSttsCd": "0044002",
-     "plcyNm": "청년공감 서포터즈",
-     "plcyKywdNm": "보조금",
-     "plcyExplnCn": "청년들의 시정 참여 기회를 확대하여 청년정책에 대한 관심도를 높이고, 청년의 자율적인 결속을 위한 환경을 마련하여 수요자 중심의 맞춤형 청년정책 추진을 위한 소통 강화",
+     "plcyNm": "청년의 날 운영",
+     "plcyKywdNm": "인턴,벤처",
+     "plcyExplnCn": " ❍‘청년의 날’기념행사를 통해 청년들의 사회참여 활성화 도모\n ❍「청년기본법」 제정(2020. 2. 4.)에 따른 청년에 대한 사회적 공감대 형성을 위해 9월 세 번째 토요일을‘청년의 날’로 지정하여 기념",
      "lclsfNm": "참여･기반",
      "mclsfNm": "청년참여",
-     "plcySprtCn": "청년정책 발굴제안 및 네트워크 구축을 위한 청년 교류 활동 지원",
-     "sprvsnInstCd": "4711066",
-     "sprvsnInstCdNm": "전북특별자치도 김제시 성장전략실",
-     "sprvsnInstPicNm": "최향순",
+     "plcySprtCn": " ❍ 대    상: 사하구에 거주‧생활하는 18~39세 청년 및 지역 주민\n ❍ 내   용: 청년의 사회참여 증진 및 청년 네트워킹 활성화를 위해 청년이 주도하는 청년 프로그램 운영 및 청년 교류 행사 개최",
+     "sprvsnInstCd": "3340000",
+     "sprvsnInstCdNm": "부산광역시 사하구",
+     "sprvsnInstPicNm": "",
      "operInstCd": "       ",
      "operInstCdNm": "",
      "operInstPicNm": "",
      "sprtSclLmtYn": "N",
      "aplyPrdSeCd": "0057001",
-     "bizPrdSeCd": "0056001",
-     "bizPrdBgngYmd": "20260507",
-     "bizPrdEndYmd": "20261231",
-     "bizPrdEtcCn": "",
-     "plcyAplyMthdCn": "○ 신청방법\n- 방문(김제시청 성장전략실) 또는 이메일 접수\n",
-     "srngMthdCn": "○ 심사방법 : 서류심사\n- 모집요건 충족 여부 확인 후 적격자 선정\n- 관내 주민등록 여부, 관내 대학교 재학 및 직장 재직 여부 조회‧확인\n※ 관내 거주 여부 및 재학·재직 여부 확인되지 않을 경우 미선정\n- 청년 관련 행사참여자 또는 기획 경험자 우대 선발\n- 시정 참여 또는 공익활동 경험 여부 종합 고려",
+     "bizPrdSeCd": "0056002",
+     "bizPrdBgngYmd": "        ",
+     "bizPrdEndYmd": "        ",
+     "bizPrdEtcCn": "매년 9월 세 번째 토요일",
+     "plcyAplyMthdCn": "",
+     "srngMthdCn": "",
      "aplyUrlAddr": "",
-     "sbmsnDcmntCn": "신청서, 개인정보 수집‧이용 및 제공 동의서",
+     "sbmsnDcmntCn": "",
      "etcMttrCn": "",
-     "refUrlAddr1": "https://www.gimje.go.kr/",
-     "refUrlAddr2": "https://www.gimje.go.kr/board/view.gimje?menuCd=DOM_000000104001000000&boardId=BBS_0000027&dataSid=318761",
-     "sprtSclCnt": "50",
+     "refUrlAddr1": "https://www.saha.go.kr/main.do",
+     "refUrlAddr2": "https://blog.naver.com/sahablog/224404630668",
+     "sprtSclCnt": "0",
      "sprtArvlSeqYn": "N",
      "sprtTrgtMinAge": "18",
      "sprtTrgtMaxAge": "39",
@@ -1036,22 +1035,22 @@
      "earnMinAmt": "0",
      "earnMaxAmt": "0",
      "earnEtcCn": "",
-     "addAplyQlfcCndCn": "○ 모집대상 : 관내 거주 및 활동하고 있는 청년\n- (거주) 김제시에 주민등록 되어 있는 청년\n- (활동) 관내에서 재학‧재직 중인 대학생, 직장인, 사업가 등\n- (연령) 18세 이상~39세 이하(1986.1.1.~2007.12.31. 출생)",
-     "ptcpPrpTrgtCn": "○ 정당한 사유없이 지속적으로 청년축제기획단 활동 불참 시 해촉\n※ 정당한 사유 : 본인 질병·부상, 시험, 면접, 직계존비속·배우자·형제자매의 결혼·장례 등 경조사, 천재지변(태풍, 폭설 등)으로 이동이 어려운 경우, 기타 사회통념상 불가피하다고 인정되는 경우",
-     "inqCnt": "8",
-     "rgtrInstCd": "4711000",
-     "rgtrInstCdNm": "전북특별자치도 김제시",
-     "rgtrUpInstCd": "6540000",
-     "rgtrUpInstCdNm": "전북특별자치도",
-     "rgtrHghrkInstCd": "6540000",
-     "rgtrHghrkInstCdNm": "전북특별자치도",
-     "zipCd": "52210",
+     "addAplyQlfcCndCn": "",
+     "ptcpPrpTrgtCn": "",
+     "inqCnt": "3",
+     "rgtrInstCd": "3340178",
+     "rgtrInstCdNm": "부산광역시 사하구 경제환경국",
+     "rgtrUpInstCd": "3340000",
+     "rgtrUpInstCdNm": "부산광역시 사하구",
+     "rgtrHghrkInstCd": "6260000",
+     "rgtrHghrkInstCdNm": "부산광역시",
+     "zipCd": "26380",
      "plcyMajorCd": "0011009",
      "jobCd": "0013010",
      "schoolCd": "0049010",
-     "aplyYmd": "20260421 ~ 20260507",
-     "frstRegDt": "2026-10-28 10:06:50",
-     "lastMdfcnDt": "2026-10-28 14:36:04",
+     "aplyYmd": "20260701 ~ 20260830",
+     "frstRegDt": "2026-10-30 17:58:11",
+     "lastMdfcnDt": "2026-10-30 19:20:09",
      "sbizCd": "0014010"
     }
    ],
@@ -1061,13 +1060,13 @@
    }
   }
  },
- "updated_at": "2026-10-30T09:33+09:00",
+ "updated_at": "2026-10-31T09:19+09:00",
  "status": {
   "보조금24": "ok",
   "온통청년": "ok"
  },
  "schedule": {
-  "always": 1213,
+  "always": 1224,
   "deadline": 490,
   "yearly_window": 137
  }

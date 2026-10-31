@@ -939,7 +939,7 @@
      "plcyPvsnMthdCd": "0042006",
      "plcyAprvSttsCd": "0044002",
      "plcyNm": "전세보증금반환보증 보증료 지원",
-     "plcyKywdNm": "보조금,주거지원",
+     "plcyKywdNm": "주거지원,보조금",
      "plcyExplnCn": "전세사기피해 예방 및 주거안정 도모\n\n",
      "lclsfNm": "주거",
      "mclsfNm": "전월세 및 주거급여 지원",
@@ -975,7 +975,7 @@
      "earnEtcCn": "청년:연소득 5천만원 이하, 청년 외:연소득 6천만원 이하, 신혼부부:연소득 7.5천만원 이하",
      "addAplyQlfcCndCn": "보증보험에 가입한 전세보증금 3억원 이하인 무주택 임차인",
      "ptcpPrpTrgtCn": "",
-     "inqCnt": "5",
+     "inqCnt": "15",
      "rgtrInstCd": "6412831",
      "rgtrInstCdNm": "경기도 미래평생교육국",
      "rgtrUpInstCd": "6410000",
@@ -1001,7 +1001,7 @@
      "plcyPvsnMthdCd": "0042002",
      "plcyAprvSttsCd": "0044002",
      "plcyNm": "청년의 날 운영",
-     "plcyKywdNm": "인턴,벤처",
+     "plcyKywdNm": "벤처,인턴",
      "plcyExplnCn": " ❍‘청년의 날’기념행사를 통해 청년들의 사회참여 활성화 도모\n ❍「청년기본법」 제정(2020. 2. 4.)에 따른 청년에 대한 사회적 공감대 형성을 위해 9월 세 번째 토요일을‘청년의 날’로 지정하여 기념",
      "lclsfNm": "참여･기반",
      "mclsfNm": "청년참여",
@@ -1037,7 +1037,7 @@
      "earnEtcCn": "",
      "addAplyQlfcCndCn": "",
      "ptcpPrpTrgtCn": "",
-     "inqCnt": "3",
+     "inqCnt": "6",
      "rgtrInstCd": "3340178",
      "rgtrInstCdNm": "부산광역시 사하구 경제환경국",
      "rgtrUpInstCd": "3340000",
@@ -1060,14 +1060,14 @@
    }
   }
  },
- "updated_at": "2026-10-31T09:19+09:00",
+ "updated_at": "2026-11-01T08:55+09:00",
  "status": {
   "보조금24": "ok",
   "온통청년": "ok"
  },
  "schedule": {
   "always": 1224,
-  "deadline": 490,
+  "deadline": 487,
   "yearly_window": 137
  }
 }

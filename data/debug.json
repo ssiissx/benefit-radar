@@ -939,7 +939,7 @@
      "plcyPvsnMthdCd": "0042006",
      "plcyAprvSttsCd": "0044002",
      "plcyNm": "전세보증금반환보증 보증료 지원",
-     "plcyKywdNm": "주거지원,보조금",
+     "plcyKywdNm": "보조금,주거지원",
      "plcyExplnCn": "전세사기피해 예방 및 주거안정 도모\n\n",
      "lclsfNm": "주거",
      "mclsfNm": "전월세 및 주거급여 지원",
@@ -975,7 +975,7 @@
      "earnEtcCn": "청년:연소득 5천만원 이하, 청년 외:연소득 6천만원 이하, 신혼부부:연소득 7.5천만원 이하",
      "addAplyQlfcCndCn": "보증보험에 가입한 전세보증금 3억원 이하인 무주택 임차인",
      "ptcpPrpTrgtCn": "",
-     "inqCnt": "15",
+     "inqCnt": "28",
      "rgtrInstCd": "6412831",
      "rgtrInstCdNm": "경기도 미래평생교육국",
      "rgtrUpInstCd": "6410000",
@@ -1037,7 +1037,7 @@
      "earnEtcCn": "",
      "addAplyQlfcCndCn": "",
      "ptcpPrpTrgtCn": "",
-     "inqCnt": "6",
+     "inqCnt": "13",
      "rgtrInstCd": "3340178",
      "rgtrInstCdNm": "부산광역시 사하구 경제환경국",
      "rgtrUpInstCd": "3340000",
@@ -1060,7 +1060,7 @@
    }
   }
  },
- "updated_at": "2026-11-01T08:55+09:00",
+ "updated_at": "2026-11-02T09:06+09:00",
  "status": {
   "보조금24": "ok",
   "온통청년": "ok"

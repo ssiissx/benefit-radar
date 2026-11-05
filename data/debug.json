@@ -929,9 +929,9 @@
     }
    ],
    "counts": {
-    "raw": 3865,
+    "raw": 3856,
     "used": 717,
-    "region": 3125,
+    "region": 3116,
     "age": 23
    },
    "fields": [
@@ -1007,7 +1007,7 @@
      "plcyPvsnMthdCd": "0042006",
      "plcyAprvSttsCd": "0044002",
      "plcyNm": "2026 우수인재 연계 기업인턴십",
-     "plcyKywdNm": "보조금,인턴,중소기업",
+     "plcyKywdNm": "인턴,보조금,중소기업",
      "plcyExplnCn": "콘텐츠 분야 우수인재 대상 시업 현장교육 기회 제공",
      "lclsfNm": "일자리",
      "mclsfNm": "취업",
@@ -1043,7 +1043,7 @@
      "earnEtcCn": "",
      "addAplyQlfcCndCn": "",
      "ptcpPrpTrgtCn": "",
-     "inqCnt": "29",
+     "inqCnt": "84",
      "rgtrInstCd": "B552644",
      "rgtrInstCdNm": "한국콘텐츠진흥원",
      "rgtrUpInstCd": "B000000",
@@ -1069,7 +1069,7 @@
      "plcyPvsnMthdCd": "0042013",
      "plcyAprvSttsCd": "0044002",
      "plcyNm": "신혼부부 및 청년 임대주택 임대보증금 지원",
-     "plcyKywdNm": "공공임대주택,주거지원",
+     "plcyKywdNm": "주거지원,공공임대주택",
      "plcyExplnCn": "신혼부부 및 청년의 주거비 부담 경감을 위해 공공임대주택 거주시 임대보증금 지원하여 주거안정 도모",
      "lclsfNm": "주거",
      "mclsfNm": "전월세 및 주거급여 지원",
@@ -1105,7 +1105,7 @@
      "earnEtcCn": "공공임대주택 입주자격(입주자에 한해 지원 가능)",
      "addAplyQlfcCndCn": "○ (사업내용) 공공임대주택 임대보증금 무이자 지원(융자)\n - (지원대상 임대주택) 10년임대, 영구임대, 국민임대, 행복주택, 기존주택 매입임대주택\n - (지원대상) 도내 무주택 신혼부부 및 청년\n     ※ 혼인신고일 기준 7년 이내 신혼부부 및 18~39세 미혼 청년",
      "ptcpPrpTrgtCn": "",
-     "inqCnt": "21",
+     "inqCnt": "77",
      "rgtrInstCd": "6540055",
      "rgtrInstCdNm": "전북특별자치도 건설교통국 주택건축과",
      "rgtrUpInstCd": "0000000",
@@ -1128,7 +1128,7 @@
    }
   }
  },
- "updated_at": "2026-11-04T10:00+09:00",
+ "updated_at": "2026-11-05T10:15+09:00",
  "status": {
   "보조금24": "ok",
   "온통청년": "ok"

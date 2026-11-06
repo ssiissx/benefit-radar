@@ -397,6 +397,296 @@
   "온통청년": {
    "dropped_region": [
     {
+     "title": "동성로 청년버스킹 활성화 사업",
+     "zips": 9,
+     "zip_sample": [
+      "27110",
+      "27140",
+      "27170",
+      "27200",
+      "27230"
+     ],
+     "agency": "대구광역시 문화체육관광국 문화예술정책과"
+    },
+    {
+     "title": "자립준비청년 자립지원 체계구축",
+     "zips": 9,
+     "zip_sample": [
+      "27110",
+      "27140",
+      "27170",
+      "27200",
+      "27230"
+     ],
+     "agency": "대구광역시 청년여성교육국 교육청소년과"
+    },
+    {
+     "title": "자립준비청년 자립수당 지급",
+     "zips": 9,
+     "zip_sample": [
+      "27110",
+      "27140",
+      "27170",
+      "27200",
+      "27230"
+     ],
+     "agency": "대구광역시 청년여성교육국 교육청소년과"
+    },
+    {
+     "title": "청년생활 종합상담사업",
+     "zips": 9,
+     "zip_sample": [
+      "27110",
+      "27140",
+      "27170",
+      "27200",
+      "27230"
+     ],
+     "agency": "대구광역시 청년여성교육국 청년정책과"
+    },
+    {
+     "title": "사회적 고립청년 지원사업",
+     "zips": 9,
+     "zip_sample": [
+      "27110",
+      "27140",
+      "27170",
+      "27200",
+      "27230"
+     ],
+     "agency": "대구광역시 청년여성교육국 청년정책과"
+    },
+    {
+     "title": "대구 청년 재무 클리닉 운영",
+     "zips": 9,
+     "zip_sample": [
+      "27110",
+      "27140",
+      "27170",
+      "27200",
+      "27230"
+     ],
+     "agency": "대구광역시 청년여성교육국 청년정책과"
+    },
+    {
+     "title": "청년마음건강센터 운영",
+     "zips": 9,
+     "zip_sample": [
+      "27110",
+      "27140",
+      "27170",
+      "27200",
+      "27230"
+     ],
+     "agency": "대구광역시 보건복지국 건강증진과"
+    },
+    {
+     "title": "청년층 자살시도자 치료비 지원사업",
+     "zips": 9,
+     "zip_sample": [
+      "27110",
+      "27140",
+      "27170",
+      "27200",
+      "27230"
+     ],
+     "agency": "대구광역시 보건복지국 건강증진과"
+    },
+    {
+     "title": "신복지 사각지대 발굴지원",
+     "zips": 9,
+     "zip_sample": [
+      "27110",
+      "27140",
+      "27170",
+      "27200",
+      "27230"
+     ],
+     "agency": "대구광역시 보건복지국 복지정책과"
+    },
+    {
+     "title": "청년내일저축계좌",
+     "zips": 9,
+     "zip_sample": [
+      "27110",
+      "27140",
+      "27170",
+      "27200",
+      "27230"
+     ],
+     "agency": "대구광역시 보건복지국 복지정책과"
+    },
+    {
+     "title": "지역사회서비스 청년사업단 운영",
+     "zips": 9,
+     "zip_sample": [
+      "27110",
+      "27140",
+      "27170",
+      "27200",
+      "27230"
+     ],
+     "agency": "대구광역시 보건복지국 복지정책과"
+    },
+    {
+     "title": "남구 백운광장 청년축제ヽ(✿ﾟ▽ﾟ)ノ",
+     "zips": 27,
+     "zip_sample": [
+      "12110",
+      "12130",
+      "12150",
+      "12170",
+      "12190"
+     ],
+     "agency": "전남광주통합특별시"
+    },
+    {
+     "title": "2026년 나주시 청년의 날",
+     "zips": 1,
+     "zip_sample": [
+      "12170"
+     ],
+     "agency": "전남광주통합특별시"
+    },
+    {
+     "title": "2026년 나주시 청년센터 하반기 청년 희망학교 수강생 모집",
+     "zips": 1,
+     "zip_sample": [
+      "12170"
+     ],
+     "agency": "전남광주통합특별시"
+    },
+    {
+     "title": "2026년 청년도전지원사업",
+     "zips": 1,
+     "zip_sample": [
+      "12170"
+     ],
+     "agency": "전남광주통합특별시"
+    },
+    {
+     "title": "2026년 나만의 특별한 결혼식 지원사업",
+     "zips": 1,
+     "zip_sample": [
+      "12170"
+     ],
+     "agency": "전남광주통합특별시"
+    },
+    {
+     "title": "귀환 청년 주거지원(공공기관 사택제공)",
+     "zips": 247,
+     "agency": "대구광역시 청년여성교육국 청년정책과",
+     "why": "기관/제목이 다른 지역"
+    },
+    {
+     "title": "신혼부부 전세자금 대출이자 지원",
+     "zips": 9,
+     "zip_sample": [
+      "27110",
+      "27140",
+      "27170",
+      "27200",
+      "27230"
+     ],
+     "agency": "대구광역시 청년여성교육국 출산보육과"
+    },
+    {
+     "title": "대구청년 부동산 중개수수료 지원",
+     "zips": 9,
+     "zip_sample": [
+      "27110",
+      "27140",
+      "27170",
+      "27200",
+      "27230"
+     ],
+     "agency": "대구광역시 청년여성교육국 청년정책과"
+    },
+    {
+     "title": "청년월세 지원",
+     "zips": 9,
+     "zip_sample": [
+      "27110",
+      "27140",
+      "27170",
+      "27200",
+      "27230"
+     ],
+     "agency": "대구광역시 청년여성교육국 청년정책과"
+    },
+    {
+     "title": "청년희망주택 임대료 지원",
+     "zips": 9,
+     "zip_sample": [
+      "27110",
+      "27140",
+      "27170",
+      "27200",
+      "27230"
+     ],
+     "agency": "대구광역시 건축주택국 주택과"
+    },
+    {
+     "title": "청년전용 버팀목 전세자금 대출이자 지원",
+     "zips": 9,
+     "zip_sample": [
+      "27110",
+      "27140",
+      "27170",
+      "27200",
+      "27230"
+     ],
+     "agency": "대구광역시 건축주택국 주택과"
+    },
+    {
+     "title": "청년 전월세 임차보증금 대출이자 지원",
+     "zips": 9,
+     "zip_sample": [
+      "27110",
+      "27140",
+      "27170",
+      "27200",
+      "27230"
+     ],
+     "agency": "대구광역시 건축주택국 건축과"
+    },
+    {
+     "title": "원스톱 주거상담서비스 플랫폼 운영(대구安방)",
+     "zips": 9,
+     "zip_sample": [
+      "27110",
+      "27140",
+      "27170",
+      "27200",
+      "27230"
+     ],
+     "agency": "대구광역시 건축주택국 주택과"
+    },
+    {
+     "title": "전세보증금 반환보증료 지원",
+     "zips": 9,
+     "zip_sample": [
+      "27110",
+      "27140",
+      "27170",
+      "27200",
+      "27230"
+     ],
+     "agency": "대구광역시 건축주택국 주택과"
+    },
+    {
+     "title": "대구행복기숙사 운영",
+     "zips": 9,
+     "zip_sample": [
+      "27110",
+      "27140",
+      "27170",
+      "27200",
+      "27230"
+     ],
+     "agency": "대구광역시 인공지능혁신성장실 대학인재혁신과"
+    },
+    {
      "title": "신혼부부 및 청년 임대주택 임대보증금 지원",
      "zips": 15,
      "zip_sample": [
@@ -417,7 +707,7 @@
      "agency": "전남광주통합특별시 영광군"
     },
     {
-     "title": "지역콘텐츠산업 육성",
+     "title": "대구국제대학생캠프",
      "zips": 9,
      "zip_sample": [
       "27110",
@@ -426,10 +716,10 @@
       "27200",
       "27230"
      ],
-     "agency": "대구광역시 인공지능혁신성장실 대학인재혁신과"
+     "agency": "대구광역시 경제국 국제통상과"
     },
     {
-     "title": "대학연계 로컬크리에이터 양성",
+     "title": "대구식품산업 인재양성 및 마케팅 지원사업",
      "zips": 9,
      "zip_sample": [
       "27110",
@@ -438,10 +728,10 @@
       "27200",
       "27230"
      ],
-     "agency": "대구광역시 인공지능혁신성장실 대학인재혁신과"
+     "agency": "대구광역시 경제국 농산유통과"
     },
     {
-     "title": "대학생 학자금대출 부담경감 지원",
+     "title": "미래형자동차 핵심기술 전문인력 양성",
      "zips": 9,
      "zip_sample": [
       "27110",
@@ -450,10 +740,10 @@
       "27200",
       "27230"
      ],
-     "agency": "대구광역시 인공지능혁신성장실 대학인재혁신과"
+     "agency": "대구광역시 인공지능혁신성장실 미래모빌리티과"
     },
     {
-     "title": "글로벌첨단전략산업 기술경영 전문인력 양성사업",
+     "title": "반도체 특성화대학 지원",
      "zips": 9,
      "zip_sample": [
       "27110",
@@ -462,10 +752,10 @@
       "27200",
       "27230"
      ],
-     "agency": "대구광역시 인공지능혁신성장실 대학인재혁신과"
+     "agency": "대구광역시 인공지능혁신성장실 인공지능정책관"
     },
     {
-     "title": "여성과학기술인 육성 지원",
+     "title": "지역 SW집적단지 인재양성 기반 조성",
      "zips": 9,
      "zip_sample": [
       "27110",
@@ -474,10 +764,18 @@
       "27200",
       "27230"
      ],
-     "agency": "대구광역시 인공지능혁신성장실 대학인재혁신과"
+     "agency": "대구광역시 인공지능혁신성장실 인공지능정책관"
     },
     {
-     "title": "공학교육혁신센터 지원",
+     "title": "영광청년 생애 첫 주택구입 대출이자 지원",
+     "zips": 1,
+     "zip_sample": [
+      "12830"
+     ],
+     "agency": "전남광주통합특별시 영광군"
+    },
+    {
+     "title": "소프트웨어(SW) 미래채움사업",
      "zips": 9,
      "zip_sample": [
       "27110",
@@ -486,10 +784,10 @@
       "27200",
       "27230"
      ],
-     "agency": "대구광역시 인공지능혁신성장실 대학인재혁신과"
+     "agency": "대구광역시 인공지능혁신성장실 인공지능정책관"
     },
     {
-     "title": "혁신융합캠퍼스 구축",
+     "title": "지역관광 역량강화",
      "zips": 9,
      "zip_sample": [
       "27110",
@@ -498,10 +796,10 @@
       "27200",
       "27230"
      ],
-     "agency": "대구광역시 기획조정실 광역행정담당관"
+     "agency": "대구광역시 문화체육관광국 관광산업과"
     },
     {
-     "title": "물류로봇경진대회 개최 지원",
+     "title": "게임아카데미 운영",
      "zips": 9,
      "zip_sample": [
       "27110",
@@ -510,10 +808,22 @@
       "27200",
       "27230"
      ],
-     "agency": "대구광역시 인공지능혁신성장실 기계로봇과"
+     "agency": "대구광역시 문화체육관광국 콘텐츠산업과"
     },
     {
-     "title": "글로벌 AI로봇 해커톤 개최 지원",
+     "title": "전남 청년 희망일자리 지원사업",
+     "zips": 22,
+     "zip_sample": [
+      "12110",
+      "12130",
+      "12150",
+      "12170",
+      "12190"
+     ],
+     "agency": "전남광주통합특별시 장성군 인구경제실"
+    },
+    {
+     "title": "문화예술교육사 현장역량 강화사업",
      "zips": 9,
      "zip_sample": [
       "27110",
@@ -522,10 +832,10 @@
       "27200",
       "27230"
      ],
-     "agency": "대구광역시 인공지능혁신성장실 기계로봇과"
+     "agency": "대구광역시 문화체육관광국 문화예술정책과"
     },
     {
-     "title": "청년 일경험 및 현장체험 프로그램 사업",
+     "title": "대학생 결혼육아 예비교실",
      "zips": 9,
      "zip_sample": [
       "27110",
@@ -535,290 +845,6 @@
       "27230"
      ],
      "agency": "대구광역시 청년여성교육국 청년정책과"
-    },
-    {
-     "title": "청년농업인 맞춤 지원",
-     "zips": 9,
-     "zip_sample": [
-      "27110",
-      "27140",
-      "27170",
-      "27200",
-      "27230"
-     ],
-     "agency": "대구광역시 경제국 농산유통과"
-    },
-    {
-     "title": "청년농업인 영농정착 지원",
-     "zips": 9,
-     "zip_sample": [
-      "27110",
-      "27140",
-      "27170",
-      "27200",
-      "27230"
-     ],
-     "agency": "대구광역시 경제국 농산유통과"
-    },
-    {
-     "title": "재직자 직업훈련 사업",
-     "zips": 9,
-     "zip_sample": [
-      "27110",
-      "27140",
-      "27170",
-      "27200",
-      "27230"
-     ],
-     "agency": "대구광역시 경제국 고용노동정책과"
-    },
-    {
-     "title": "현장중심 실무인력 양성사업",
-     "zips": 9,
-     "zip_sample": [
-      "27110",
-      "27140",
-      "27170",
-      "27200",
-      "27230"
-     ],
-     "agency": "대구광역시 경제국 고용노동정책과"
-    },
-    {
-     "title": "대학일자리플러스센터 설치운영 지원",
-     "zips": 9,
-     "zip_sample": [
-      "27110",
-      "27140",
-      "27170",
-      "27200",
-      "27230"
-     ],
-     "agency": "대구광역시 경제국 고용노동정책과"
-    },
-    {
-     "title": "대구형 청년 그린 내일채움공제",
-     "zips": 9,
-     "zip_sample": [
-      "27110",
-      "27140",
-      "27170",
-      "27200",
-      "27230"
-     ],
-     "agency": "대구광역시 경제국 고용노동정책과"
-    },
-    {
-     "title": "청년의 날 운영",
-     "zips": 1,
-     "zip_sample": [
-      "26380"
-     ],
-     "agency": "부산광역시 사하구"
-    },
-    {
-     "title": "사하청년 온라인 플랫폼 <사하청년 1839 운영>",
-     "zips": 1,
-     "zip_sample": [
-      "26380"
-     ],
-     "agency": "부산광역시 사하구"
-    },
-    {
-     "title": "사하청년네트워크",
-     "zips": 1,
-     "zip_sample": [
-      "26380"
-     ],
-     "agency": "부산광역시 사하구"
-    },
-    {
-     "title": "진안청년 내일 창업 아카데미",
-     "zips": 1,
-     "zip_sample": [
-      "52720"
-     ],
-     "agency": "전북특별자치도 진안군 농산촌미래국"
-    },
-    {
-     "title": "진안군 청년쉐어하우스 월랑 입주 지원",
-     "zips": 1,
-     "zip_sample": [
-      "52720"
-     ],
-     "agency": "전북특별자치도 진안군 농산촌미래국"
-    },
-    {
-     "title": "진안청년 참여지원(청년참여 포인트제도)",
-     "zips": 1,
-     "zip_sample": [
-      "52720"
-     ],
-     "agency": "전북특별자치도 진안군 농산촌미래국"
-    },
-    {
-     "title": "진안군 청년창업 지원사업",
-     "zips": 1,
-     "zip_sample": [
-      "52720"
-     ],
-     "agency": "전북특별자치도 진안군 농산촌미래국"
-    },
-    {
-     "title": "진안군 청년 주거비 지원사업",
-     "zips": 1,
-     "zip_sample": [
-      "52720"
-     ],
-     "agency": "전북특별자치도 진안군 농산촌미래국"
-    },
-    {
-     "title": "신혼부부 및 청년 공공임대주택 임대보증금 지원사업",
-     "zips": 1,
-     "zip_sample": [
-      "52180"
-     ],
-     "agency": "전북특별자치도 정읍시"
-    },
-    {
-     "title": "자격증응시료 지원사업",
-     "zips": 1,
-     "zip_sample": [
-      "26380"
-     ],
-     "agency": "부산광역시 사하구 경제환경국"
-    },
-    {
-     "title": "2030세대 귀농인 영농정착 지원",
-     "zips": 1,
-     "zip_sample": [
-      "52180"
-     ],
-     "agency": "전북특별자치도 정읍시"
-    },
-    {
-     "title": "청년 소상공인맞춤형 방문컨설팅사업",
-     "zips": 1,
-     "zip_sample": [
-      "12130"
-     ],
-     "agency": "전남광주통합특별시 여수시 기획경제국"
-    },
-    {
-     "title": "K-Art 청년창작자 지원",
-     "zips": 15,
-     "zip_sample": [
-      "52111",
-      "52113",
-      "52130",
-      "52140",
-      "52180"
-     ],
-     "agency": "전북특별자치도 문화체육관광국"
-    },
-    {
-     "title": "민간 소공연장 청년인력 지원사업",
-     "zips": 15,
-     "zip_sample": [
-      "52111",
-      "52113",
-      "52130",
-      "52140",
-      "52180"
-     ],
-     "agency": "전북특별자치도 문화체육관광국"
-    },
-    {
-     "title": "청년 문화예술 활성화 사업",
-     "zips": 15,
-     "zip_sample": [
-      "52111",
-      "52113",
-      "52130",
-      "52140",
-      "52180"
-     ],
-     "agency": "전북특별자치도 문화체육관광국"
-    },
-    {
-     "title": "얼티밋 뮤직 페스티벌 개최",
-     "zips": 15,
-     "zip_sample": [
-      "52111",
-      "52113",
-      "52130",
-      "52140",
-      "52180"
-     ],
-     "agency": "전북특별자치도 문화체육관광국"
-    },
-    {
-     "title": "고용친화기업 선정·지원 사업",
-     "zips": 9,
-     "zip_sample": [
-      "27110",
-      "27140",
-      "27170",
-      "27200",
-      "27230"
-     ],
-     "agency": "대구광역시 경제국 고용노동정책과"
-    },
-    {
-     "title": "문화예술교육사 현장역량강화사업",
-     "zips": 15,
-     "zip_sample": [
-      "52111",
-      "52113",
-      "52130",
-      "52140",
-      "52180"
-     ],
-     "agency": "전북특별자치도 문화체육관광국"
-    },
-    {
-     "title": "대구 경북 공공기관 지역인재 합동채용설명회",
-     "zips": 9,
-     "zip_sample": [
-      "27110",
-      "27140",
-      "27170",
-      "27200",
-      "27230"
-     ],
-     "agency": "대구광역시 기획조정실 광역행정담당관"
-    },
-    {
-     "title": "전북 청년문화예술 주문배달서비스사업",
-     "zips": 15,
-     "zip_sample": [
-      "52111",
-      "52113",
-      "52130",
-      "52140",
-      "52180"
-     ],
-     "agency": "전북특별자치도 문화체육관광국"
-    },
-    {
-     "title": "문화예술일자리지원사업",
-     "zips": 15,
-     "zip_sample": [
-      "52111",
-      "52113",
-      "52130",
-      "52140",
-      "52180"
-     ],
-     "agency": "전북특별자치도 문화체육관광국"
-    },
-    {
-     "title": "건강증진대학만들기",
-     "zips": 1,
-     "zip_sample": [
-      "47290"
-     ],
-     "agency": "경상북도 경산시 교육문화국"
     }
    ],
    "dropped_age": [
@@ -929,9 +955,9 @@
     }
    ],
    "counts": {
-    "raw": 3856,
+    "raw": 3960,
     "used": 717,
-    "region": 3116,
+    "region": 3220,
     "age": 23
    },
    "fields": [
@@ -998,44 +1024,106 @@
    ],
    "raw_examples": [
     {
-     "plcyNo": "20261103005400114715",
+     "plcyNo": "20261105005400214737",
      "bscPlanCycl": "2",
-     "bscPlanPlcyWayNo": "001",
-     "bscPlanFcsAsmtNo": "001",
-     "bscPlanAsmtNo": "003",
-     "pvsnInstGroupCd": "0054001",
-     "plcyPvsnMthdCd": "0042006",
+     "bscPlanPlcyWayNo": "004",
+     "bscPlanFcsAsmtNo": "014",
+     "bscPlanAsmtNo": "052",
+     "pvsnInstGroupCd": "0054002",
+     "plcyPvsnMthdCd": "0042012",
      "plcyAprvSttsCd": "0044002",
-     "plcyNm": "2026 우수인재 연계 기업인턴십",
-     "plcyKywdNm": "인턴,보조금,중소기업",
-     "plcyExplnCn": "콘텐츠 분야 우수인재 대상 시업 현장교육 기회 제공",
-     "lclsfNm": "일자리",
-     "mclsfNm": "취업",
-     "plcySprtCn": "콘텐츠 기업 대상  인턴 채용시 1인당 월 108만원 인건비 지급",
-     "sprvsnInstCd": "B552644",
-     "sprvsnInstCdNm": "한국콘텐츠진흥원",
-     "sprvsnInstPicNm": "박세진",
+     "plcyNm": "동성로 청년버스킹 활성화 사업",
+     "plcyKywdNm": "맞춤형상담서비스",
+     "plcyExplnCn": "전국 청년·예비 예술가의 거리 공연 활동을 지원하여 동성로의 젊음의 거리 상징성을 회복하고, 문화적 활력 제고를 통한 지역 경제 활성화에 기여",
+     "lclsfNm": "금융･복지･문화",
+     "mclsfNm": "예술인지원",
+     "plcySprtCn": "ㆍ(지원) 공연 사례비, 음향 및 조명, 악기, 참여자 간 교류·활동 \nㆍ(시상) 우수예술가 시상(시장상) ",
+     "sprvsnInstCd": "6270961",
+     "sprvsnInstCdNm": "대구광역시 문화체육관광국 문화예술정책과",
+     "sprvsnInstPicNm": "차민교",
      "operInstCd": "       ",
      "operInstCdNm": "",
-     "operInstPicNm": "박세진",
-     "sprtSclLmtYn": "Y",
+     "operInstPicNm": "",
+     "sprtSclLmtYn": "N",
      "aplyPrdSeCd": "0057001",
      "bizPrdSeCd": "0056001",
-     "bizPrdBgngYmd": "20260501",
-     "bizPrdEndYmd": "20270228",
+     "bizPrdBgngYmd": "20260303",
+     "bizPrdEndYmd": "20260315",
      "bizPrdEtcCn": "",
-     "plcyAplyMthdCn": "공고문 참조",
-     "srngMthdCn": "공고문 참조",
-     "aplyUrlAddr": "https://www.kocca.kr/kocca/bbs/view/B0000137/2012372.do?searchCnd=1&searchWrd=%EC%9D%B8%ED%84%B4&cateTp1=&cateTp2=&useYn=&menuNo=204802&categorys=0&subcate=0&cateCode=&type=&instNo=0&questionTp=&ufSet",
-     "sbmsnDcmntCn": "공고문 참조",
-     "etcMttrCn": "공고문 참조",
-     "refUrlAddr1": "https://www.kocca.kr/kocca/bbs/view/B0000137/2012372.do?searchCnd=1&searchWrd=%EC%9D%B8%ED%84%B4&cateTp1=&cateTp2=&useYn=&menuNo=204802&categorys=0&subcate=0&cateCode=&type=&instNo=0&questionTp=&ufSet",
+     "plcyAplyMthdCn": "인디053 홈페이지(www.indie053.net) 신청서 다운로드 작성 후\n이메일(art053@hanmail.net) 접수",
+     "srngMthdCn": "",
+     "aplyUrlAddr": "www.indie053.net",
+     "sbmsnDcmntCn": "",
+     "etcMttrCn": "",
+     "refUrlAddr1": "www.indie053.net",
      "refUrlAddr2": "",
+     "sprtSclCnt": "60",
+     "sprtArvlSeqYn": "N",
+     "sprtTrgtMinAge": "19",
+     "sprtTrgtMaxAge": "39",
+     "sprtTrgtAgeLmtYn": "N",
+     "mrgSttsCd": "0055003",
+     "earnCndSeCd": "0043001",
+     "earnMinAmt": "0",
+     "earnMaxAmt": "0",
+     "earnEtcCn": "",
+     "addAplyQlfcCndCn": "ㆍ(청년 예술가) 19~39세, 국내·외 청년예술가 개인 또는 팀\nㆍ(첫걸음 예술가) 19~29세, 대학동아리, 아마추어 팀",
+     "ptcpPrpTrgtCn": "",
+     "inqCnt": "4",
+     "rgtrInstCd": "6271246",
+     "rgtrInstCdNm": "대구광역시 청년여성교육국",
+     "rgtrUpInstCd": "6270000",
+     "rgtrUpInstCdNm": "대구광역시",
+     "rgtrHghrkInstCd": "6270000",
+     "rgtrHghrkInstCdNm": "대구광역시",
+     "zipCd": "27110,27140,27170,27200,27230,27260,27290,27710,27720",
+     "plcyMajorCd": "0011009",
+     "jobCd": "0013010",
+     "schoolCd": "0049010",
+     "aplyYmd": "20260303 ~ 20260315",
+     "frstRegDt": "2026-11-05 15:30:35",
+     "lastMdfcnDt": "2026-11-05 16:43:18",
+     "sbizCd": "0014010"
+    },
+    {
+     "plcyNo": "20261105005400214736",
+     "bscPlanCycl": "2",
+     "bscPlanPlcyWayNo": "004",
+     "bscPlanFcsAsmtNo": "012",
+     "bscPlanAsmtNo": "043",
+     "pvsnInstGroupCd": "0054002",
+     "plcyPvsnMthdCd": "0042013",
+     "plcyAprvSttsCd": "0044002",
+     "plcyNm": "자립준비청년 자립지원 체계구축",
+     "plcyKywdNm": "맞춤형상담서비스",
+     "plcyExplnCn": "보호종료 5년 이내 청년을 대상으로한 사후관리와 맞춤형 자립지원 상담을 통한 \n자립통합지원서비스 제공\n",
+     "lclsfNm": "금융･복지･문화",
+     "mclsfNm": "취약계층 및 금융지원",
+     "plcySprtCn": "ㆍ자립준비청년 자립수준평가 및 사후관리\nㆍ자립지원 통합서비스 운영\nㆍ자립지원전담기관 자립지원 전담인력 지원",
+     "sprvsnInstCd": "6271440",
+     "sprvsnInstCdNm": "대구광역시 청년여성교육국 교육청소년과",
+     "sprvsnInstPicNm": "안혜경",
+     "operInstCd": "       ",
+     "operInstCdNm": "",
+     "operInstPicNm": "",
+     "sprtSclLmtYn": "N",
+     "aplyPrdSeCd": "0057002",
+     "bizPrdSeCd": "0056001",
+     "bizPrdBgngYmd": "20260101",
+     "bizPrdEndYmd": "20261231",
+     "bizPrdEtcCn": "",
+     "plcyAplyMthdCn": "",
+     "srngMthdCn": "",
+     "aplyUrlAddr": "www.dgyouth.kr",
+     "sbmsnDcmntCn": "",
+     "etcMttrCn": "",
+     "refUrlAddr1": "https://www.daegu.go.kr/YouthPolicy/index.do",
+     "refUrlAddr2": "https://www.daegu.go.kr/woman/index.do?menu_id=00939670",
      "sprtSclCnt": "0",
      "sprtArvlSeqYn": "N",
-     "sprtTrgtMinAge": "0",
-     "sprtTrgtMaxAge": "0",
-     "sprtTrgtAgeLmtYn": "Y",
+     "sprtTrgtMinAge": "19",
+     "sprtTrgtMaxAge": "39",
+     "sprtTrgtAgeLmtYn": "N",
      "mrgSttsCd": "0055003",
      "earnCndSeCd": "0043001",
      "earnMinAmt": "0",
@@ -1043,82 +1131,20 @@
      "earnEtcCn": "",
      "addAplyQlfcCndCn": "",
      "ptcpPrpTrgtCn": "",
-     "inqCnt": "84",
-     "rgtrInstCd": "B552644",
-     "rgtrInstCdNm": "한국콘텐츠진흥원",
-     "rgtrUpInstCd": "B000000",
-     "rgtrUpInstCdNm": "정부산하기관및위원회",
-     "rgtrHghrkInstCd": "B000000",
-     "rgtrHghrkInstCdNm": "정부산하기관및위원회",
-     "zipCd": "11110,11140,11170,11200,11215,11230,11260,11290,11305,11320,11350,11380,11410,11440,11470,11500,11530,11545,11560,11590,11620,11650,11680,11710,11740,12110,12130,12150,12170,12190,12210,12240,12270,12",
-     "plcyMajorCd": "0011009",
-     "jobCd": "0013003",
-     "schoolCd": "0049010",
-     "aplyYmd": "20260812 ~ 20261106",
-     "frstRegDt": "2026-11-03 17:33:45",
-     "lastMdfcnDt": "2026-11-03 17:43:16",
-     "sbizCd": "0014010"
-    },
-    {
-     "plcyNo": "20261103005400214707",
-     "bscPlanCycl": "2",
-     "bscPlanPlcyWayNo": "003",
-     "bscPlanFcsAsmtNo": "009",
-     "bscPlanAsmtNo": "031",
-     "pvsnInstGroupCd": "0054002",
-     "plcyPvsnMthdCd": "0042013",
-     "plcyAprvSttsCd": "0044002",
-     "plcyNm": "신혼부부 및 청년 임대주택 임대보증금 지원",
-     "plcyKywdNm": "주거지원,공공임대주택",
-     "plcyExplnCn": "신혼부부 및 청년의 주거비 부담 경감을 위해 공공임대주택 거주시 임대보증금 지원하여 주거안정 도모",
-     "lclsfNm": "주거",
-     "mclsfNm": "전월세 및 주거급여 지원",
-     "plcySprtCn": "○ (사업내용) 공공임대주택 임대보증금 무이자 지원(융자)\n - (지원대상 임대주택) 10년임대, 영구임대, 국민임대, 행복주택, 기존주택 매입임대주택\n - (지원대상) 도내 무주택 신혼부부 및 청년\n     ※ 혼인신고일 기준 7년 이내 신혼부부 및 18~39세 미혼 청년\n - (지원금액) 신혼부부 최대 50백만원, 청년 최대 30백만원 이내(계약금 자부",
-     "sprvsnInstCd": "6540000",
-     "sprvsnInstCdNm": "전북특별자치도",
-     "sprvsnInstPicNm": "",
-     "operInstCd": "       ",
-     "operInstCdNm": "",
-     "operInstPicNm": "",
-     "sprtSclLmtYn": "N",
-     "aplyPrdSeCd": "0057002",
-     "bizPrdSeCd": "0056002",
-     "bizPrdBgngYmd": "        ",
-     "bizPrdEndYmd": "        ",
-     "bizPrdEtcCn": "연도별 시군 예산 소진시까지",
-     "plcyAplyMthdCn": "",
-     "srngMthdCn": "",
-     "aplyUrlAddr": "",
-     "sbmsnDcmntCn": "",
-     "etcMttrCn": "",
-     "refUrlAddr1": "https://www.jeonbuk.go.kr/index.jeonbuk?menuCd=DOM_000000104015059002",
-     "refUrlAddr2": "https://www.jeonbuk.go.kr/index.jeonbuk?menuCd=DOM_000000104015058002",
-     "sprtSclCnt": "185",
-     "sprtArvlSeqYn": "N",
-     "sprtTrgtMinAge": "0",
-     "sprtTrgtMaxAge": "0",
-     "sprtTrgtAgeLmtYn": "Y",
-     "mrgSttsCd": "0055003",
-     "earnCndSeCd": "0043003",
-     "earnMinAmt": "0",
-     "earnMaxAmt": "0",
-     "earnEtcCn": "공공임대주택 입주자격(입주자에 한해 지원 가능)",
-     "addAplyQlfcCndCn": "○ (사업내용) 공공임대주택 임대보증금 무이자 지원(융자)\n - (지원대상 임대주택) 10년임대, 영구임대, 국민임대, 행복주택, 기존주택 매입임대주택\n - (지원대상) 도내 무주택 신혼부부 및 청년\n     ※ 혼인신고일 기준 7년 이내 신혼부부 및 18~39세 미혼 청년",
-     "ptcpPrpTrgtCn": "",
-     "inqCnt": "77",
-     "rgtrInstCd": "6540055",
-     "rgtrInstCdNm": "전북특별자치도 건설교통국 주택건축과",
-     "rgtrUpInstCd": "0000000",
-     "rgtrUpInstCdNm": "전북특별자치도",
-     "rgtrHghrkInstCd": "6540000",
-     "rgtrHghrkInstCdNm": "전북특별자치도",
-     "zipCd": "52111,52113,52130,52140,52180,52190,52210,52710,52720,52730,52740,52750,52770,52790,52800",
+     "inqCnt": "7",
+     "rgtrInstCd": "6271246",
+     "rgtrInstCdNm": "대구광역시 청년여성교육국",
+     "rgtrUpInstCd": "6270000",
+     "rgtrUpInstCdNm": "대구광역시",
+     "rgtrHghrkInstCd": "6270000",
+     "rgtrHghrkInstCdNm": "대구광역시",
+     "zipCd": "27110,27140,27170,27200,27230,27260,27290,27710,27720",
      "plcyMajorCd": "0011009",
      "jobCd": "0013010",
      "schoolCd": "0049010",
      "aplyYmd": "",
-     "frstRegDt": "2026-11-03 11:26:44",
-     "lastMdfcnDt": "2026-11-03 17:42:40",
+     "frstRegDt": "2026-11-05 15:23:38",
+     "lastMdfcnDt": "2026-11-05 16:44:21",
      "sbizCd": "0014010"
     }
    ],
@@ -1128,7 +1154,7 @@
    }
   }
  },
- "updated_at": "2026-11-05T10:15+09:00",
+ "updated_at": "2026-11-06T10:20+09:00",
  "status": {
   "보조금24": "ok",
   "온통청년": "ok"

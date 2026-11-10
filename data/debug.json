@@ -955,9 +955,9 @@
     }
    ],
    "counts": {
-    "raw": 3973,
+    "raw": 3960,
     "used": 717,
-    "region": 3233,
+    "region": 3220,
     "age": 23
    },
    "fields": [
@@ -1069,7 +1069,7 @@
      "earnEtcCn": "",
      "addAplyQlfcCndCn": "ㆍ(청년 예술가) 19~39세, 국내·외 청년예술가 개인 또는 팀\nㆍ(첫걸음 예술가) 19~29세, 대학동아리, 아마추어 팀",
      "ptcpPrpTrgtCn": "",
-     "inqCnt": "22",
+     "inqCnt": "41",
      "rgtrInstCd": "6271246",
      "rgtrInstCdNm": "대구광역시 청년여성교육국",
      "rgtrUpInstCd": "6270000",
@@ -1131,7 +1131,7 @@
      "earnEtcCn": "",
      "addAplyQlfcCndCn": "",
      "ptcpPrpTrgtCn": "",
-     "inqCnt": "29",
+     "inqCnt": "46",
      "rgtrInstCd": "6271246",
      "rgtrInstCdNm": "대구광역시 청년여성교육국",
      "rgtrUpInstCd": "6270000",
@@ -1154,7 +1154,7 @@
    }
   }
  },
- "updated_at": "2026-11-09T09:25+09:00",
+ "updated_at": "2026-11-10T12:07+09:00",
  "status": {
   "보조금24": "ok",
   "온통청년": "ok"

@@ -397,6 +397,62 @@
   "온통청년": {
    "dropped_region": [
     {
+     "title": "청년놀이터·창업놀이터 운영",
+     "zips": 1,
+     "zip_sample": [
+      "27230"
+     ],
+     "agency": "대구광역시 북구 경제교통국"
+    },
+    {
+     "title": "2026 대구 북구 청년창업 특례보증 지원(이차보전금)",
+     "zips": 1,
+     "zip_sample": [
+      "27230"
+     ],
+     "agency": "대구광역시 북구 경제교통국"
+    },
+    {
+     "title": "영암군 청년 자격증 응시료 지원사업 11월 모집",
+     "zips": 1,
+     "zip_sample": [
+      "12800"
+     ],
+     "agency": "전남광주통합특별시"
+    },
+    {
+     "title": "2026년 구례군 신혼부부·다자녀가정 주거자금 대출이자 지원사업(추가모집)",
+     "zips": 1,
+     "zip_sample": [
+      "12730"
+     ],
+     "agency": "전남광주통합특별시"
+    },
+    {
+     "title": "차세대 문화예술기획자 양성과정",
+     "zips": 9,
+     "zip_sample": [
+      "27110",
+      "27140",
+      "27170",
+      "27200",
+      "27230"
+     ],
+     "agency": "대구광역시 문화체육관광국 문화예술정책과"
+    },
+    {
+     "title": "K-Art 청년 창작자 지원",
+     "zips": 9,
+     "zip_sample": [
+      "27110",
+      "27140",
+      "27170",
+      "27200",
+      "27230"
+     ],
+     "agency": "대구광역시 문화체육관광국 문화예술정책과"
+    },
+    {
      "title": "동성로 청년버스킹 활성화 사업",
      "zips": 9,
      "zip_sample": [
@@ -773,78 +829,6 @@
       "12830"
      ],
      "agency": "전남광주통합특별시 영광군"
-    },
-    {
-     "title": "소프트웨어(SW) 미래채움사업",
-     "zips": 9,
-     "zip_sample": [
-      "27110",
-      "27140",
-      "27170",
-      "27200",
-      "27230"
-     ],
-     "agency": "대구광역시 인공지능혁신성장실 인공지능정책관"
-    },
-    {
-     "title": "지역관광 역량강화",
-     "zips": 9,
-     "zip_sample": [
-      "27110",
-      "27140",
-      "27170",
-      "27200",
-      "27230"
-     ],
-     "agency": "대구광역시 문화체육관광국 관광산업과"
-    },
-    {
-     "title": "게임아카데미 운영",
-     "zips": 9,
-     "zip_sample": [
-      "27110",
-      "27140",
-      "27170",
-      "27200",
-      "27230"
-     ],
-     "agency": "대구광역시 문화체육관광국 콘텐츠산업과"
-    },
-    {
-     "title": "전남 청년 희망일자리 지원사업",
-     "zips": 22,
-     "zip_sample": [
-      "12110",
-      "12130",
-      "12150",
-      "12170",
-      "12190"
-     ],
-     "agency": "전남광주통합특별시 장성군 인구경제실"
-    },
-    {
-     "title": "문화예술교육사 현장역량 강화사업",
-     "zips": 9,
-     "zip_sample": [
-      "27110",
-      "27140",
-      "27170",
-      "27200",
-      "27230"
-     ],
-     "agency": "대구광역시 문화체육관광국 문화예술정책과"
-    },
-    {
-     "title": "대학생 결혼육아 예비교실",
-     "zips": 9,
-     "zip_sample": [
-      "27110",
-      "27140",
-      "27170",
-      "27200",
-      "27230"
-     ],
-     "agency": "대구광역시 청년여성교육국 청년정책과"
     }
    ],
    "dropped_age": [
@@ -955,9 +939,9 @@
     }
    ],
    "counts": {
-    "raw": 3960,
+    "raw": 3966,
     "used": 717,
-    "region": 3220,
+    "region": 3226,
     "age": 23
    },
    "fields": [
@@ -1024,101 +1008,39 @@
    ],
    "raw_examples": [
     {
-     "plcyNo": "20261105005400214737",
+     "plcyNo": "20261110005400214811",
      "bscPlanCycl": "2",
-     "bscPlanPlcyWayNo": "004",
-     "bscPlanFcsAsmtNo": "014",
-     "bscPlanAsmtNo": "052",
+     "bscPlanPlcyWayNo": "001",
+     "bscPlanFcsAsmtNo": "004",
+     "bscPlanAsmtNo": "014",
      "pvsnInstGroupCd": "0054002",
-     "plcyPvsnMthdCd": "0042012",
+     "plcyPvsnMthdCd": "0042002",
      "plcyAprvSttsCd": "0044002",
-     "plcyNm": "동성로 청년버스킹 활성화 사업",
-     "plcyKywdNm": "맞춤형상담서비스",
-     "plcyExplnCn": "전국 청년·예비 예술가의 거리 공연 활동을 지원하여 동성로의 젊음의 거리 상징성을 회복하고, 문화적 활력 제고를 통한 지역 경제 활성화에 기여",
-     "lclsfNm": "금융･복지･문화",
-     "mclsfNm": "예술인지원",
-     "plcySprtCn": "ㆍ(지원) 공연 사례비, 음향 및 조명, 악기, 참여자 간 교류·활동 \nㆍ(시상) 우수예술가 시상(시장상) ",
-     "sprvsnInstCd": "6270961",
-     "sprvsnInstCdNm": "대구광역시 문화체육관광국 문화예술정책과",
-     "sprvsnInstPicNm": "차민교",
-     "operInstCd": "       ",
-     "operInstCdNm": "",
-     "operInstPicNm": "",
-     "sprtSclLmtYn": "N",
-     "aplyPrdSeCd": "0057001",
-     "bizPrdSeCd": "0056001",
-     "bizPrdBgngYmd": "20260303",
-     "bizPrdEndYmd": "20260315",
-     "bizPrdEtcCn": "",
-     "plcyAplyMthdCn": "인디053 홈페이지(www.indie053.net) 신청서 다운로드 작성 후\n이메일(art053@hanmail.net) 접수",
-     "srngMthdCn": "",
-     "aplyUrlAddr": "www.indie053.net",
-     "sbmsnDcmntCn": "",
-     "etcMttrCn": "",
-     "refUrlAddr1": "www.indie053.net",
-     "refUrlAddr2": "",
-     "sprtSclCnt": "60",
-     "sprtArvlSeqYn": "N",
-     "sprtTrgtMinAge": "19",
-     "sprtTrgtMaxAge": "39",
-     "sprtTrgtAgeLmtYn": "N",
-     "mrgSttsCd": "0055003",
-     "earnCndSeCd": "0043001",
-     "earnMinAmt": "0",
-     "earnMaxAmt": "0",
-     "earnEtcCn": "",
-     "addAplyQlfcCndCn": "ㆍ(청년 예술가) 19~39세, 국내·외 청년예술가 개인 또는 팀\nㆍ(첫걸음 예술가) 19~29세, 대학동아리, 아마추어 팀",
-     "ptcpPrpTrgtCn": "",
-     "inqCnt": "41",
-     "rgtrInstCd": "6271246",
-     "rgtrInstCdNm": "대구광역시 청년여성교육국",
-     "rgtrUpInstCd": "6270000",
-     "rgtrUpInstCdNm": "대구광역시",
-     "rgtrHghrkInstCd": "6270000",
-     "rgtrHghrkInstCdNm": "대구광역시",
-     "zipCd": "27110,27140,27170,27200,27230,27260,27290,27710,27720",
-     "plcyMajorCd": "0011009",
-     "jobCd": "0013010",
-     "schoolCd": "0049010",
-     "aplyYmd": "20260303 ~ 20260315",
-     "frstRegDt": "2026-11-05 15:30:35",
-     "lastMdfcnDt": "2026-11-05 16:43:18",
-     "sbizCd": "0014010"
-    },
-    {
-     "plcyNo": "20261105005400214736",
-     "bscPlanCycl": "2",
-     "bscPlanPlcyWayNo": "004",
-     "bscPlanFcsAsmtNo": "012",
-     "bscPlanAsmtNo": "043",
-     "pvsnInstGroupCd": "0054002",
-     "plcyPvsnMthdCd": "0042013",
-     "plcyAprvSttsCd": "0044002",
-     "plcyNm": "자립준비청년 자립지원 체계구축",
-     "plcyKywdNm": "맞춤형상담서비스",
-     "plcyExplnCn": "보호종료 5년 이내 청년을 대상으로한 사후관리와 맞춤형 자립지원 상담을 통한 \n자립통합지원서비스 제공\n",
-     "lclsfNm": "금융･복지･문화",
-     "mclsfNm": "취약계층 및 금융지원",
-     "plcySprtCn": "ㆍ자립준비청년 자립수준평가 및 사후관리\nㆍ자립지원 통합서비스 운영\nㆍ자립지원전담기관 자립지원 전담인력 지원",
-     "sprvsnInstCd": "6271440",
-     "sprvsnInstCdNm": "대구광역시 청년여성교육국 교육청소년과",
-     "sprvsnInstPicNm": "안혜경",
-     "operInstCd": "       ",
-     "operInstCdNm": "",
-     "operInstPicNm": "",
+     "plcyNm": "청년놀이터·창업놀이터 운영",
+     "plcyKywdNm": "중소기업,맞춤형상담서비스,교육지원",
+     "plcyExplnCn": "청년(예비) 창업자의 우수한 창업아이템 발굴․육성, 창업 초기 사업화 자금 지원을 통하여 청년 창업가들의 아이디어와 기술력을 사업화하고 지속 가능한 유망기업으로의 성장 기반 마련",
+     "lclsfNm": "일자리",
+     "mclsfNm": "창업",
+     "plcySprtCn": "1. 위탁사무명 : 청년놀이터․창업놀이터 운영 위탁사업\n2. 위탁기간 : 2025. 1. 1. ～ 2027. 12. 31.(3년)\n3. 위탁금액 : 365백만원(2026년 예산)\n4. 수탁기관 : 경북대학교 창업지원단\n5. 위탁내용 : 청년놀이터․창업놀이터 운영 및 관리 전반\n   • 시설운영 및 안전관리(청소, 경비 등 시설유지관리, 안전점검, 물품관리 ",
+     "sprvsnInstCd": "3450188",
+     "sprvsnInstCdNm": "대구광역시 북구 경제교통국",
+     "sprvsnInstPicNm": "김연정",
+     "operInstCd": "C015295",
+     "operInstCdNm": "경북대학교 창업지원단",
+     "operInstPicNm": "이대엽",
      "sprtSclLmtYn": "N",
      "aplyPrdSeCd": "0057002",
      "bizPrdSeCd": "0056001",
      "bizPrdBgngYmd": "20260101",
      "bizPrdEndYmd": "20261231",
      "bizPrdEtcCn": "",
-     "plcyAplyMthdCn": "",
-     "srngMthdCn": "",
-     "aplyUrlAddr": "www.dgyouth.kr",
-     "sbmsnDcmntCn": "",
-     "etcMttrCn": "",
-     "refUrlAddr1": "https://www.daegu.go.kr/YouthPolicy/index.do",
-     "refUrlAddr2": "https://www.daegu.go.kr/woman/index.do?menu_id=00939670",
+     "plcyAplyMthdCn": "입주기업 모집, 멤버십 모집, 창업지원 프로그램별 공고문 확인 후 신청",
+     "srngMthdCn": "공고문 확인",
+     "aplyUrlAddr": "https://bukguplayground.or.kr/",
+     "sbmsnDcmntCn": "프로그램별 공고문 서식 제출",
+     "etcMttrCn": "청년창업놀이터 홈페이지 확인",
+     "refUrlAddr1": "https://bukguplayground.or.kr/",
+     "refUrlAddr2": "",
      "sprtSclCnt": "0",
      "sprtArvlSeqYn": "N",
      "sprtTrgtMinAge": "19",
@@ -1129,23 +1051,85 @@
      "earnMinAmt": "0",
      "earnMaxAmt": "0",
      "earnEtcCn": "",
-     "addAplyQlfcCndCn": "",
-     "ptcpPrpTrgtCn": "",
-     "inqCnt": "46",
-     "rgtrInstCd": "6271246",
-     "rgtrInstCdNm": "대구광역시 청년여성교육국",
-     "rgtrUpInstCd": "6270000",
-     "rgtrUpInstCdNm": "대구광역시",
+     "addAplyQlfcCndCn": "매년 입주기업 모집, 멤버십 회원 모집, 프로그램 모집 등 자격요건이 다를 수 있으며,\n공고문을 통해 확인 요망",
+     "ptcpPrpTrgtCn": "공고문 확인",
+     "inqCnt": "1",
+     "rgtrInstCd": "3450188",
+     "rgtrInstCdNm": "대구광역시 북구 경제교통국",
+     "rgtrUpInstCd": "3450000",
+     "rgtrUpInstCdNm": "",
      "rgtrHghrkInstCd": "6270000",
-     "rgtrHghrkInstCdNm": "대구광역시",
-     "zipCd": "27110,27140,27170,27200,27230,27260,27290,27710,27720",
+     "rgtrHghrkInstCdNm": "",
+     "zipCd": "27230",
      "plcyMajorCd": "0011009",
      "jobCd": "0013010",
      "schoolCd": "0049010",
      "aplyYmd": "",
-     "frstRegDt": "2026-11-05 15:23:38",
-     "lastMdfcnDt": "2026-11-05 16:44:21",
-     "sbizCd": "0014010"
+     "frstRegDt": "2026-11-10 16:09:54",
+     "lastMdfcnDt": "2026-11-10 17:48:47",
+     "sbizCd": "0014001"
+    },
+    {
+     "plcyNo": "20261110005400214810",
+     "bscPlanCycl": "2",
+     "bscPlanPlcyWayNo": "004",
+     "bscPlanFcsAsmtNo": "012",
+     "bscPlanAsmtNo": "044",
+     "pvsnInstGroupCd": "0054002",
+     "plcyPvsnMthdCd": "0042007",
+     "plcyAprvSttsCd": "0044002",
+     "plcyNm": "2026 대구 북구 청년창업 특례보증 지원(이차보전금)",
+     "plcyKywdNm": "대출,금리혜택",
+     "plcyExplnCn": "우수한 아이디어와 기술력을 보유했으나, 자금력과 담보력이 부족하고 창업 초기 자본 확보가 어려운 청년 창업가를 위한 특례보증을 위한 사업자금 지원 확대",
+     "lclsfNm": "금융･복지･문화",
+     "mclsfNm": "취약계층 및 금융지원",
+     "plcySprtCn": "1. 사업기간 : 2026. 1. ～ 12.\n2. 대      상 : 2023년～2025년 청년창업 특례보증 대출기업\n  - 업 체 수 : 2023년 57개사, 2025년 64개사\n  - 대출대상 : 관내 사업장을 둔 제조업, 지식서비스업, 도․소매업(전자상거래업 제외)\n                   창업 업종의 청년창업기업(대표자가 19세 이상 39세",
+     "sprvsnInstCd": "3450188",
+     "sprvsnInstCdNm": "대구광역시 북구 경제교통국",
+     "sprvsnInstPicNm": "김연정",
+     "operInstCd": "3450188",
+     "operInstCdNm": "대구광역시 북구 경제교통국",
+     "operInstPicNm": "",
+     "sprtSclLmtYn": "N",
+     "aplyPrdSeCd": "0057003",
+     "bizPrdSeCd": "0056001",
+     "bizPrdBgngYmd": "20260101",
+     "bizPrdEndYmd": "20261231",
+     "bizPrdEtcCn": "",
+     "plcyAplyMthdCn": "- 대출기업이 이차보전금 신청할 필요 없음\n- 대출은행이 구청으로 이차보전금 청구\n",
+     "srngMthdCn": "해당사항 없음",
+     "aplyUrlAddr": "",
+     "sbmsnDcmntCn": "해당사항 없음",
+     "etcMttrCn": "1. 2023년,  2025년 청년 창업특례보증 지원사업 추진(출연금 각 2억원, 보증규모 각 20억)\n - 북구청, 대구신용보증재단, 대구은행 북구청지점 3자 업무협약\n2. 2027년 청년 창업특례보증 지원사업 추진 예정(출연금 5천만원, 보증규모 5억 정도)\n - 북구청, 대구신용보증재단, iM뱅크 북구청지점 3자 업무협약 : 2027. 1.(예정) \n",
+     "refUrlAddr1": "https://www.buk.daegu.kr/index.do?menu_id=00000198",
+     "refUrlAddr2": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000105652",
+     "sprtSclCnt": "0",
+     "sprtArvlSeqYn": "N",
+     "sprtTrgtMinAge": "19",
+     "sprtTrgtMaxAge": "39",
+     "sprtTrgtAgeLmtYn": "N",
+     "mrgSttsCd": "0055003",
+     "earnCndSeCd": "0043001",
+     "earnMinAmt": "0",
+     "earnMaxAmt": "0",
+     "earnEtcCn": "",
+     "addAplyQlfcCndCn": "<청년창업 특례보증 지원사업>\n1. 지원대상 : 북구에 사업장을 둔 제조업 및 지식서비스업을 영위 중인 청년창업기업 \n    ☞ 청년창업기업 : 신청접수일 기준 대표자 만 19세 이상 만 39세 이하, 창업 5년 이내\n    ☞ 개인신용평점 반영 등\n2. 신청기간 : 2026년은 사업 없음, 2027년 시행 예정\n\n<청년창업 특례보증 지원사업(이차보전금>\n",
+     "ptcpPrpTrgtCn": "소상공인 및 중소기업 정책자금 지원 제외 업종, 융자제외 업종 등",
+     "inqCnt": "0",
+     "rgtrInstCd": "3450188",
+     "rgtrInstCdNm": "대구광역시 북구 경제교통국",
+     "rgtrUpInstCd": "3450000",
+     "rgtrUpInstCdNm": "",
+     "rgtrHghrkInstCd": "6270000",
+     "rgtrHghrkInstCdNm": "",
+     "zipCd": "27230",
+     "plcyMajorCd": "0011009",
+     "jobCd": "0013010",
+     "schoolCd": "0049010",
+     "aplyYmd": "",
+     "frstRegDt": "2026-11-10 15:25:15",
+     "lastMdfcnDt": "2026-11-10 17:46:58",
+     "sbizCd": "0014001"
     }
    ],
    "missing": {
@@ -1154,7 +1138,7 @@
    }
   }
  },
- "updated_at": "2026-11-10T12:07+09:00",
+ "updated_at": "2026-11-11T09:59+09:00",
  "status": {
   "보조금24": "ok",
   "온통청년": "ok"

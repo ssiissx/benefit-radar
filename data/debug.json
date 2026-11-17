@@ -80,6 +80,13 @@
      ]
     },
     {
+     "title": "어린이집‧유치원 틈새돌봄 운영 기관 안내",
+     "age": [
+      0,
+      8
+     ]
+    },
+    {
      "title": "의료급여 틀니·치과임플란트 지원",
      "age": [
       65,
@@ -98,13 +105,6 @@
      "age": [
       0,
       18
-     ]
-    },
-    {
-     "title": "노인실명예방사업",
-     "age": [
-      60,
-      120
      ]
     }
    ],
@@ -311,11 +311,11 @@
     }
    ],
    "counts": {
-    "raw": 10942,
-    "conditions": 10942,
-    "used": 2061,
-    "region": 8622,
-    "age": 259
+    "raw": 10887,
+    "conditions": 10887,
+    "used": 2054,
+    "region": 8575,
+    "age": 258
    },
    "fields": [
     "등록일시",
@@ -920,9 +920,9 @@
     }
    ],
    "counts": {
-    "raw": 4029,
+    "raw": 4027,
     "used": 717,
-    "region": 3289,
+    "region": 3287,
     "age": 23
    },
    "fields": [
@@ -1034,7 +1034,7 @@
      "earnEtcCn": "",
      "addAplyQlfcCndCn": "",
      "ptcpPrpTrgtCn": "",
-     "inqCnt": "1",
+     "inqCnt": "2",
      "rgtrInstCd": "6130000",
      "rgtrInstCdNm": "전남광주통합특별시",
      "rgtrUpInstCd": "6130000",
@@ -1096,7 +1096,7 @@
      "earnEtcCn": "",
      "addAplyQlfcCndCn": "",
      "ptcpPrpTrgtCn": "",
-     "inqCnt": "0",
+     "inqCnt": "1",
      "rgtrInstCd": "6130000",
      "rgtrInstCdNm": "전남광주통합특별시",
      "rgtrUpInstCd": "6130000",
@@ -1119,14 +1119,14 @@
    }
   }
  },
- "updated_at": "2026-11-16T09:37+09:00",
+ "updated_at": "2026-11-17T12:21+09:00",
  "status": {
   "보조금24": "ok",
   "온통청년": "ok"
  },
  "schedule": {
-  "always": 1231,
+  "always": 1227,
   "deadline": 492,
-  "yearly_window": 137
+  "yearly_window": 136
  }
 }

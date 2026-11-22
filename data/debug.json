@@ -311,10 +311,10 @@
     }
    ],
    "counts": {
-    "raw": 10892,
-    "conditions": 10892,
+    "raw": 10893,
+    "conditions": 10893,
     "used": 2054,
-    "region": 8580,
+    "region": 8581,
     "age": 258
    },
    "fields": [
@@ -1019,7 +1019,7 @@
      "earnEtcCn": "",
      "addAplyQlfcCndCn": "",
      "ptcpPrpTrgtCn": "",
-     "inqCnt": "8",
+     "inqCnt": "10",
      "rgtrInstCd": "6412843",
      "rgtrInstCdNm": "경기도 미래평생교육국 청년기회과",
      "rgtrUpInstCd": "6412831",
@@ -1104,7 +1104,7 @@
    }
   }
  },
- "updated_at": "2026-11-21T10:55+09:00",
+ "updated_at": "2026-11-22T09:51+09:00",
  "status": {
   "보조금24": "ok",
   "온통청년": "ok"

@@ -311,10 +311,10 @@
     }
    ],
    "counts": {
-    "raw": 10895,
-    "conditions": 10895,
+    "raw": 10898,
+    "conditions": 10898,
     "used": 2054,
-    "region": 8583,
+    "region": 8586,
     "age": 258
    },
    "fields": [
@@ -397,6 +397,14 @@
   "온통청년": {
    "dropped_region": [
     {
+     "title": "글로벌 어워즈 컨설팅 지원사업",
+     "zips": 1,
+     "zip_sample": [
+      "27230"
+     ],
+     "agency": "대구광역시 북구 경제교통국"
+    },
+    {
      "title": "L.O.G(Launch On-Global)(스케일업 실리콘밸리)지원사업",
      "zips": 1,
      "zip_sample": [
@@ -435,6 +443,26 @@
       "44790"
      ],
      "agency": "도시건축과"
+    },
+    {
+     "title": "(접수 마감)2026년 11기 광주 청년 13(일+삶)통장",
+     "zips": 27,
+     "zip_sample": [
+      "12110",
+      "12130",
+      "12150",
+      "12170",
+      "12190"
+     ],
+     "agency": "전남광주통합특별시"
+    },
+    {
+     "title": "청양사랑인재육성장학회 장학금 및 장학사업 지원",
+     "zips": 1,
+     "zip_sample": [
+      "44790"
+     ],
+     "agency": "자치행정과"
     },
     {
      "title": "청년창업공간 누구나가게 운영지원",
@@ -755,42 +783,6 @@
       "44230"
      ],
      "agency": "미래농업과"
-    },
-    {
-     "title": "청년자립형 스마트팜 지원사업",
-     "zips": 14,
-     "zip_sample": [
-      "44130",
-      "44150",
-      "44180",
-      "44200",
-      "44230"
-     ],
-     "agency": "미래농업과"
-    },
-    {
-     "title": "2027 하계 세계대학경기대회 개최",
-     "zips": 5,
-     "zip_sample": [
-      "44130",
-      "44180",
-      "44200",
-      "44800",
-      "44810"
-     ],
-     "agency": "체육진흥과"
-    },
-    {
-     "title": "충남형 스마트팜 사관학교 체계구축",
-     "zips": 14,
-     "zip_sample": [
-      "44130",
-      "44150",
-      "44180",
-      "44200",
-      "44230"
-     ],
-     "agency": "지도정책과"
     }
    ],
    "dropped_age": [
@@ -970,6 +962,68 @@
    ],
    "raw_examples": [
     {
+     "plcyNo": "20261124005400214894",
+     "bscPlanCycl": "2",
+     "bscPlanPlcyWayNo": "001",
+     "bscPlanFcsAsmtNo": "004",
+     "bscPlanAsmtNo": "014",
+     "pvsnInstGroupCd": "0054002",
+     "plcyPvsnMthdCd": "0042001",
+     "plcyAprvSttsCd": "0044002",
+     "plcyNm": "글로벌 어워즈 컨설팅 지원사업",
+     "plcyKywdNm": "벤처,청년참여/활동,해외진출,중소기업",
+     "plcyExplnCn": "혁신적인 제품(기술)을 보유한 지역 우수 창업기업의 글로벌 경쟁력을 입증할 기회를 마련하고자 글로벌 어워즈(CES 혁신상, Edison Awards) 수상을 위한 컨설팅 등을 지원하고자 함.",
+     "lclsfNm": "일자리",
+     "mclsfNm": "창업",
+     "plcySprtCn": "○ 사업기간 : 2026. 3. ～ 12.\n○ 사업대상 : 대구 북구 소재 업력 7년 미만 글로벌 어워즈 수상을 희망하는 창업기업 \n                  4개사(본사/공장/연구소 중 1개이상 대구 북구 소재)\n                  ※ 최종 선정후 1개월 내 주소지 북구 이전 필수\n○ 사업내용 : 글로벌 어워즈(CES 혁신상, Ediso",
+     "sprvsnInstCd": "3450188",
+     "sprvsnInstCdNm": "대구광역시 북구 경제교통국",
+     "sprvsnInstPicNm": "김연정",
+     "operInstCd": "3450188",
+     "operInstCdNm": "대구광역시 북구 경제교통국",
+     "operInstPicNm": "",
+     "sprtSclLmtYn": "N",
+     "aplyPrdSeCd": "0057001",
+     "bizPrdSeCd": "0056001",
+     "bizPrdBgngYmd": "20260323",
+     "bizPrdEndYmd": "20261231",
+     "bizPrdEtcCn": "",
+     "plcyAplyMthdCn": "공고문에 따른 이메일 접수",
+     "srngMthdCn": "통합평가(서류, 발표)에 따른 개별 선정 통보",
+     "aplyUrlAddr": "https://www.buk.daegu.kr/index.do?menu_id=00000198",
+     "sbmsnDcmntCn": "공고문에 따른 제출서식 확인",
+     "etcMttrCn": "글로벌 어워즈 수상에 따른 현지 시상식 참가 비용은 지원 제외",
+     "refUrlAddr1": "https://www.buk.daegu.kr/index.do?menu_id=00000198",
+     "refUrlAddr2": "https://startup.daegu.go.kr/index.do?menu_id=00002552&menu_link=/front/project/projectFrontDetail.do?project_id=PROJECT_00004738",
+     "sprtSclCnt": "4",
+     "sprtArvlSeqYn": "N",
+     "sprtTrgtMinAge": "0",
+     "sprtTrgtMaxAge": "0",
+     "sprtTrgtAgeLmtYn": "Y",
+     "mrgSttsCd": "0055003",
+     "earnCndSeCd": "0043001",
+     "earnMinAmt": "0",
+     "earnMaxAmt": "0",
+     "earnEtcCn": "",
+     "addAplyQlfcCndCn": "대구 북구 소재 업력 7년 미만 글로벌 어워즈 수상을 희망하는 창업기업 4개사(본사/공장/연구소 중 1개이상 대구 북구 소재)\n ※ 최종 선정후 1개월 내 주소지 북구 이전 필수",
+     "ptcpPrpTrgtCn": "공고문 확인 요망",
+     "inqCnt": "4",
+     "rgtrInstCd": "3450188",
+     "rgtrInstCdNm": "대구광역시 북구 경제교통국",
+     "rgtrUpInstCd": "3450000",
+     "rgtrUpInstCdNm": "",
+     "rgtrHghrkInstCd": "6270000",
+     "rgtrHghrkInstCdNm": "",
+     "zipCd": "27230",
+     "plcyMajorCd": "0011009",
+     "jobCd": "0013010",
+     "schoolCd": "0049010",
+     "aplyYmd": "20260323 ~ 20260504",
+     "frstRegDt": "2026-11-24 09:33:32",
+     "lastMdfcnDt": "2026-11-25 17:38:56",
+     "sbizCd": "0014010"
+    },
+    {
      "plcyNo": "20261123005400214893",
      "bscPlanCycl": "2",
      "bscPlanPlcyWayNo": "001",
@@ -979,7 +1033,7 @@
      "plcyPvsnMthdCd": "0042001",
      "plcyAprvSttsCd": "0044002",
      "plcyNm": "L.O.G(Launch On-Global)(스케일업 실리콘밸리)지원사업",
-     "plcyKywdNm": "해외진출,벤처,청년참여/활동,중소기업",
+     "plcyKywdNm": "청년참여/활동,해외진출,벤처,중소기업",
      "plcyExplnCn": "해외진출 역량이 있는 지역 우수 스타트업을 발굴하여 미국 실리콘밸리 현지 프로그램 참가 지원을 통해 글로벌 비즈니스 및 네트워크 협력체계를 구축하고자 함.",
      "lclsfNm": "일자리",
      "mclsfNm": "창업",
@@ -1015,7 +1069,7 @@
      "earnEtcCn": "",
      "addAplyQlfcCndCn": "대구 북구 소재 업력 7년 미만 해외진출 희망하는 청년창업기업\n(본사/공장/연구소 중 1개 이상 대구 북구 소재, 대표자 19세 이상 39세 이하)\n ※ 최종 선정후 1개월 내 주소지 북구 이전 필수",
      "ptcpPrpTrgtCn": "공고문 확인",
-     "inqCnt": "13",
+     "inqCnt": "16",
      "rgtrInstCd": "3450188",
      "rgtrInstCdNm": "대구광역시 북구 경제교통국",
      "rgtrUpInstCd": "3450000",
@@ -1030,68 +1084,6 @@
      "frstRegDt": "2026-11-23 17:19:32",
      "lastMdfcnDt": "2026-11-23 18:01:02",
      "sbizCd": "0014010"
-    },
-    {
-     "plcyNo": "20261123005400214892",
-     "bscPlanCycl": "2",
-     "bscPlanPlcyWayNo": "003",
-     "bscPlanFcsAsmtNo": "009",
-     "bscPlanAsmtNo": "031",
-     "pvsnInstGroupCd": "0054002",
-     "plcyPvsnMthdCd": "0042006",
-     "plcyAprvSttsCd": "0044002",
-     "plcyNm": "전세보증금반환보증 보증료 지원사업",
-     "plcyKywdNm": "보조금",
-     "plcyExplnCn": "전세보증금반환보증 가입을 유도하기 위해 기납부한 전세보증금반환보증 보증료 지원",
-     "lclsfNm": "주거",
-     "mclsfNm": "전월세 및 주거급여 지원",
-     "plcySprtCn": "기납부한 전세보증금반환보증 보증료 최대 40만원 이내 지원",
-     "sprvsnInstCd": "4590116",
-     "sprvsnInstCdNm": "도시건축과",
-     "sprvsnInstPicNm": "순병갑 주무관",
-     "operInstCd": "4590116",
-     "operInstCdNm": "도시건축과",
-     "operInstPicNm": "",
-     "sprtSclLmtYn": "Y",
-     "aplyPrdSeCd": "0057001",
-     "bizPrdSeCd": "0056001",
-     "bizPrdBgngYmd": "20260201",
-     "bizPrdEndYmd": "20261231",
-     "bizPrdEtcCn": "",
-     "plcyAplyMthdCn": "청양군청 도시건축과 주택팀 방문신청",
-     "srngMthdCn": "접수일로부터 30일 이내 자격요건 확인 후 결과 통보",
-     "aplyUrlAddr": "",
-     "sbmsnDcmntCn": "신청서 및 서약서, 임대차계약서, 소득금액증명서,\n전세보증금반환보증 보증서 및 보증료 납부 증빙서류, 혼인관계증명서, 통장사본, 신분증, 주민등록등본",
-     "etcMttrCn": "",
-     "refUrlAddr1": "https://www.gov.kr/portal/rcvfvrSvc/dtlEx/161300000103",
-     "refUrlAddr2": "",
-     "sprtSclCnt": "0",
-     "sprtArvlSeqYn": "N",
-     "sprtTrgtMinAge": "0",
-     "sprtTrgtMaxAge": "0",
-     "sprtTrgtAgeLmtYn": "Y",
-     "mrgSttsCd": "0055003",
-     "earnCndSeCd": "0043003",
-     "earnMinAmt": "0",
-     "earnMaxAmt": "0",
-     "earnEtcCn": "청년 5천만원, 청년 외 6천만원, 신혼부부 7.5천만원 이하",
-     "addAplyQlfcCndCn": "해당 없음",
-     "ptcpPrpTrgtCn": "외국인, 재외국민, 등록임대사업자의 임대주택 임차인, 임차인이 법인인 경우, 보증료 지원을 받았던 보증과 동일한 보증서 번호로 재신청하는 경우",
-     "inqCnt": "64",
-     "rgtrInstCd": "6441553",
-     "rgtrInstCdNm": "청년정책과",
-     "rgtrUpInstCd": "6441552",
-     "rgtrUpInstCdNm": "",
-     "rgtrHghrkInstCd": "6440000",
-     "rgtrHghrkInstCdNm": "",
-     "zipCd": "44790",
-     "plcyMajorCd": "0011009",
-     "jobCd": "0013010",
-     "schoolCd": "0049010",
-     "aplyYmd": "20260201 ~ 20261231",
-     "frstRegDt": "2026-11-23 10:44:38",
-     "lastMdfcnDt": "2026-11-23 17:59:39",
-     "sbizCd": "0014010"
     }
    ],
    "missing": {
@@ -1100,7 +1092,7 @@
    }
   }
  },
- "updated_at": "2026-11-25T12:55+09:00",
+ "updated_at": "2026-11-26T12:21+09:00",
  "status": {
   "보조금24": "ok",
   "온통청년": "ok"

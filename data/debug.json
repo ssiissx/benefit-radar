@@ -313,8 +313,8 @@
    "counts": {
     "raw": 10898,
     "conditions": 10898,
-    "used": 2054,
-    "region": 8586,
+    "used": 2053,
+    "region": 8587,
     "age": 258
    },
    "fields": [
@@ -397,6 +397,22 @@
   "온통청년": {
    "dropped_region": [
     {
+     "title": "2026년 청년성장프로젝트 지원사업(청년 일자리스테이션 광산)",
+     "zips": 1,
+     "zip_sample": [
+      "12330"
+     ],
+     "agency": "전남광주통합특별시"
+    },
+    {
+     "title": "2026년 화순군 청년·신혼부부 만원임대주택 지원사업",
+     "zips": 1,
+     "zip_sample": [
+      "12760"
+     ],
+     "agency": "전남광주통합특별시"
+    },
+    {
      "title": "글로벌 어워즈 컨설팅 지원사업",
      "zips": 1,
      "zip_sample": [
@@ -445,6 +461,14 @@
      "agency": "도시건축과"
     },
     {
+     "title": "관외 대학생 생활안정비 지원(청양군)",
+     "zips": 1,
+     "zip_sample": [
+      "44790"
+     ],
+     "agency": "자치행정과"
+    },
+    {
      "title": "(접수 마감)2026년 11기 광주 청년 13(일+삶)통장",
      "zips": 27,
      "zip_sample": [
@@ -458,6 +482,14 @@
     },
     {
      "title": "청양사랑인재육성장학회 장학금 및 장학사업 지원",
+     "zips": 1,
+     "zip_sample": [
+      "44790"
+     ],
+     "agency": "자치행정과"
+    },
+    {
+     "title": "청춘거리 활성화 사업",
      "zips": 1,
      "zip_sample": [
       "44790"
@@ -743,46 +775,6 @@
       "44825"
      ],
      "agency": "미래농업과"
-    },
-    {
-     "title": "청년농업인 농지임차료 지원",
-     "zips": 14,
-     "zip_sample": [
-      "44130",
-      "44150",
-      "44180",
-      "44200",
-      "44230"
-     ],
-     "agency": "농정전략과"
-    },
-    {
-     "title": "청년내일카드 사업",
-     "zips": 1,
-     "zip_sample": [
-      "44200"
-     ],
-     "agency": "일자리경제과"
-    },
-    {
-     "title": "청년아지트 나와유 운영",
-     "zips": 1,
-     "zip_sample": [
-      "44200"
-     ],
-     "agency": "일자리경제과"
-    },
-    {
-     "title": "친환경청년농부 시설지원",
-     "zips": 14,
-     "zip_sample": [
-      "44130",
-      "44150",
-      "44180",
-      "44200",
-      "44230"
-     ],
-     "agency": "미래농업과"
     }
    ],
    "dropped_age": [
@@ -893,9 +885,9 @@
     }
    ],
    "counts": {
-    "raw": 3994,
+    "raw": 3998,
     "used": 717,
-    "region": 3254,
+    "region": 3258,
     "age": 23
    },
    "fields": [
@@ -962,127 +954,127 @@
    ],
    "raw_examples": [
     {
-     "plcyNo": "20261124005400214894",
+     "plcyNo": "20261126005400214897",
      "bscPlanCycl": "2",
      "bscPlanPlcyWayNo": "001",
-     "bscPlanFcsAsmtNo": "004",
-     "bscPlanAsmtNo": "014",
+     "bscPlanFcsAsmtNo": "002",
+     "bscPlanAsmtNo": "005",
      "pvsnInstGroupCd": "0054002",
-     "plcyPvsnMthdCd": "0042001",
+     "plcyPvsnMthdCd": "0042005",
      "plcyAprvSttsCd": "0044002",
-     "plcyNm": "글로벌 어워즈 컨설팅 지원사업",
-     "plcyKywdNm": "벤처,청년참여/활동,해외진출,중소기업",
-     "plcyExplnCn": "혁신적인 제품(기술)을 보유한 지역 우수 창업기업의 글로벌 경쟁력을 입증할 기회를 마련하고자 글로벌 어워즈(CES 혁신상, Edison Awards) 수상을 위한 컨설팅 등을 지원하고자 함.",
+     "plcyNm": "2026년 청년성장프로젝트 지원사업(청년 일자리스테이션 광산)",
+     "plcyKywdNm": "인턴",
+     "plcyExplnCn": "미취업청년 등에게 청년 친화적 인프라와 맞춤형 프로그램(문화예술기반)을 지원합니다.",
      "lclsfNm": "일자리",
-     "mclsfNm": "창업",
-     "plcySprtCn": "○ 사업기간 : 2026. 3. ～ 12.\n○ 사업대상 : 대구 북구 소재 업력 7년 미만 글로벌 어워즈 수상을 희망하는 창업기업 \n                  4개사(본사/공장/연구소 중 1개이상 대구 북구 소재)\n                  ※ 최종 선정후 1개월 내 주소지 북구 이전 필수\n○ 사업내용 : 글로벌 어워즈(CES 혁신상, Ediso",
-     "sprvsnInstCd": "3450188",
-     "sprvsnInstCdNm": "대구광역시 북구 경제교통국",
-     "sprvsnInstPicNm": "김연정",
-     "operInstCd": "3450188",
-     "operInstCdNm": "대구광역시 북구 경제교통국",
-     "operInstPicNm": "",
-     "sprtSclLmtYn": "N",
+     "mclsfNm": "취업",
+     "plcySprtCn": "- 청년카페와 1:1 심층 상담실 제공\n- 음악·미술·스포츠·댄스·연극 활동 동아리\n- 심리·정서 성장 프로그램\n- 진로·취업 특강 프로그램",
+     "sprvsnInstCd": "6130000",
+     "sprvsnInstCdNm": "전남광주통합특별시",
+     "sprvsnInstPicNm": "청년정책담당자",
+     "operInstCd": "6130000",
+     "operInstCdNm": "전남광주통합특별시",
+     "operInstPicNm": "청년정책담당자",
+     "sprtSclLmtYn": "Y",
      "aplyPrdSeCd": "0057001",
-     "bizPrdSeCd": "0056001",
-     "bizPrdBgngYmd": "20260323",
-     "bizPrdEndYmd": "20261231",
-     "bizPrdEtcCn": "",
-     "plcyAplyMthdCn": "공고문에 따른 이메일 접수",
-     "srngMthdCn": "통합평가(서류, 발표)에 따른 개별 선정 통보",
-     "aplyUrlAddr": "https://www.buk.daegu.kr/index.do?menu_id=00000198",
-     "sbmsnDcmntCn": "공고문에 따른 제출서식 확인",
-     "etcMttrCn": "글로벌 어워즈 수상에 따른 현지 시상식 참가 비용은 지원 제외",
-     "refUrlAddr1": "https://www.buk.daegu.kr/index.do?menu_id=00000198",
-     "refUrlAddr2": "https://startup.daegu.go.kr/index.do?menu_id=00002552&menu_link=/front/project/projectFrontDetail.do?project_id=PROJECT_00004738",
-     "sprtSclCnt": "4",
+     "bizPrdSeCd": "0056002",
+     "bizPrdBgngYmd": "        ",
+     "bizPrdEndYmd": "        ",
+     "bizPrdEtcCn": "연중",
+     "plcyAplyMthdCn": "온라인 신청  → 초기상담  → 프로그램 참여",
+     "srngMthdCn": "",
+     "aplyUrlAddr": "",
+     "sbmsnDcmntCn": "",
+     "etcMttrCn": "",
+     "refUrlAddr1": "https://www.gwangsan.go.kr/boardView.do?pageId=www3&boardId=NEWS_NEW&seq=4666429",
+     "refUrlAddr2": "",
+     "sprtSclCnt": "0",
      "sprtArvlSeqYn": "N",
-     "sprtTrgtMinAge": "0",
-     "sprtTrgtMaxAge": "0",
+     "sprtTrgtMinAge": "15",
+     "sprtTrgtMaxAge": "40",
      "sprtTrgtAgeLmtYn": "Y",
      "mrgSttsCd": "0055003",
      "earnCndSeCd": "0043001",
      "earnMinAmt": "0",
      "earnMaxAmt": "0",
      "earnEtcCn": "",
-     "addAplyQlfcCndCn": "대구 북구 소재 업력 7년 미만 글로벌 어워즈 수상을 희망하는 창업기업 4개사(본사/공장/연구소 중 1개이상 대구 북구 소재)\n ※ 최종 선정후 1개월 내 주소지 북구 이전 필수",
-     "ptcpPrpTrgtCn": "공고문 확인 요망",
-     "inqCnt": "4",
-     "rgtrInstCd": "3450188",
-     "rgtrInstCdNm": "대구광역시 북구 경제교통국",
-     "rgtrUpInstCd": "3450000",
-     "rgtrUpInstCdNm": "",
-     "rgtrHghrkInstCd": "6270000",
-     "rgtrHghrkInstCdNm": "",
-     "zipCd": "27230",
+     "addAplyQlfcCndCn": "",
+     "ptcpPrpTrgtCn": "",
+     "inqCnt": "34",
+     "rgtrInstCd": "6130000",
+     "rgtrInstCdNm": "전남광주통합특별시",
+     "rgtrUpInstCd": "6130000",
+     "rgtrUpInstCdNm": "전남광주통합특별시",
+     "rgtrHghrkInstCd": "6130000",
+     "rgtrHghrkInstCdNm": "전남광주통합특별시",
+     "zipCd": "12330",
      "plcyMajorCd": "0011009",
      "jobCd": "0013010",
      "schoolCd": "0049010",
-     "aplyYmd": "20260323 ~ 20260504",
-     "frstRegDt": "2026-11-24 09:33:32",
-     "lastMdfcnDt": "2026-11-25 17:38:56",
+     "aplyYmd": "20260701 ~ 20261231",
+     "frstRegDt": "2026-11-26 11:12:19",
+     "lastMdfcnDt": "2026-11-26 15:36:53",
      "sbizCd": "0014010"
     },
     {
-     "plcyNo": "20261123005400214893",
+     "plcyNo": "20261126005400214896",
      "bscPlanCycl": "2",
-     "bscPlanPlcyWayNo": "001",
-     "bscPlanFcsAsmtNo": "004",
-     "bscPlanAsmtNo": "014",
+     "bscPlanPlcyWayNo": "003",
+     "bscPlanFcsAsmtNo": "008",
+     "bscPlanAsmtNo": "029",
      "pvsnInstGroupCd": "0054002",
-     "plcyPvsnMthdCd": "0042001",
+     "plcyPvsnMthdCd": "0042005",
      "plcyAprvSttsCd": "0044002",
-     "plcyNm": "L.O.G(Launch On-Global)(스케일업 실리콘밸리)지원사업",
-     "plcyKywdNm": "청년참여/활동,해외진출,벤처,중소기업",
-     "plcyExplnCn": "해외진출 역량이 있는 지역 우수 스타트업을 발굴하여 미국 실리콘밸리 현지 프로그램 참가 지원을 통해 글로벌 비즈니스 및 네트워크 협력체계를 구축하고자 함.",
-     "lclsfNm": "일자리",
-     "mclsfNm": "창업",
-     "plcySprtCn": "○ 사업기간 : 2026. 5. ～ 12.\n○ 사업대상 : 대구 북구 소재 업력 7년 미만 해외진출 희망하는 청년창업기업 5개사 \n                  (본사/공장/연구소 중 1개 이상 대구 북구 소재, 대표자 19세 이상 39세 이하)\n○ 사업내용 \n    - 국내 액셀러레이팅 지원(사전 집체교육, 영문 IR 제작 교육, 개별 컨설팅 등)\n  ",
-     "sprvsnInstCd": "3450188",
-     "sprvsnInstCdNm": "대구광역시 북구 경제교통국",
-     "sprvsnInstPicNm": "김연정",
-     "operInstCd": "C015295",
-     "operInstCdNm": "경북대학교 창업지원단",
-     "operInstPicNm": "",
-     "sprtSclLmtYn": "N",
-     "aplyPrdSeCd": "0057001",
-     "bizPrdSeCd": "0056001",
-     "bizPrdBgngYmd": "20260518",
-     "bizPrdEndYmd": "20261130",
-     "bizPrdEtcCn": "",
-     "plcyAplyMthdCn": "공고문을 통한 이메일 접수",
-     "srngMthdCn": "통합평가(서류․발표) 및 개별 선정 통보",
-     "aplyUrlAddr": "https://bukguplayground.or.kr/",
-     "sbmsnDcmntCn": "공고문 참조",
+     "plcyNm": "2026년 화순군 청년·신혼부부 만원임대주택 지원사업",
+     "plcyKywdNm": "주거지원",
+     "plcyExplnCn": "사회 첫발을 내딛는 무주택 청년과 신혼부부의 주거 안정과 정주여건 향상을 위해, 화순읍 부영아파트를 월 임대료 1만원에 공급합니다.",
+     "lclsfNm": "주거",
+     "mclsfNm": "주택 및 거주지",
+     "plcySprtCn": "• 화순읍 부영아파트를 월 임대료 1만원에 공급(공급면적 68㎡(20평)형, 신혼부부 우선순위 대상자 24평형 10호)\n• 지원기간: 기본 2년, 2회 연장 가능(최장 6년)\n※ 자격요건 유지 시 연장\n• 입주 전 1년분 임대료 12만원과 예치금 88만원\n(합계 100만원) 납부, 예치금은 퇴거 시 점검 후 환불\n• 관리비 및 사용료(전기·난방·수도 등)는",
+     "sprvsnInstCd": "6130000",
+     "sprvsnInstCdNm": "전남광주통합특별시",
+     "sprvsnInstPicNm": "청년정책담당자",
+     "operInstCd": "6130000",
+     "operInstCdNm": "전남광주통합특별시",
+     "operInstPicNm": "청년정책담당자",
+     "sprtSclLmtYn": "Y",
+     "aplyPrdSeCd": "0057003",
+     "bizPrdSeCd": "0056002",
+     "bizPrdBgngYmd": "        ",
+     "bizPrdEndYmd": "        ",
+     "bizPrdEtcCn": "연중",
+     "plcyAplyMthdCn": "정부24 온라인 신청 및 서류 보완 → 자격 검증(주택 소유·제외대상 여부 확인) → 추첨대상자 발표(화순군청 누리집)\n→ 입주자 선정 추첨(동호수 동시 지정) → 전대차 계약 체결 및 임대료·예치금 납부\n→ 입주(부영아파트 영업소에서 입주증 수령 후 관리사무소 열쇠 교부, 입주 즉시 전입신고)",
+     "srngMthdCn": "제출서류 검증 후 추첨대상자를 화순군청 누리집에 발표하고, 추첨으로 입주자와 동호수를 결정하여 개별 통보\n※ 입주자 선정 추첨: 1차 2026-03-21, 2차 2026-04-25 (완료)",
+     "aplyUrlAddr": "",
+     "sbmsnDcmntCn": "(공통) 입주신청서, 개인정보 수집·이용 및 제3자 제공 동의서, 주민등록등본, 건강보험 자격득실확인서, 지방세 미과세증명서(전국단위·재산세(주택)), 본인신용정보조회서\n(근로·소득 증빙) 재직증명서 또는 사업자등록증, 고용·임금 확인서(청년Ⅰ), 건강보험료 납부확인서(청년Ⅱ), 사업소득 원천징수영수증(사업소득자) 등\n(신혼부부) 가족관계증명서, 임신진단서",
      "etcMttrCn": "",
-     "refUrlAddr1": "https://bukguplayground.or.kr/content/03program/01_01.php",
+     "refUrlAddr1": "https://www.hwasun.go.kr/youth/contents.do?M=040200000000&S=",
      "refUrlAddr2": "",
-     "sprtSclCnt": "5",
+     "sprtSclCnt": "0",
      "sprtArvlSeqYn": "N",
-     "sprtTrgtMinAge": "19",
-     "sprtTrgtMaxAge": "39",
-     "sprtTrgtAgeLmtYn": "N",
+     "sprtTrgtMinAge": "18",
+     "sprtTrgtMaxAge": "50",
+     "sprtTrgtAgeLmtYn": "Y",
      "mrgSttsCd": "0055003",
      "earnCndSeCd": "0043001",
      "earnMinAmt": "0",
      "earnMaxAmt": "0",
      "earnEtcCn": "",
-     "addAplyQlfcCndCn": "대구 북구 소재 업력 7년 미만 해외진출 희망하는 청년창업기업\n(본사/공장/연구소 중 1개 이상 대구 북구 소재, 대표자 19세 이상 39세 이하)\n ※ 최종 선정후 1개월 내 주소지 북구 이전 필수",
-     "ptcpPrpTrgtCn": "공고문 확인",
-     "inqCnt": "16",
-     "rgtrInstCd": "3450188",
-     "rgtrInstCdNm": "대구광역시 북구 경제교통국",
-     "rgtrUpInstCd": "3450000",
-     "rgtrUpInstCdNm": "",
-     "rgtrHghrkInstCd": "6270000",
-     "rgtrHghrkInstCdNm": "",
-     "zipCd": "27230",
+     "addAplyQlfcCndCn": "",
+     "ptcpPrpTrgtCn": "",
+     "inqCnt": "3",
+     "rgtrInstCd": "6130000",
+     "rgtrInstCdNm": "전남광주통합특별시",
+     "rgtrUpInstCd": "6130000",
+     "rgtrUpInstCdNm": "전남광주통합특별시",
+     "rgtrHghrkInstCd": "6130000",
+     "rgtrHghrkInstCdNm": "전남광주통합특별시",
+     "zipCd": "12760",
      "plcyMajorCd": "0011009",
      "jobCd": "0013010",
      "schoolCd": "0049010",
-     "aplyYmd": "20260518 ~ 20260611",
-     "frstRegDt": "2026-11-23 17:19:32",
-     "lastMdfcnDt": "2026-11-23 18:01:02",
+     "aplyYmd": "",
+     "frstRegDt": "2026-11-26 11:11:53",
+     "lastMdfcnDt": "2026-11-26 15:38:00",
      "sbizCd": "0014010"
     }
    ],
@@ -1092,14 +1084,14 @@
    }
   }
  },
- "updated_at": "2026-11-26T12:21+09:00",
+ "updated_at": "2026-11-27T12:27+09:00",
  "status": {
   "보조금24": "ok",
   "온통청년": "ok"
  },
  "schedule": {
   "always": 1227,
-  "deadline": 493,
+  "deadline": 492,
   "yearly_window": 136
  }
 }

@@ -311,10 +311,10 @@
     }
    ],
    "counts": {
-    "raw": 10898,
-    "conditions": 10898,
-    "used": 2053,
-    "region": 8587,
+    "raw": 10891,
+    "conditions": 10891,
+    "used": 2055,
+    "region": 8578,
     "age": 258
    },
    "fields": [
@@ -885,9 +885,9 @@
     }
    ],
    "counts": {
-    "raw": 3998,
+    "raw": 3997,
     "used": 717,
-    "region": 3258,
+    "region": 3257,
     "age": 23
    },
    "fields": [
@@ -999,7 +999,7 @@
      "earnEtcCn": "",
      "addAplyQlfcCndCn": "",
      "ptcpPrpTrgtCn": "",
-     "inqCnt": "34",
+     "inqCnt": "61",
      "rgtrInstCd": "6130000",
      "rgtrInstCdNm": "전남광주통합특별시",
      "rgtrUpInstCd": "6130000",
@@ -1084,14 +1084,14 @@
    }
   }
  },
- "updated_at": "2026-11-27T12:27+09:00",
+ "updated_at": "2026-11-28T12:03+09:00",
  "status": {
   "보조금24": "ok",
   "온통청년": "ok"
  },
  "schedule": {
-  "always": 1227,
-  "deadline": 492,
-  "yearly_window": 136
+  "always": 1228,
+  "deadline": 491,
+  "yearly_window": 137
  }
 }
